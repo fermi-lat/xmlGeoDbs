@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALResponse.xml,v 1.4 2002/09/19 17:27:09 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALResponse.xml,v 1.5 2002/09/19 19:25:59 jrb Exp $ -->
 <primCategory name="CALResponse" >
 <overview>Fundamental parameters concerning response and configuration
 of CAL electronics and crystals.</overview>
@@ -22,7 +22,7 @@ readout channel 1</primEnergy>
   Pedestal in adc units</prim>
 <prim name='cal.maxAdcValue' value='4095' type='int' uType='none'>
   Max possible adc value</prim>
-<primEnergy name='cal.zeroSuppressEnergy' value='0.002' units='GeV'>Zero 
+<primEnergy name='cal.zeroSuppressEnergy' value='0.001' units='GeV'>Zero 
 suppression threshold</primEnergy>
 <prim name='cal.lightAtt' value="0.65" uType='none'>Light attenuation
 in CsI crystal (= far/near )</prim>
