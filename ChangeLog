@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: jrb  Wed May 12 09:48:35 PDT 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightDerivedConstants.xml 
+	flightPrimaryConstants.xml flightSegVols.xml 
+Log Message:
+flight.xml, flightSegVols.xml: Add definitions for extraPrim, extraDerived
+  and extraMaterials entities (by default all point to a file with only
+  comments in it)
+flightDerivedConstants.xml:  reference extraDerived
+flightPrimaryConstants.xml:  reference extraPrim
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 12 09:47:02 PDT 2004
 xmlGeoDbs/xml/em
 
