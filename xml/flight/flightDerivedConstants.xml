@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.5 2003/04/30 22:03:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.6 2003/06/22 02:47:51 lsrea Exp $ -->
     <derived>
       &CALDerived;
 
@@ -90,33 +90,28 @@
           </add>
         </const>
 
-        <const name="TKRFudge_dz" >
+        <const name="TKR_dz" >
+          <notes>Offset of TKR within single-tower volume</notes>
+          <minus>     
+            <refer refTo="towersTotalHalfZ" />
+              <half>
+                <refer refTo="TKRVertStayClear" />
+              </half>
+          </minus>
+        </const>
+        
+         <const name="TKRFudge_dz" >
           <notes> Extra offset to get TKR bottom to touch grid.
           Depends on TkrTotalZ, which is entered by hand.
           This may go away if geometry can learn to do this by itself.</notes>
           <half>
             <minus>
-              <refer refTo="TKRVertStayClear" />
               <refer refTo="TKRTotalZ" />
+              <refer refTo="TKRVertStayClear" />
             </minus>
           </half>
         </const>
-        
-        <!-- when the geometry can handle the offsetting, rewrite this,
-             or set TKRFudge_dz to zero -->
-        <const name="TKR_dz" >
-          <notes>Offset of TKR within single-tower volume</notes>
-          <minus>     
-            <refer refTo="towersTotalHalfZ" />
-            <add>
-              <half>
-                <refer refTo="TKRVertStayClear" />
-              </half>
-              <refer refTo="TKRFudge_dz" />
-            </add>
-          </minus>
-        </const>
-
+     
         <const name="gridFlange_dz">
           <notes>Z-Offset of grid flange pieces within single-tower volume.
           </notes>
