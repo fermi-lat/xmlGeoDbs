@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul 22 17:04:49 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDCountPrim.xml flightACDDerived.xml 
+	flightCALCountPrim.xml flightCALDerSegVols.xml 
+	flightCALDerived.xml flightDerivedConstants.xml 
+	flightGlobalCountPrim.xml flightTKRCountPrim.xml 
+Log Message:
+Set type attribute to int as appropriate for both primary and 
+derived constants.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Jul 22 17:03:15 PDT 2002
 xmlGeoDbs/xml
 
