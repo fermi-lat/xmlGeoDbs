@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Oct 17 16:11:08 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Make the ribbons position-hit sensitive rather than integrating hit.  
+Won't matter for the near-term, but might forget to do it later.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Oct 17 15:24:50 PDT 2003
 xmlGeoDbs/doc
 
