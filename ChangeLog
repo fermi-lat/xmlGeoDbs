@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Fri Nov  7 15:21:35 PST 2003
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emTKROneTkr.xml 
+Log Message:
+No W converter in the second layer from top, remove it from xml file
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Oct 20 14:18:13 PDT 2003
 xmlGeoDbs/doc
 
