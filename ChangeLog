@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Tue Sep  9 13:37:38 PDT 2003
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emTKRDimPrim.xml 
+Log Message:
+modify TKRTraysTotalZ and TKRVertStayClear to encompass the whole TKR volume
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep  4 14:48:11 PDT 2003
 xmlGeoDbs/doc
 
