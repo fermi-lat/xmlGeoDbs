@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlUtil/xml/flightCALResponse.xml,v 1.2 2002/01/29 21:45:09 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALResponse.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
 <primCategory name="CALResponse" >
 <overview>Fundamental parameters concerning response and configuration
 of CAL electronics and crystals.</overview>
@@ -19,15 +19,13 @@ readout channel 1</prim>
   Electrons per MeV for small diode</prim>
 <prim name="cal.ePerMevLarge" value="5000" type='int' uType="none">
   Electrons per MeV for large diode</prim>
-<prim name="cal.readoutChannel" value="-1" type='int' uType="count">
-  Number of readout channel (0-3) for -1 for automatic choice</prim>
 <prim name="cal.pedestal" value="100" type='int' uType='none'>
   Pedestal in adc units</prim>
 <prim name='cal.maxAdcValue' value='4095' type='int' uType='none'>
   Max possible adc value</prim>
-<prim name='cal.threshold' value='0.002' uType='none'>Threshold in GeV
-for hit in crystal.</prim>
-<prim name='cal.lightAtt' value="0.35" uType='none'>Light attenuation
-in CsI crystal (= (1-far)/near )</prim>
+<prim name='cal.zeroSupressEnergy' value='0.002' uType='none'>Zero supression
+threshold in GeV</prim>
+<prim name='cal.lightAtt' value="0.65" uType='none'>Light attenuation
+in CsI crystal (= far/near )</prim>
 
 </primCategory>
