@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Fri Jul 25 17:25:58 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml flightGlobalDimPrim.xml 
+	flightSection.xml 
+Log Message:
+add enclosing volume to allow for LAT z-displacement test
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul 17 00:34:33 PDT 2003
 xmlGeoDbs/doc
 
