@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+User: xchen  Thu Nov  7 13:59:48 PST 2002
+xmlGeoDbs/xml/em
+
+Removed Files:
+	em.xml emACDAcd.xml emACDCountPrim.xml emACDDerived.xml 
+	emACDDimPrim.xml emACDMatPrim.xml emACDResponse.xml 
+	emCALCountPrim.xml emCALDerSegVols.xml emCALDerived.xml 
+	emCALDimPrim.xml emCALMatPrim.xml emCALOneCal.xml 
+	emCALOneCalSegVols.xml emCALResponse.xml 
+	emDerivedConstants.xml emGlobalCountPrim.xml 
+	emGlobalDimPrim.xml emGlobalMatPrim.xml emIdDict.xml 
+	emIdDictSegVols.xml emNADDimPrim.xml emNADGeo.xml 
+	emOneTower.xml emPrimaryConstants.xml emSection.xml 
+	emSegVols.xml emTKRCountPrim.xml emTKRDerived.xml 
+	emTKRDimPrim.xml emTKRMatPrim.xml emTKROneTkr.xml 
+	emTKRResponse.xml emTrigger.xml 
+Log Message:
+Removing redundant files
+    *
+------------------------------------------------------------
 User: jrb  Thu Nov  7 13:43:52 PST 2002
 xmlGeoDbs/xml/flight
 
