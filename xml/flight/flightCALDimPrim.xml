@@ -1,10 +1,10 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALDimPrim.xml,v 1.6 2003/06/25 00:02:51 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALDimPrim.xml,v 1.7 2003/09/04 20:32:09 jrb Exp $ -->
 <primCategory name="CALDimPrim" >
   <overview>Fundamental dimensions of solids and offsets for the Calorimeter
 </overview>
   <prim name="CALTransverseStayClear" value="364.0">Transverse dimension of
 CAL Stay Clear envelope from LAT-DS-00038-2</prim>
-  <prim name="CALVertStayClear" value="224.3.">Z-dimension of CAL
+  <prim name="CALVertStayClear" value="224.3">Z-dimension of CAL
  Stay Clear envelope from LAT-DS-00038-2</prim>
   <prim name="diodeX" value="0.30"> Depletion depth of diode Si
 </prim>
