@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Jun 24 17:02:51 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml flightCALDimPrim.xml 
+Log Message:
+Set distance between CAL closeout walls as primary constant, derive gap to
+carbon fiber cell
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jun 24 16:08:36 PDT 2003
 xmlGeoDbs/doc
 
