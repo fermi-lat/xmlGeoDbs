@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul 22 17:03:15 PDT 2002
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+Add "type" attribute to derived constants so that constants can be
+declared to be int, float or double (defaults to double, as is true
+for primary constants)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 27 13:45:40 PDT 2002
 xmlGeoDbs/doc
 
