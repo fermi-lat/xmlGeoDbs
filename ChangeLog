@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Tue Apr 29 15:18:19 PDT 2003
+xmlGeoDbs/xml/misalignment
+
+Added Files:
+	misalignmentDerivedConstants.xml misalignmentSection.xml 
+	misalignmentSegVols.xml 
+Log Message:
+xml files for misalignment
+    *
+------------------------------------------------------------
 User: xchen  Tue Apr 29 15:16:06 PDT 2003
 xmlGeoDbs/xml/misalignment
 
