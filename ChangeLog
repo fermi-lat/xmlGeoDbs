@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Mar  9 17:22:38 PST 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml flightOneTower.xml 
+Log Message:
+Add a little machinery for partial LAT: 
+flightOneTower.xml definition of "skeleton" (grid only) tower volume
+flightDerivedConstants.xml transverse offsets needed to place towers 
+                           individually
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Feb 23 09:17:36 PST 2004
 xmlGeoDbs/doc
 
