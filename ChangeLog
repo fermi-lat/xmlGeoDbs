@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 24 17:31:28 PDT 2002
+xmlGeoDbs/xml/Slab
+
+Modified Files:
+	Slab.xml 
+Log Message:
+Make the slab sensitive (integrating hits)
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Sep 24 17:18:38 PDT 2002
 xmlGeoDbs/xml/Slab
 
