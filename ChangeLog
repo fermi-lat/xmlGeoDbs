@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May 12 09:46:09 PDT 2004
+xmlGeoDbs/xml
+
+Modified Files:
+	materials.xml 
+Log Message:
+Add reference to extraMaterials (by default a file with nothing but 
+comments in it)
+
+    *
+------------------------------------------------------------
 User: heather  Thu May  6 11:58:01 PDT 2004
 xmlGeoDbs/cmt
 
