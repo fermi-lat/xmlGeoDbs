@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr  8 13:56:41 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALOneCal.xml flightCALOneCalSegVols.xml 
+Log Message:
+Fix crystal ordering for Y-measuring CAL layers
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Apr  8 09:56:41 PDT 2002
 xmlGeoDbs/xml/flight
 
