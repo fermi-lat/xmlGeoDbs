@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRMatPrim.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRMatPrim.xml,v 1.3 2003/03/11 23:23:58 lsrea Exp $ -->
 <primCategory name="TKRMatPrim" >
   <overview>Materials used in the TKR description</overview>
   <prim name="convMat" value="W" type="string" uType="mat">material 
@@ -6,10 +6,9 @@
   <prim name="convAlMat" value="Al" type="string" uType="mat">material 
      used to implement 2 mm thick Al pieces under the non-converter tray for 
      EM  </prim>
-  <prim name="convSupMat" value="W" type="string" uType="mat">material 
-     used in tracker conversion for super-GLAST trays, really an
-     alloy of tungsten.  When information
-     is available, value should change from "W" to the alloy name</prim>
+  <prim name="convSupMat" value="W_alloy" type="string" uType="mat">material 
+     used in tracker conversion for super-GLAST trays, an
+     alloy of tungsten, nickel and iron. </prim>
   <prim name="TKRDetMat" value="Si" type="string" uType="mat">Material 
         of tracker detector elements</prim>
   <prim name="coreRegMat" value="Al_1lb" type="string" uType="mat">

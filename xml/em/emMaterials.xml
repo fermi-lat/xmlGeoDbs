@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em/emMaterials.xml,v 1.3 2003/03/18 22:05:48 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emMaterials.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -22,7 +22,13 @@
 	 z="14" 
 	 aweight="28.088" 
 	 />
-
+<!--
+<element name="Pb" 
+	 symbol="Pb"
+	 z="82" 
+	 aweight="207.2" 
+	 />
+-->
 <element name="Copper" 
 	 symbol="Cu"
 	 z="29" 
@@ -121,6 +127,13 @@
   </addmaterial>
 </composite>
 
+<!--
+<composite name="Lead" density="11.34">
+  <addmaterial material="Pb">
+    <natoms n="1" />
+  </addmaterial>
+</composite>
+-->
 
 <composite name="Si" density="2.33">
    <addmaterial material="Silicon">

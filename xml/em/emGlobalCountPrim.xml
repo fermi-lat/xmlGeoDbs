@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalCountPrim.xml,v 1.4 2002/11/07 21:40:39 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emGlobalCountPrim.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $ -->
 <primCategory name="globalCountPrim">
   <overview>Counts of objects more inclusive than a single subsystem;
   also other integer constants used in identifiers.</overview>

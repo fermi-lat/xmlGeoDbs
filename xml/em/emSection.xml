@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.3 2002/05/13 17:37:11 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emSection.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -59,12 +59,23 @@
 
 &ACDAcd;
 
+<!-- lead plate in front of VDG -->
+    <tubs name="PbMat"
+      ROutREF="rOutPb" ZREF="lenPb" material="Lead" />
+
 
 <!-- Make a LAT.  Still need an idField for tape components -->
     <composition name="LAT" envelope="LATenv" >
 
       <!--posXYZ volume="allTowers" 
               ZREF="allTowers_d" -->
+<!--
+      <posXYZ volume="PbMat" 
+              XREF="xPosPb"
+              YREF="yPosPb"
+              ZREF="zPosPb" >
+      </posXYZ>
+-->
       <posXYZ volume="allTowers" 
               ZREF="towers_dz" >
         <idField name="fLATObjects" valueREF="eLATTowers" />
