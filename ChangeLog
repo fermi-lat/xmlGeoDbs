@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 10 16:26:57 PDT 2002
+xmlGeoDbs/xml
+
+Modified Files:
+	materials.xml 
+Log Message:
+Attempt at greater maintainability and comprehensibiility; should be no
+change in behavior.  Now all materials (except Vacuum, a very special
+case) are defined as <composition> elements, even if the material 
+only consists of a single atomic element.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Sep  9 08:54:40 PDT 2002
 xmlGeoDbs/xml/flight
 
