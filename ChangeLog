@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu May 30 11:47:13 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerSegVols.xml flightCALDerived.xml 
+	flightCALDimPrim.xml 
+Log Message:
+flightCALDimPrim.xml:  New value (326 mm) for CsILength
+Other files:  correct inaccurate comment
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May 23 09:44:10 PDT 2002
 xmlGeoDbs/doc
 
