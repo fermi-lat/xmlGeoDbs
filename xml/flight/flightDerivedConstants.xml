@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.7 2003/06/24 05:45:48 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.8 2003/07/26 00:25:58 lsrea Exp $ -->
     <derived>
       &CALDerived;
 
@@ -432,18 +432,17 @@
             <add>
               <refer refTo="ACDTop_d" />
               <refer refTo="sideOverlap"/>
-              <quo>
+              <half>
                 <refer refTo="ACDTop_z"/>
-                <const value="2" uType="count" />
-              </quo>
+              </half>
             </add>               
-            <quo>
+            <half>
                <refer refTo="ACDSide_z" />
-               <const value="2" uType="count" />
-            </quo>
+            </half>
           </minus>
         </const>
 
+<!-- July 03   obsolete??
         <const name="tileXSide_dx" >
           <notes>Displacement in x of tiles along a side || to Y axis
                (so of constant X), relative to center of LATenv</notes>
@@ -481,7 +480,8 @@
             <refer refTo="tileYSide_dy" />
           </uminus>
         </const>
-
+-->
+<!--
         <const name="ribbonSide_dz">
           <notes>displacement in z of side ribbons rel. to Ritz origin.
            Ribbons go down as far as tile sides but don't go up quite as
@@ -541,7 +541,7 @@
             <refer refTo="ribbonXSide_dx" />
           </uminus>
         </const>
-
+-->
 
       </derCategory>
 
