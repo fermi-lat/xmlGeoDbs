@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: xchen  Mon Apr 28 17:29:21 PDT 2003
+xmlGeoDbs/xml/cu
+
+Removed Files:
+	CarbonStd.inp~ CarbonStd.mat~ IronStd.inp~ IronStd.mat~ 
+	README~ cuDerivedConstants.xml~ cuDumpDerived.xml~ 
+	cuDumpPrim.xml~ cuGlobalCountPrim.xml~ cuMaterials.xml~ 
+	cuPrimaryConstants.xml~ cuSection.xml~ cuSegVols.xml~ 
+Log Message:
+remove unwanted files
+    *
+------------------------------------------------------------
 User: xchen  Mon Apr 28 16:59:38 PDT 2003
 xmlGeoDbs/xml/cu
 
