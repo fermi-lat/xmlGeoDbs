@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: xchen  Wed Mar 19 15:08:52 PST 2003
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emGlobalCountPrim.xml emSection.xml emSegVols.xml 
+	emTKRCountPrim.xml emTKRDimPrim.xml emTKROneTkr.xml 
+Log Message:
+EM with 5 trays
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Mar 18 14:19:59 PST 2003
 xmlGeoDbs/doc
 
