@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Tue Mar 11 15:23:58 PST 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKRMatPrim.xml 
+Log Message:
+added material W_alloy and connected it up to the SuperGlast converter.
+    *
+------------------------------------------------------------
 User: als  Thu Jan  9 19:03:18 PST 2003
 xmlGeoDbs/cmt
 
