@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 17 00:31:48 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Fix erroneous tile identifier
+
+    *
+------------------------------------------------------------
 User: lsrea  Mon Jul 14 16:26:54 PDT 2003
 xmlGeoDbs/xml/flight
 
