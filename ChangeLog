@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Wed Apr 30 17:12:07 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDDerived.xml flightACDDimPrim.xml 
+Log Message:
+1. Decrease ACD/TKR gap back to where (I think) it should be: 10 mm
+2. Make adjustment to ACD side support so ensure they stay in their 
+   stay-clear (and don't collide with the flange)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr 30 15:03:35 PDT 2003
 xmlGeoDbs/xml/flight
 
