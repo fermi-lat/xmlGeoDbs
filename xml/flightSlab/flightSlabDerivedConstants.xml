@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.4 2002/11/07 21:40:39 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flightSlab/flightSlabDerivedConstants.xml,v 1.1 2003/01/08 23:35:05 jrb Exp $ -->
     <derived>
       &CALDerived;
 
@@ -797,8 +797,12 @@
             <notes>z displacement of slab in front of LAT</notes>
             <add>
               <refer refTo="NADBlanketTop_dz" />
+              <refer refTo="slabZGap" />
               <quo>
-                <refer refTo="slabZ" />
+                <add>
+                  <refer refTo="slabZ" />
+                  <refer refTo="NADBlanketThick" />
+                </add>
                 <const value="2" uType="count" />
               </quo>
             </add>
