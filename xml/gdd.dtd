@@ -93,6 +93,10 @@
         use and probably will never use:  anything having to
         do with cylindrical coordinates, "S" attribute for 
         single positions, boolean volumes.
+
+     12 Sep 2002 Add new <prim>-like element called <primEnergy>
+        to make units specification required.
+        
 -->
 
 <!--
@@ -549,9 +553,9 @@
 <!-- Pre-processing programs should add a <source> element to the output. 
      Normally, inputId should be the value of the  CVSid attribute of
      the <gdd> element of the input file (which, in turn, should be
-     the evaluation of the CVS macro $Id: gdd.dtd,v 1.3 2002/04/08 16:56:03 jrb Exp $ for that file) but without
+     the evaluation of the CVS macro $Id: gdd.dtd,v 1.4 2002/07/23 00:03:09 jrb Exp $ for that file) but without
      the surrounding "$" and creatorId should be the translation of the 
-     CVS macro $Id: gdd.dtd,v 1.3 2002/04/08 16:56:03 jrb Exp $ for the
+     CVS macro $Id: gdd.dtd,v 1.4 2002/07/23 00:03:09 jrb Exp $ for the
      pre-processing program, also without the
      "$", but other information could be used instead for less formal 
      circumstances. (Note surrounding "$" should be omitted so that further
@@ -624,7 +628,8 @@
 <!-- Added cm unit and made it default (jrb 13 Dec 2000) -->
 <!-- Changed default back to mm (jrb 1 Feb 2001 -->  
 <!ENTITY % units 'unitLength  ( mm  | m | cm)    "mm"
-                  unitAngle   ( deg | mrad ) "deg"'>
+                  unitAngle   ( deg | mrad ) "deg"
+                  unitEnergy  (MeV | GeV) #IMPLIED  '>
 
 <!ELEMENT idField EMPTY>
 <!-- don't attempt to enumerate possible names -->
@@ -857,15 +862,20 @@
 <!ELEMENT primary (primCategory*) >
 <!ATTLIST primary normalized (true | false) "false" >
 
-<!ELEMENT primCategory (overview, prim*) >
+<!ELEMENT primCategory (overview, (prim? | primEnergy?)* )  >
 <!ATTLIST primCategory name ID #REQUIRED>
 
 <!ELEMENT prim (#PCDATA) >  <!-- Should be text describing the constant -->
 <!ATTLIST prim name ID #REQUIRED 
                value CDATA #REQUIRED
                type (int | float | double | string ) "double" 
-                uType (length | angle | count | mat | none) "length"
+                uType (length | angle | count | mat | none | energy) "length"
                %units; >
+<!ELEMENT primEnergy (#PCDATA) >
+<!ATTLIST primEnergy name ID #REQUIRED
+          value CDATA #REQUIRED
+          type  (double) "double"
+          units (GeV | MeV)  #REQUIRED >
 
 <!-- "save" attribute can be used by transforming programs to determine
      which derived constants may be of independent interest.      --> 
