@@ -27,6 +27,8 @@ Log Message:
    top Y-ribbons)
 2. Reverse dovetail of ACD sides.  Side 1 has negative y-offset,
    side 2 has positive x-offset, etc.
+3. Increase Y dimension of top tiles in rows 1 and 3 slightly, to
+   correct (from 3-d model) value
 
     *
 ------------------------------------------------------------
