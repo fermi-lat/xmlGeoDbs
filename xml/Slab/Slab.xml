@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSegVols.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/Slab/Slab.xml,v 1.1 2002/09/25 00:18:38 jrb Exp $        -->
 <!-- 1 Feb 2001   Default length unit is now mm.  Change constants
                    accordingly.                             (jrb) 
     22 Feb 2001   Add CVS macros, CVSid attribute for gdd     
@@ -25,7 +25,7 @@
 
   ]
 >
-<gdd CVSid="$Id: $"
+<gdd CVSid="$Id: Slab.xml,v 1.1 2002/09/25 00:18:38 jrb Exp $"
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
@@ -105,8 +105,12 @@
          ZREF="envZ" materialREF="vacuumMat" />
 
     <!-- Define the slab -->
+    <!-- the "sensitive" attribute may be removed or its value
+         may be changed to "posHit" for position rather than integrating
+         hits. -->
     <box name="Slab" 
          XREF="slabX" YREF="slabY" ZREF="slabZ" 
+         sensitive="intHit"
          materialREF="slabMat" >
     </box>
 
