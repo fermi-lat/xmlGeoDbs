@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalCountPrim.xml,v 1.2 2002/04/30 19:54:36 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalCountPrim.xml,v 1.3 2002/07/23 00:04:48 jrb Exp $ -->
 <primCategory name="globalCountPrim">
   <overview>Counts of objects more inclusive than a single subsystem;
   also other integer constants used in identifiers.</overview>
@@ -69,7 +69,7 @@ crystal detector type</prim>
 CAL diode detector type</prim>
   <prim name="eDTypeACDTile" value="4" uType="count" type="int">
 ACD tile detector type</prim>
-  <prim name="eDTypeACDTape" value="5" uType="count" type="int">
-ACD tape detector type </prim>
+  <prim name="eDTypeACDRibbon" value="5" uType="count" type="int">
+ACD ribbon detector type </prim>
  
 </primCategory>
