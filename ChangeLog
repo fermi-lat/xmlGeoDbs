@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Nov 10 11:17:49 PST 2004
+xmlGeoDbs/xml/flight
+
+Added Files:
+	empty.xml 
+Log Message:
+Need a copy of this file in xml/flight since Xerces 2.6.0 now does "the
+right thing" to figure out location of included external entities
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Oct 28 09:47:01 PDT 2004
 xmlGeoDbs/doc
 
