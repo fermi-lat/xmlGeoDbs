@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Fri May 14 09:17:39 PDT 2004
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+	1TowerSection.xml 1TowerSegVols.xml 2TowerSectionVDG.xml 
+	2TowerSegVolsVDG.xml vdgMaterial.xml vdgPrim.xml 
+Log Message:
+add new xml files to simulate various tower configuration during LAT integration
+    *
+------------------------------------------------------------
 User: xchen  Fri May 14 09:14:34 PDT 2004
 xmlGeoDbs/xml/em
 
