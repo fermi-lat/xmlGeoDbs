@@ -1,0 +1,72 @@
+------------------------------------------------------------
+User: jrb  Mon Mar  4 14:09:36 PST 2002
+xmlGeoDbs
+
+Log Message:
+First import
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v1
+		
+N xmlGeoDbs/.cvsignore
+I xmlGeoDbs/.cvsignore~
+I xmlGeoDbs/cmt/Makefile
+N xmlGeoDbs/cmt/requirements
+N xmlGeoDbs/cmt/.cvsignore
+I xmlGeoDbs/cmt/setup.csh
+I xmlGeoDbs/cmt/setup.sh
+I xmlGeoDbs/cmt/cleanup.csh
+I xmlGeoDbs/cmt/cleanup.sh
+I xmlGeoDbs/cmt/requirements~
+N xmlGeoDbs/src/mainpage.h
+I xmlGeoDbs/src/mainpage.h~
+I xmlGeoDbs/xml/CVS
+N xmlGeoDbs/xml/.cvsignore
+N xmlGeoDbs/xml/constsDoc.xsl
+N xmlGeoDbs/xml/materials.xml
+I xmlGeoDbs/xml/materials.xml~
+N xmlGeoDbs/xml/gdd.dtd
+N xmlGeoDbs/xml/simpleComposition.xml
+N xmlGeoDbs/xml/simpleStack.xml
+N xmlGeoDbs/xml/test-arith.xml
+N xmlGeoDbs/xml/test-dict.xml
+N xmlGeoDbs/xml/testIdConv.xml
+N xmlGeoDbs/xml/testIdDict.xml
+N xmlGeoDbs/xml/flight/flight.xml
+N xmlGeoDbs/xml/flight/flightACDAcd.xml
+N xmlGeoDbs/xml/flight/flightACDCountPrim.xml
+N xmlGeoDbs/xml/flight/flightACDDimPrim.xml
+N xmlGeoDbs/xml/flight/flightACDMatPrim.xml
+N xmlGeoDbs/xml/flight/flightACDResponse.xml
+N xmlGeoDbs/xml/flight/flightCALCountPrim.xml
+N xmlGeoDbs/xml/flight/flightCALDimPrim.xml
+N xmlGeoDbs/xml/flight/flightCALMatPrim.xml
+N xmlGeoDbs/xml/flight/flightCALOneCal.xml
+N xmlGeoDbs/xml/flight/flightCALResponse.xml
+N xmlGeoDbs/xml/flight/flightDerivedConstants.xml
+N xmlGeoDbs/xml/flight/flightGlobalCountPrim.xml
+N xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml
+N xmlGeoDbs/xml/flight/flightGlobalMatPrim.xml
+N xmlGeoDbs/xml/flight/flightIdDict.xml
+N xmlGeoDbs/xml/flight/flightMaterials.xml
+N xmlGeoDbs/xml/flight/flightNADDimPrim.xml
+N xmlGeoDbs/xml/flight/flightNADGeo.xml
+N xmlGeoDbs/xml/flight/flightPrimaryConstants.xml
+N xmlGeoDbs/xml/flight/flightTKRCountPrim.xml
+N xmlGeoDbs/xml/flight/flightTKRDimPrim.xml
+N xmlGeoDbs/xml/flight/flightTKRMatPrim.xml
+N xmlGeoDbs/xml/flight/flightTKROneTkr.xml
+N xmlGeoDbs/xml/flight/flightTKRResponse.xml
+N xmlGeoDbs/xml/flight/flightTrigger.xml
+I xmlGeoDbs/xml/flight/flight.xml~
+I xmlGeoDbs/xml/flight/flightNADGeo.xml~
+N xmlGeoDbs/xml/flight/flightOneTower.xml
+I xmlGeoDbs/xml/flight/flightSection.xml~
+N xmlGeoDbs/xml/flight/flightSection.xml
+N xmlGeoDbs/doc/release.notes
+
+No conflicts created by this import
+
+    *
