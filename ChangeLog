@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: xchen  Fri Apr 18 11:28:17 PDT 2003
+xmlGeoDbs/xml/cu
+
+Added Files:
+	CarbonStd.inp CarbonStd.mat README cuDumpPrim.xml 
+	cuGlobalCountPrim.xml cuMaterials.xml cuPrimaryConstants.xml 
+	cuSection.xml cuSegVols.xml 
+Log Message:
+add xml files for CU
+    *
+------------------------------------------------------------
 User: xchen  Fri Apr 18 11:27:00 PDT 2003
 xmlGeoDbs/xml/cu
 
