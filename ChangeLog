@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 19 12:25:59 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALResponse.xml 
+Log Message:
+Fix commentary for constant cal.zeroSuppressEnergy
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 19 12:10:12 PDT 2002
 xmlGeoDbs/doc
 
