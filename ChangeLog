@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Feb 23 09:14:27 PST 2004
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emCALDimPrim.xml 
+Log Message:
+Eliminate extra "." at end of floating point number
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Feb 23 08:44:21 PST 2004
 xmlGeoDbs/doc
 
