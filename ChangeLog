@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 26 17:09:51 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightDerivedConstants.xml flightMaterials.xml 
+	flightSegVols.xml flightTKRDimPrim.xml flightTKRMatPrim.xml 
+Added Files:
+	flightACDDerived.xml flightCALDerSegVols.xml 
+	flightCALDerived.xml flightTKRDerived.xml 
+Removed Files:
+	flightDerSegVols.xml 
+Log Message:
+1. Add new materials for tracker wall and MCM boards
+2. Split old derived-constants file into several smaller files
+   so that upcoming tracker stuff will not have to be maintained
+   separately for segmented and non-segmented CAL crystal geometries
+3. Start adding some constants needed for tracker wall and MCM volumes 
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 26 17:07:22 PDT 2002
 xmlGeoDbs/cmt
 
