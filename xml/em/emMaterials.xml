@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emMaterials.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em/emMaterials.xml,v 1.5 2003/08/08 22:34:02 xchen Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -125,6 +125,12 @@
   <addmaterial material="Carbon">
     <natoms n="1" />
   </addmaterial>
+</composite>
+
+<composite name="ShieldMat" density="7.87">
+   <addmaterial material="Iron">
+     <natoms n="1" />
+   </addmaterial>
 </composite>
 
 <!--

@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRDerived.xml,v 1.6 2003/06/29 00:59:33 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em/emTKRDerived.xml,v 1.3 2003/08/08 22:34:04 xchen Exp $ -->
 
          <!-- was definition of TKRTrayWidth 
 	  <minus>
@@ -385,37 +385,6 @@
             <refer refTo="stripPerWafer" />
             <const value="1" uType="count" />
           </minus>
-        </const>
-
-        <const name="xPosPb">
-          <notes>x coordinate of Pb plate in front of VDG</notes>
-          <minus>
-	    <quo>
-	      <refer refTo="faceWidth" />
-	      <const value="2" uType="count"/>
-	    </quo>      
-            <refer refTo="xEdgePb" />
-          </minus>
-        </const>
-       
-        <const name="yPosPb">
-          <notes>y coordinate of Pb plate in front of VDG</notes>
-          <minus>
-            <refer refTo="yEdgePb" />
-	    <quo>
-	      <refer refTo="faceWidth" />
-	      <const value="2" uType="count"/>
-	    </quo>      
-          </minus>
-        </const>
-
-        <const name="zPosPb">
-          <notes>z coordinate of Pb plate in front of VDG</notes>
-          <add>
-            <refer refTo="gapPb" />
-            <refer refTo="TKRVertStayClear" />
-            <refer refTo="calTrackerGap" /> 
-          </add>
         </const>
 
       </derCategory>
