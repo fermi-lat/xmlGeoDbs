@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Apr 11 11:55:16 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKROneTkr.xml 
+Log Message:
+Fix wafer idField assignment for rotated trays. (Same issue as for CAL
+crystal numbering, but more innocuous.)
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Apr  9 13:35:36 PDT 2002
 xmlGeoDbs/doc
 
