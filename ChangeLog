@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 19 09:29:05 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALCountPrim.xml flightCALDerived.xml 
+	flightCALDimPrim.xml flightCALMatPrim.xml flightCALOneCal.xml 
+	flightCALOneCalSegVols.xml flightIdDict.xml 
+Log Message:
+Add separate CsI wrap volumes (temporarily Polystyrene)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jun 18 17:16:00 PDT 2003
 xmlGeoDbs/xml
 
