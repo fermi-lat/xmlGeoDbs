@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Mon Feb 23 09:15:45 PST 2004
+xmlGeoDbs/xml/miniTower
+
+Modified Files:
+	emCALDimPrim.xml emTKROneTkr.xml 
+Log Message:
+emCALDimParim.xml: Eliminate extra "." at end of floating point number
+emTKROneTkr.xml:   Use valueREF rather than value attribute for id field 
+                   references
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Feb 23 09:14:27 PST 2004
 xmlGeoDbs/xml/em
 
