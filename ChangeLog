@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 31 12:14:56 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDDerived.xml 
+Log Message:
+Better computation for Z displacement of tiles, based directly on
+information from 3-d model 6-23-03
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jul 29 17:19:26 PDT 2003
 xmlGeoDbs/xml/flight
 
