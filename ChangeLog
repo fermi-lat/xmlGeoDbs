@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Dec  8 15:23:04 PST 2004
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	1TowerSegVolsVDG.xml 2TowerSegVolsVDG.xml 
+Log Message:
+Fix entity definition of extraMaterials for Xerces 2.6.0 handling of 
+paths in entity definitions
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r22, operation: add
 Package: xmlGeoDbs
