@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr 30 12:54:37 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightGlobalCountPrim.xml flightIdDict.xml 
+	flightIdDictSegVols.xml flightMaterials.xml 
+	flightTKRDerived.xml flightTKRDimPrim.xml flightTKROneTkr.xml 
+Log Message:
+Add Tracker MCM boards to the model.  
+Also do some minor cleanup (mostly excising already-commented-out lines).
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Apr 26 17:09:51 PDT 2002
 xmlGeoDbs/xml/flight
 
