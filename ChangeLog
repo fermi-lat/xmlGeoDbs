@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: xchen  Wed Jun 11 11:11:09 PDT 2003
+xmlGeoDbs/xml/miniTower
+
+Added Files:
+	emCALDimPrim.xml emGlobalCountPrim.xml emMaterials.xml 
+	emOneTower.xml emSection.xml emSegVols.xml emTKRCountPrim.xml 
+	emTKRDerived.xml emTKRDimPrim.xml emTKRMatPrim.xml 
+	emTKROneTkr.xml 
+Log Message:
+
+    *
+------------------------------------------------------------
 User: xchen  Wed Jun 11 11:08:38 PDT 2003
 xmlGeoDbs/xml/miniTower
 
