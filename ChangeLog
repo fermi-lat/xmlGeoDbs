@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Aug 12 17:10:42 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+Log Message:
+Reinstate all  ACD ribbons.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Aug 11 09:32:05 PDT 2003
 xmlGeoDbs/doc
 
