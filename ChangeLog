@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Oct 17 15:23:05 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Turn on ribbons (integrating hits, not position hits)
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Oct  7 06:55:27 PDT 2003
 xmlGeoDbs/doc
 
