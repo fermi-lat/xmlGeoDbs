@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Mar 18 11:54:50 PST 2003
+xmlGeoDbs/xml
+
+Modified Files:
+	materials.xml 
+Log Message:
+Make vacuum a little more dense to keep G4 happy.
+
+    *
+------------------------------------------------------------
 User: lsrea  Fri Mar 14 21:00:07 PST 2003
 xmlGeoDbs/xml
 
