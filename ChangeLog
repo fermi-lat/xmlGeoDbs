@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Nov  7 15:35:46 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDMatPrim.xml 
+Log Message:
+Use plausible materials for ACD support structure
+
+    *
+------------------------------------------------------------
 User: xchen  Thu Nov  7 14:01:22 PST 2002
 xmlGeoDbs/xml/em
 
