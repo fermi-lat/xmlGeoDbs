@@ -1,8 +1,8 @@
-# $Header:$
+# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $
 
 package xmlGeoDbs
 
-use GlastPolicy
+use GlastPolicy v4r*
 
 apply_pattern package_xmlfiles
 
