@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCalSegVols.xml,v 1.3 2002/04/09 01:19:27 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCalSegVols.xml,v 1.4 2003/04/30 22:03:35 jrb Exp $ -->
 <!-- Definition of one tower's worth of calorimeter, to be included
      in flight.xml as external entity  -->
 
@@ -212,42 +212,42 @@
      <composition name="CALTopFrame" envelope="CALTopFrameEnv">
        <posXYZ volume="CALTopFrameLongSide" 
                YREF="CALTopFrame_dt" >
-         <idField name="fBorderCmp" value="eTop" />
+         <idField name="fBorderCmp" valueREF="eTop" />
        </posXYZ>
        <posXYZ volume="CALTopFrameLongSide" 
                YREF="CALTopFrame_dtn" >
-         <idField name="fBorderCmp" value="eBottom" />
+         <idField name="fBorderCmp" valueREF="eBottom" />
        </posXYZ>
        <posXYZ volume="CALTopFrameShortSide" 
                zrot="90"
                XREF="CALTopFrame_dt" >
-         <idField name="fBorderCmp" value="eRight" />
+         <idField name="fBorderCmp" valueREF="eRight" />
        </posXYZ>
        <posXYZ volume="CALTopFrameShortSide" 
                zrot="90"
                XREF="CALTopFrame_dtn" >
-         <idField name="fBorderCmp" value="eLeft" />
+         <idField name="fBorderCmp" valueREF="eLeft" />
        </posXYZ>
      </composition>
 
      <composition name="CALBottomFrame" envelope="CALBottomFrameEnv">
        <posXYZ volume="CALBottomFrameLongSide" 
                YREF="CALBottomFrame_dt" >
-         <idField name="fBorderCmp" value="eTop" />
+         <idField name="fBorderCmp" valueREF="eTop" />
        </posXYZ>
        <posXYZ volume="CALBottomFrameLongSide" 
                YREF="CALBottomFrame_dtn" >
-         <idField name="fBorderCmp" value="eBottom" />
+         <idField name="fBorderCmp" valueREF="eBottom" />
        </posXYZ>
        <posXYZ volume="CALBottomFrameShortSide" 
                zrot="90"
                XREF="CALBottomFrame_dt" >
-         <idField name="fBorderCmp" value="eRight" />
+         <idField name="fBorderCmp" valueREF="eRight" />
        </posXYZ>
        <posXYZ volume="CALBottomFrameShortSide" 
                zrot="90"
                XREF="CALBottomFrame_dtn" >
-         <idField name="fBorderCmp" value="eLeft" />
+         <idField name="fBorderCmp" valueREF="eLeft" />
        </posXYZ>
      </composition>
 
