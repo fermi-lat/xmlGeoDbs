@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Mon Nov 17 10:00:38 PST 2003
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emMaterials.xml emSection.xml emTKRDerived.xml 
+	emTKRDimPrim.xml emTKROneTkr.xml 
+Log Message:
+modified EM geometry
+    *
+------------------------------------------------------------
 User: xchen  Fri Nov  7 15:21:35 PST 2003
 xmlGeoDbs/xml/em
 
