@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lsrea  Mon Jun 16 11:04:00 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKROneTkr.xml 
+Log Message:
+fix a field -- BotFace -> TopFace in the SuperGlast trays; bookkeeping change, doesn't affect the physics
+    *
+------------------------------------------------------------
 User: xchen  Wed Jun 11 11:11:09 PDT 2003
 xmlGeoDbs/xml/miniTower
 
