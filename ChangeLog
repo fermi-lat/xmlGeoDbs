@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sat Jun 21 19:47:51 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml flightTKRDerived.xml 
+	flightTKRDimPrim.xml flightTKROneTkr.xml 
+Log Message:
+Vertical dimensions of TKR are now correct.  TKR sits on the grid, through use of TKRFudge_dz, based on hardwired TKRTotalZ. This is not ideal! 
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 20 10:26:24 PDT 2003
 xmlGeoDbs/doc
 
