@@ -1,4 +1,4 @@
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDerived.xml,v 1.3 2002/11/07 21:40:39 jrb Exp $ -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDerived.xml,v 1.4 2003/05/01 00:12:07 jrb Exp $ -->
       <derCategory name="derACD" save="true" >
         <overview>Derived constants specific to the ACD</overview>
 
@@ -851,7 +851,13 @@
                 </quo>
               </add>
             </minus>
-            <refer refTo="ACDTransInnerSCflange" />
+             <quo>
+               <add>
+                 <refer refTo="ACDTransInnerSCflange" />
+                 <refer refTo="ACDSideSupportThick" />
+               </add>
+               <const value="2" uType="count" />
+             </quo>
           </max>
         </const>
           
