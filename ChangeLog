@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 17 17:09:42 PDT 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightPrimaryConstants.xml 
+Log Message:
+Take out tracker response constants
+
+    *
+------------------------------------------------------------
 User: jrb  Fri May 14 11:54:29 PDT 2004
 xmlGeoDbs/doc
 
