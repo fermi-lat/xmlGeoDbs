@@ -96,6 +96,8 @@
 
      12 Sep 2002 Add new <prim>-like element called <primEnergy>
         to make units specification required.
+
+     18 Jun 2003 Add new unary operation <half> to arithmetic
         
 -->
 
@@ -553,9 +555,9 @@
 <!-- Pre-processing programs should add a <source> element to the output. 
      Normally, inputId should be the value of the  CVSid attribute of
      the <gdd> element of the input file (which, in turn, should be
-     the evaluation of the CVS macro $Id: gdd.dtd,v 1.4 2002/07/23 00:03:09 jrb Exp $ for that file) but without
+     the evaluation of the CVS macro $Id: gdd.dtd,v 1.5 2002/09/19 17:26:33 jrb Exp $ for that file) but without
      the surrounding "$" and creatorId should be the translation of the 
-     CVS macro $Id: gdd.dtd,v 1.4 2002/07/23 00:03:09 jrb Exp $ for the
+     CVS macro $Id: gdd.dtd,v 1.5 2002/09/19 17:26:33 jrb Exp $ for the
      pre-processing program, also without the
      "$", but other information could be used instead for less formal 
      circumstances. (Note surrounding "$" should be omitted so that further
@@ -887,7 +889,7 @@
 <!ATTLIST derCategory name ID #REQUIRED
           save        (true | false) "false" >
 
-<!ENTITY  % operator "mul | quo | add | minus | uminus | max" >
+<!ENTITY  % operator "mul | quo | add | minus | uminus | half | max" >
 
 <!ELEMENT const (notes?, (refer | (%operator;)? )) >
 <!ATTLIST const name ID #IMPLIED
@@ -913,6 +915,7 @@
 <!ELEMENT minus ((%operand;), (%operand;) ) >
 <!ELEMENT quo ((%operand;), (%operand;) ) >
 <!ELEMENT uminus (%operand;)  >
+<!ELEMENT half (%operand;)  >
 
 <!--    ID DICTIONARY DEFINITONS
 
