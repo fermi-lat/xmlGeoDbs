@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Jan  8 21:46:08 PST 2003
+xmlGeoDbs/xml/flightSlab
+
+Modified Files:
+	flightSlabDerivedConstants.xml flightSlabPrim.xml 
+Log Message:
+flightSlabDerivedConstants.xml:   Derive slab_dz correctly 
+flightSlabPrim.xml:               just cosmetic
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jan  8 15:35:05 PST 2003
 xmlGeoDbs/xml/flightSlab
 
