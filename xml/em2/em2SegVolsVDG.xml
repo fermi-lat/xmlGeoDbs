@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em2/em2SegVolsVDG.xml,v 1.1 2004/06/18 00:15:37 borgland Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em2/em2SegVolsVDG.xml,v 1.2 2004/06/18 21:15:31 jrb Exp $        -->
 <!-- 1 Feb 2001   Default length unit is now mm.  Change constants
                    accordingly.                             (jrb) 
     22 Feb 2001   Add CVS macros, CVSid attribute for gdd     
@@ -38,14 +38,14 @@
 
     <!ENTITY ACDMatPrim     SYSTEM "../flight/flightACDMatPrim.xml">
     <!ENTITY ACDCountPrim   SYSTEM "../flight/flightACDCountPrim.xml">
-    <!ENTITY ACDDimPrim     SYSTEM "../flight/flightACDDimPrim.xml">
+    <!ENTITY ACDDimPrim     SYSTEM "../em2/em2ACDDimPrim.xml">
     <!ENTITY ACDResponse    SYSTEM "../flight/flightACDResponse.xml">
-    <!ENTITY ACDAcd         SYSTEM "../flight/flightACDAcd.xml">
+    <!ENTITY ACDAcd         SYSTEM "../em2/em2ACDAcd.xml">
 
     <!ENTITY NADDimPrim     SYSTEM "../flight/flightNADDimPrim.xml">
     <!ENTITY NADGeo         SYSTEM "../flight/flightNADGeo.xml">
 
-    <!ENTITY oneTower         SYSTEM "../em/emOneTower.xml">
+    <!ENTITY oneTower         SYSTEM "../em2/em2OneTower.xml">
     <!ENTITY section         SYSTEM "../em/emSectionVDG.xml">
 
     <!ENTITY Trigger        SYSTEM "../flight/flightTrigger.xml">
@@ -63,7 +63,7 @@
     <!ENTITY Materials         SYSTEM "../em/emMaterials.xml">
   ]
 >
-<gdd CVSid="$Id: em2SegVolsVDG.xml,v 1.1 2004/06/18 00:15:37 borgland Exp $" 
+<gdd CVSid="$Id: em2SegVolsVDG.xml,v 1.2 2004/06/18 21:15:31 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
