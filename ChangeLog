@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Apr 26 17:07:22 PDT 2002
+xmlGeoDbs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Wildcard version in "use" statements
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Apr 11 11:55:16 PDT 2002
 xmlGeoDbs/xml/flight
 
