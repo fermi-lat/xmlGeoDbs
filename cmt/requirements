@@ -1,7 +1,9 @@
-# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.4 2003/03/18 22:17:01 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.5 2003/04/01 21:57:57 jrb Exp $
 
 package xmlGeoDbs
 version v1r10p1
+
+author Joanne Bogart <jrb@slac.stanford.edu>
 
 use GlastPolicy v5*
 
