@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 18 14:15:31 PDT 2004
+xmlGeoDbs/xml/em2
+
+Modified Files:
+	em2SegVols.xml em2SegVolsVDG.xml 
+Log Message:
+Comment out references to TKRResponse
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 18 14:07:51 PDT 2004
 xmlGeoDbs/xml/misalignment
 
