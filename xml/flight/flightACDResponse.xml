@@ -1,0 +1,9 @@
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlUtil/xml/flightACDResponse.xml,v 1.2 2002/01/29 21:45:09 jrb Exp $ -->
+<primCategory name="ACDResponse" >
+<overview>Fundamental parameters concerning response and configuration
+of ACD electronics</overview>
+<prim name='acd.efficiency' value='0.9997' uType='none'>Readout 
+effiency of ACD tiles</prim>
+<prim name='threshold' value='0.0004' uType='none'>Threshold in GeV, 
+calculated as 0.2 * MIP </prim>
+</primCategory>

@@ -1,0 +1,10 @@
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlUtil/xml/flightACDMatPrim.xml,v 1.3 2002/01/03 18:50:50 jrb Exp $ -->
+<primCategory name="ACDMatPrim" >
+  <overview>Materials used in the ACD description</overview>
+  <prim name="tileMat" value="Polystyrene" type="string" uType="mat">material used for tiles
+</prim>
+  <prim name="ACDSupportMat" value="Vacuum" type="string" uType="mat">
+Material of ACD support.  Still need input from engineers about this.</prim>
+  <prim name="tapeMat" value="Polystyrene" type="string" uType="mat">
+Material for scintillating tape</prim>
+</primCategory>
