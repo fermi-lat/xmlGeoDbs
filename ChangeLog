@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr  8 18:19:28 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALOneCal.xml flightCALOneCalSegVols.xml 
+Log Message:
+Fix reference to starting value in idField (should be valueREF, not value)
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Apr  8 13:56:41 PDT 2002
 xmlGeoDbs/xml/flight
 
