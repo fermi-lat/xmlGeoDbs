@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Oct 28 09:44:57 PDT 2004
+xmlGeoDbs/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+Add line containing EOH for MRvcmt rtag function
+
+    *
+------------------------------------------------------------
 User: borgland  Fri Oct 22 17:03:04 PDT 2004
 xmlGeoDbs/xml/em2
 
