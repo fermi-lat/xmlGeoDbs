@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKROneTkr.xml,v 1.12 2003/06/29 00:59:33 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKROneTkr.xml,v 1.13 2003/07/14 23:26:54 lsrea Exp $ -->
 <!-- Definition of one tower's worth of tracker for flight instrument -->
 
 <!-- Tracker stuff.  The tracker consists of trays.  Alternate trays
@@ -226,11 +226,11 @@
 
     <composition name="TKRCoreReg" envelope="TKRCoreRegEnv">
       <posXYZ volume="TKRCoreRegBox">
-        <idField name="fBorderCmp" value="eCenter" />
+        <idField name="fBorderCmp" valueREF="eCenter" />
       </posXYZ>
       <posXYZ volume="TKRCloseoutRegLong"
               YREF="TKRCloseout_dt">
-        <idField name="fBorderCmp" value="eTop" />
+        <idField name="fBorderCmp" valueREF="eTop" />
       </posXYZ>
       <posXYZ volume="TKRCloseoutRegLong"
               YREF="TKRCloseout_dtn">
