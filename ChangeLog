@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: xchen  Fri May  9 17:40:45 PDT 2003
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emGlobalCountPrim.xml emMaterials.xml emSection.xml 
+	emSegVols.xml emTKRCountPrim.xml emTKRDimPrim.xml 
+	emTKROneTkr.xml 
+Added Files:
+	emCALDimPrim.xml emOneTower.xml emTKRMatPrim.xml 
+Log Message:
+update xml files to remove calorimeter
+    *
+------------------------------------------------------------
 User: jrb  Thu May  1 09:22:54 PDT 2003
 xmlGeoDbs/doc
 
