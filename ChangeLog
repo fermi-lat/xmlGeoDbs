@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May 12 09:47:02 PDT 2004
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emSegVols.xml 
+Log Message:
+Add definitions for extraPrim, extraDerived entities
+comments in it)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 12 09:46:09 PDT 2004
 xmlGeoDbs/xml
 
