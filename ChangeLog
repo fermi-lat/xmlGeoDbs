@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  1 11:45:05 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+Log Message:
+In-progress ribbon work.  Add top segments for x-measuring ribbons
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul 31 14:31:01 PDT 2003
 xmlGeoDbs/xml/flight
 
