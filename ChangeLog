@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: xchen  Fri Aug  8 15:33:04 PDT 2003
+xmlGeoDbs/xml/miniTower
+
+Modified Files:
+	emSegVols.xml emTKRDerived.xml emTKRDimPrim.xml 
+	emTKRMatPrim.xml emTKROneTkr.xml 
+Log Message:
+update xml files to be compatiable with changes in flight xml files
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug  1 13:03:47 PDT 2003
 xmlGeoDbs/xml/flight
 
