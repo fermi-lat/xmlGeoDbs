@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emSegVols.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emSegVols.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $        -->
 <!-- 1 Feb 2001   Default length unit is now mm.  Change constants
                    accordingly.                             (jrb) 
     22 Feb 2001   Add CVS macros, CVSid attribute for gdd     
@@ -23,9 +23,10 @@
 
     <!ENTITY CALMatPrim     SYSTEM "../flight/flightCALMatPrim.xml">
     <!ENTITY CALCountPrim   SYSTEM "../flight/flightCALCountPrim.xml">
-    <!ENTITY CALDimPrim     SYSTEM "../miniTower/emCALDimPrim.xml">
+    <!ENTITY CALDimPrim     SYSTEM "../flight/flightCALDimPrim.xml">
     <!ENTITY CALResponse    SYSTEM "../flight/flightCALResponse.xml">
-    <!ENTITY CALOneCal      SYSTEM "../flight/flightCALOneCalSegVols.xml">
+    <!ENTITY CALOneCal      SYSTEM "../flight/flightCALOneCal.xml">
+    <!ENTITY CALCsI         SYSTEM "../flight/flightCsISegmented.xml">
 
     <!ENTITY TKRMatPrim     SYSTEM "../miniTower/emTKRMatPrim.xml">
     <!ENTITY TKRCountPrim   SYSTEM "../miniTower/emTKRCountPrim.xml">
@@ -59,7 +60,7 @@
     <!ENTITY Materials         SYSTEM "../miniTower/emMaterials.xml">
   ]
 >
-<gdd CVSid="$Id: emSegVols.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $" 
+<gdd CVSid="$Id: emSegVols.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />

@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightOneTower.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/miniTower/emOneTower.xml,v 1.1 2003/06/11 18:11:09 xchen Exp $ -->
 
 <!-- Put together oneCAL and oneTKR with necessary
      structural stuff to make a tower.  Front plane of grid
@@ -15,6 +15,7 @@
          materialREF="vacuumMat"
          />
     <composition name="oneTower" envelope="oneTowerEnv">
+
       <posXYZ volume="oneTKR"
               ZREF="TKR_dz" >
         <idField name="fTowerObjects" valueREF="eTowerTKR" />
@@ -81,10 +82,10 @@
         <idField name="fTowerObjects" valueREF="eTowerGrid" />
         <idField name="fGridObjects" value="7" />
       </posXYZ>
-<!--
+
       <posXYZ volume="oneCAL"
               ZREF="CAL_dz" >
         <idField name="fTowerObjects" valueREF="eTowerCAL" />
       </posXYZ>
--->
+
     </composition>
