@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri May 14 11:51:56 PDT 2004
+xmlGeoDbs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Get rid of version specification in GlastPolicy use -- it's making 
+too much of a mess.
+
+    *
+------------------------------------------------------------
 User: xchen  Fri May 14 09:17:39 PDT 2004
 xmlGeoDbs/xml/latAssembly
 
