@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Nov  6 10:05:18 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightSection.xml 
+Log Message:
+Correct id field for ACD sides. Now consistent with Ritz memo of
+Dec, 2000:  side with -x displacement is 1, -y is 2, +x is 3, +y is 4
+
+    *
+------------------------------------------------------------
 User: xchen  Tue Nov  5 10:19:56 PST 2002
 xmlGeoDbs/xml/em
 
