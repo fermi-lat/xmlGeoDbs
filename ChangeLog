@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr 20 09:18:35 PDT 2004
+xmlGeoDbs/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Use v6r* of GlastPolicy so as not to break LATEST
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar 15 14:36:28 PST 2004
 xmlGeoDbs/doc
 
