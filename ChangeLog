@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: xchen  Mon Apr 28 16:59:38 PDT 2003
+xmlGeoDbs/xml/cu
+
+Modified Files:
+	README cuDumpPrim.xml cuGlobalCountPrim.xml cuMaterials.xml 
+	cuPrimaryConstants.xml cuSection.xml cuSegVols.xml 
+Added Files:
+	CarbonStd.inp~ CarbonStd.mat~ IronStd.inp IronStd.inp~ 
+	IronStd.mat IronStd.mat~ README~ cuDerivedConstants.xml 
+	cuDerivedConstants.xml~ cuDumpDerived.xml cuDumpDerived.xml~ 
+	cuDumpPrim.xml~ cuGlobalCountPrim.xml~ cuMaterials.xml~ 
+	cuPrimaryConstants.xml~ cuSection.xml~ cuSegVols.xml~ 
+Log Message:
+more xml files for detailed CU simulation
+    *
+------------------------------------------------------------
 User: xchen  Fri Apr 18 11:28:17 PDT 2003
 xmlGeoDbs/xml/cu
 
