@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 20 13:35:27 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Bug fix: form side ribbon ids correctly
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Oct 17 16:12:49 PDT 2003
 xmlGeoDbs/doc
 
