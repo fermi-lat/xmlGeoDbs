@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: xchen  Fri Nov 15 14:19:56 PST 2002
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emGlobalCountPrim.xml emSection.xml emSegVols.xml 
+	emTKRCountPrim.xml emTKRDimPrim.xml emTKROneTkr.xml 
+Log Message:
+3 thin converter EM
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Nov 13 09:47:29 PST 2002
 xmlGeoDbs/doc
 
