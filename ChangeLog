@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Nov  7 13:43:52 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml 
+Log Message:
+Include a couple constants only used for segmented model to avoid maintaining
+two nearly identical files.
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Nov  7 13:40:40 PST 2002
 xmlGeoDbs/xml/flight
 
