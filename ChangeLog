@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 18 14:07:51 PDT 2004
+xmlGeoDbs/xml/misalignment
+
+Modified Files:
+	misalignmentSegVols.xml 
+Log Message:
+Eliminate or comment out all mentions of TKRResponse parameters
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jun 18 14:07:36 PDT 2004
 xmlGeoDbs/xml/miniTower
 
