@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDictSegVols.xml,v 1.1 2002/03/16 01:10:38 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -67,7 +67,7 @@
     </field>
 
     <field name="fCALSeg" >
-      <vMinMax min="0" maxREF="nCsISeg" />
+      <vMinMax min="0" maxREF="nCsISegM1" />
     </field>
 
     <field name="fLadder" >
