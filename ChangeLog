@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Mon Mar 11 12:29:43 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightCALCountPrim.xml flightCALOneCal.xml 
+	flightTKROneTkr.xml 
+Log Message:
+1. Set n segments for CsI log to 12
+2. Keep pace with changes to "sensitive" attribute
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar 11 12:29:25 PST 2002
 xmlGeoDbs/xml
 
