@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: xchen  Fri May 14 09:14:34 PDT 2004
+xmlGeoDbs/xml/em
+
+Added Files:
+	emSectionVDG.xml emSegVolsVDG.xml 
+Log Message:
+add new xml files to simulate iron shield in front of VDG
+    *
+------------------------------------------------------------
 User: heather  Thu May 13 15:49:33 PDT 2004
 xmlGeoDbs/cmt
 
