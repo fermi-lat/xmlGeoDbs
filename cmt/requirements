@@ -1,7 +1,7 @@
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease/xmlGeoDbs/cmt/requirements,v 1.3 2002/11/29 19:41:37 burnett Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.3 2003/01/10 03:03:18 als Exp $
 
 package xmlGeoDbs
-version v1r10
+version v1r10p0
 
 use GlastPolicy v5*
 
