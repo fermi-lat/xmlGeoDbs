@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 31 14:31:01 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml flightDerivedConstants.xml 
+Log Message:
+Put in explicit gap of 1 mm (approximate for now) between grid flange and 
+cal frame.  
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jul 31 12:14:56 PDT 2003
 xmlGeoDbs/xml/flight
 
