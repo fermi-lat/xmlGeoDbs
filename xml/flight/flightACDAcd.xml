@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.9 2003/08/13 00:10:42 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.10 2003/10/07 13:49:58 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -79,6 +79,7 @@
          YREF="xRibbonTop_l"
          ZREF="ribbonThickness"
          materialREF="ribbonMat"
+         sensitive="intHit"
          detectorTypeREF="eDTypeACDRibbon" />
 
 
@@ -88,6 +89,7 @@
          XREF="yRibbonTopEdge_l"
          ZREF="ribbonThickness"
          materialREF="ribbonMat"
+         sensitive="intHit"
          detectorTypeREF="eDTypeACDRibbon" />
 
     <box name="yRibbonTopMid"
@@ -95,6 +97,7 @@
          XREF="yRibbonTopMid_l"
          ZREF="ribbonThickness"
          materialREF="ribbonMat"
+         sensitive="intHit"
          detectorTypeREF="eDTypeACDRibbon" />
 
     <box name="yRibbonTopCent"
@@ -102,6 +105,7 @@
          XREF="yRibbonTopCent_l"
          ZREF="ribbonThickness"
          materialREF="ribbonMat"
+         sensitive="intHit"
          detectorTypeREF="eDTypeACDRibbon" />
 
     <!-- next assemble these pieces (25 top tiles, 4 long ribbons
@@ -689,6 +693,7 @@
          YREF="ribbonThickness"
          ZREF="ribbonsSideZ"
          materialREF="ribbonMat"
+         sensitive="intHit"
          detectorTypeREF="eDTypeACDRibbon" />
 
 
