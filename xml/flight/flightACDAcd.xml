@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.5 2003/07/17 07:31:48 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.6 2003/07/30 00:19:26 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -73,14 +73,14 @@
          sensitive="posHit"
 
   -->
-<!--
+
     <box name="xRibbonTop"
          XREF="ribbonWidth"
          YREF="xRibbonTop_l"
          ZREF="ribbonThickness"
          materialREF="ribbonMat"
          detectorTypeREF="eDTypeACDRibbon" />
-
+<!--
     <box name="yRibbonTopEdge"
          YREF="ribbonWidth"
          XREF="yRibbonTopEdge_l"
@@ -350,9 +350,8 @@
       </posXYZ>
 
 <!-- now for x-ribbons -->
-<!--
       <posXYZ volume="xRibbonTop"
-              XREF="topXRibbonOuter_dxn"
+              XREF="xRibbonOuter_dxn"
               ZREF="topXRibbon_dz" >
             <idField name="fACDCmp" valueREF="eACDRibbon" />
             <idField name="fMeasure" valueREF="eMeasureX" />
@@ -361,7 +360,7 @@
       </posXYZ>
 
       <posXYZ volume="xRibbonTop"
-              XREF="topXRibbonInner_dxn"
+              XREF="xRibbonInner_dxn"
               ZREF="topXRibbon_dz" >
             <idField name="fACDCmp" valueREF="eACDRibbon" />
             <idField name="fMeasure" valueREF="eMeasureX" />
@@ -370,7 +369,7 @@
       </posXYZ>
 
       <posXYZ volume="xRibbonTop"
-              XREF="topXRibbonInner_dx"
+              XREF="xRibbonInner_dx"
               ZREF="topXRibbon_dz" >
             <idField name="fACDCmp" valueREF="eACDRibbon" />
             <idField name="fMeasure" valueREF="eMeasureX" />
@@ -379,15 +378,15 @@
       </posXYZ>
 
       <posXYZ volume="xRibbonTop"
-              XREF="topXRibbonOuter_dx"
+              XREF="xRibbonOuter_dx"
               ZREF="topXRibbon_dz" >
             <idField name="fACDCmp" valueREF="eACDRibbon" />
             <idField name="fMeasure" valueREF="eMeasureX" />
             <idField name="fRibbon"  value="3" />
             <idField name="fRibbonSegment" value="1" />    
       </posXYZ>
--->
-<!-- X ribbon segments.  They're || X-axis, so "measure" y. Do them by
+
+<!-- Y ribbon segments.  They're || X-axis, so "measure" y. Do them by
      ribbon number (0 to 3, with 0 having most neg. Y displacment)
      and within ribbon by segment, in order of icreasing X-displ.
      There are 4 ribbons, each divided into 5 segements. -->
