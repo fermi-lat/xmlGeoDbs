@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr  8 09:56:41 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightSection.xml 
+Log Message:
+Set new "fineChoice" attribute of <section> element to "recon"
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Apr  8 09:56:03 PDT 2002
 xmlGeoDbs/xml
 
