@@ -1,8 +1,10 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.13 2004/03/10 01:22:38 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.14 2004/03/11 18:23:28 jrb Exp $ -->
     <derived>
       &CALDerived;
 
       &TKRDerived;
+
+      &extraDerived;
 
       <derCategory name="misc">
         <overview>Stuff that doesn't fit elsewhere</overview>
