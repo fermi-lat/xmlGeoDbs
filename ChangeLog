@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Jan 13 16:47:27 PST 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDimPrim.xml 
+Log Message:
+New convert-to-double utility found a stray "." following a valid double
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jan 13 16:46:51 PST 2004
 xmlGeoDbs
 
