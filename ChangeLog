@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Wed Apr 30 15:03:35 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml flightCALOneCal.xml 
+	flightCALOneCalSegVols.xml flightDerivedConstants.xml 
+Log Message:
+1. Correct towers_dz so that towers aren't "too high"
+2. Define and use some new constants so that CAL can be positioned at top
+   of its stay-clear rather than centered
+3. Move spacecraft down a smidge to avoid collision with towers
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Apr 30 14:59:45 PDT 2003
 xmlGeoDbs
 
