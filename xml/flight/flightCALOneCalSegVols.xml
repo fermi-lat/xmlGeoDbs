@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCalSegVols.xml,v 1.1 2002/03/16 01:10:38 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCalSegVols.xml,v 1.2 2002/04/08 20:56:40 jrb Exp $ -->
 <!-- Definition of one tower's worth of calorimeter, to be included
      in flight.xml as external entity  -->
 
@@ -147,7 +147,7 @@
     <stackY name="CALLayerYMeas" >
       <axisMPos volume="CsIElement" ncopyREF="nCsIPerLayer"
                 shiftREF="cellHorPitch" >
-        <idField name="fCALLog" value="maxLog" step="-1" />
+        <idField name="fCALLog" valueREF="maxLog" step="-1" />
       </axisMPos>
     </stackY>
 
