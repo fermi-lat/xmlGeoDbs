@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed May 12 09:49:36 PDT 2004
+xmlGeoDbs/xml/miniTower
+
+Modified Files:
+	emSegVols.xml 
+Log Message:
+Add definitions for extraPrim and extraDerived entities (by default both
+ point to a file with only comments in it)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May 12 09:49:02 PDT 2004
 xmlGeoDbs/xml/latAssembly
 
