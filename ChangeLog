@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 19 12:05:30 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDResponse.xml 
+Log Message:
+Change overly-generic constant name
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 19 11:44:13 PDT 2002
 xmlGeoDbs/doc
 
