@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 19 10:26:33 PDT 2002
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+Add new element <primEnergy>, for which energy units must be specified
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Sep 16 14:57:11 PDT 2002
 xmlGeoDbs/doc
 
