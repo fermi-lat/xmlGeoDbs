@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Apr  8 09:56:03 PDT 2002
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+Add new attribute, "fineChoice", to <section> element.  Its value will be 
+used by default by IDmapBuilder.
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Mar 28 12:57:29 PST 2002
 xmlGeoDbs/doc
 
