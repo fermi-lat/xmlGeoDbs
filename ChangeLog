@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Sep  9 08:54:40 PDT 2002
+xmlGeoDbs/xml/flight
+
+Removed Files:
+	flightMaterials.xml 
+Log Message:
+xml/flight/flightMaterials.xml is not used.  Remove it to prevent confusion.
+See instead xml/materials.xml
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug  2 16:51:07 PDT 2002
 xmlGeoDbs/xml/flight
 
