@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 24 15:29:12 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALOneCal.xml flightTKROneTkr.xml 
+Log Message:
+Fix several incorrect but unimportant idField elements (unimportant
+because none had anything to do with sensitive volumes)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 19 12:28:01 PDT 2002
 xmlGeoDbs/doc
 
