@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCal.xml,v 1.2 2002/03/11 20:29:43 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCalSegVols.xml,v 1.1 2002/03/16 01:10:38 jrb Exp $ -->
 <!-- Definition of one tower's worth of calorimeter, to be included
      in flight.xml as external entity  -->
 
@@ -137,6 +137,17 @@
       <axisMPos volume="CsIElement" ncopyREF="nCsIPerLayer"
                 shiftREF="cellHorPitch" >
         <idField name="fCALLog" value="0" step="1" />
+      </axisMPos>
+    </stackY>
+
+    <!-- For Y-measuring layers, the crystal ids have to go
+         "backwards". (When this layer is rotated 90 degrees
+         y goes to -x).  
+     -->
+    <stackY name="CALLayerYMeas" >
+      <axisMPos volume="CsIElement" ncopyREF="nCsIPerLayer"
+                shiftREF="cellHorPitch" >
+        <idField name="fCALLog" value="maxLog" step="-1" />
       </axisMPos>
     </stackY>
 
@@ -284,7 +295,7 @@
         <idField name="fCALStructural" valueREF="eBottomPlate" />
       </axisPos>
 
-      <axisPos volume="CALLayer" rotation="90" >
+      <axisPos volume="CALLayerYMeas" rotation="90" >
         <idField name="fLayer" value="7" />
         <idField name="fMeasure" valueREF="eMeasureY" />
       </axisPos>
@@ -292,7 +303,7 @@
         <idField name="fLayer" value="6" />
         <idField name="fMeasure" valueREF="eMeasureX" />
       </axisPos>
-      <axisPos volume="CALLayer" rotation="90" >
+      <axisPos volume="CALLayerYMeas" rotation="90" >
         <idField name="fLayer" value="5" />
         <idField name="fMeasure" valueREF="eMeasureY" />
       </axisPos>
@@ -300,7 +311,7 @@
         <idField name="fLayer" value="4" />
         <idField name="fMeasure" valueREF="eMeasureX" />
       </axisPos>
-      <axisPos volume="CALLayer" rotation="90" >
+      <axisPos volume="CALLayerYMeas" rotation="90" >
         <idField name="fLayer" value="3" />
         <idField name="fMeasure" valueREF="eMeasureY" />
       </axisPos>
@@ -308,7 +319,7 @@
         <idField name="fLayer" value="2" />
         <idField name="fMeasure" valueREF="eMeasureX" />
       </axisPos>
-      <axisPos volume="CALLayer" rotation="90" >
+      <axisPos volume="CALLayerYMeas" rotation="90" >
         <idField name="fLayer" value="1" />
         <idField name="fMeasure" valueREF="eMeasureY" />
       </axisPos>
