@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKROneTkr.xml,v 1.7 2002/09/16 19:06:31 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKROneTkr.xml,v 1.8 2002/09/24 22:29:12 jrb Exp $ -->
 <!-- Definition of one tower's worth of tracker for flight instrument -->
 
 <!-- Tracker stuff.  The tracker consists of trays.  Alternate trays
@@ -640,7 +640,7 @@
 	<idField name="fTKRTrayCmp" valueREF="eTKRCoreClose" />
       </axisPos>
       <axisPos volume="TKRTopFaceSup" >
-	<idField name="fTKRTrayCmp" valueREF="eTKRBotFace" />
+	<idField name="fTKRTrayCmp" valueREF="eTKRTopFace" />
       </axisPos>
       <axisPos volume="SiLayer" >
 	<idField name="fTKRTrayCmp" valueREF="eTKRSiTop" />
@@ -664,7 +664,7 @@
 	<idField name="fTKRTrayCmp" valueREF="eTKRCoreClose" />
       </axisPos>
       <axisPos volume="TKRTopFaceSup" >
-	<idField name="fTKRTrayCmp" valueREF="eTKRBotFace" />
+	<idField name="fTKRTrayCmp" valueREF="eTKRTopFace" />
       </axisPos>
       <axisPos volume="SiLayerYMeas" >
 	<idField name="fTKRTrayCmp" valueREF="eTKRSiTop" />
