@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep  4 13:32:10 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml flightCALDimPrim.xml flightCALOneCal.xml 
+	flightDerivedConstants.xml 
+Log Message:
+Various adjustments in Z of CAL components:
+  * Proper size gap between back of flange, front of CAL inserted; other
+    spurious gap removed
+  * Align properly w.r.t. back of grid web
+    
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Aug 12 17:13:58 PDT 2003
 xmlGeoDbs/doc
 
