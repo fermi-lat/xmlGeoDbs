@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.11 2003/08/01 20:03:47 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.12 2003/09/04 20:32:09 jrb Exp $ -->
     <derived>
       &CALDerived;
 
@@ -424,6 +424,35 @@ Also add gap between CAL and
             <refer refTo="LATZ" />
             <const value="2" uType="count" />
           </quo>
+        </const>
+
+        <const name="innerTowers_dt" >
+          <notes>Transverse displacement of towers in row (column) 2</notes>
+          <half>
+            <refer refTo="towerPitch" />
+          </half>
+        </const>
+
+        <const name="outerTowers_dt" >
+          <notes>Transverse displacement of towers in row (column) 3</notes>
+          <add>
+            <refer refTo="towerPitch" />
+            <refer refTo="innerTowers_dt" />
+          </add>
+        </const>
+
+        <const name="innerTowers_dtn" >
+          <notes>Transverse displacement of towers in row (column) 1 </notes>
+          <uminus>
+            <refer refTo="innerTowers_dt" />
+          </uminus>
+        </const>
+
+        <const name="outerTowers_dtn" >
+          <notes>Transverse displacement of towers in row (column) 0 </notes>
+          <uminus>
+            <refer refTo="outerTowers_dt" />
+          </uminus>
         </const>
 
         <const name="towers_dz" >
