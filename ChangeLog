@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Mar 15 17:10:38 PST 2002
+xmlGeoDbs/xml/flight
+
+Added Files:
+	flightCALOneCalSegVols.xml flightDerSegVols.xml 
+	flightIdDictSegVols.xml flightSegVols.xml 
+Log Message:
+Alternate version of flight instrument in which CsI crystals are 
+divided into nCsISeg (currently 12) volumes
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Mar 15 15:10:00 PST 2002
 xmlGeoDbs/xml/flight
 
