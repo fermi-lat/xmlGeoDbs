@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCal.xml,v 1.7 2003/06/19 16:29:05 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALOneCal.xml,v 1.8 2003/06/20 17:22:36 jrb Exp $ -->
 <!-- Definition of one tower's worth of calorimeter, to be included
      in flight.xml as external entity  -->
 
@@ -375,7 +375,8 @@
 
 <!-- As of 30 April, CALLayers at the top of the stay clear envelope (used
      to be centered)                                           -->
-
+<!-- As of Sept. 2003:  bottom of CALLayers are aligned with bottom
+     of grid web -->
     <!-- Calorimeter for a tower consists of layers plus frame pieces
          plus side walls -->
     
