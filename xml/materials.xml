@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.5 2003/03/11 23:23:58 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.6 2003/03/15 05:00:07 lsrea Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -109,7 +109,7 @@
 <element name="Vacuum" 
          z="1" 
          aweight="1.01" 
-         density="10e-26"
+         density="10e-25"
          />
 
 <!-- Single-element materials -->
