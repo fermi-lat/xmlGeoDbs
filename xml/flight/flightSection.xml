@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.2 2002/04/08 16:56:41 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -77,7 +77,7 @@
 <!-- Add in the rest of the grid web and flange (outside the towers) -->
       <posXYZ volume="LATGridFlangeLong" 
               YREF="LATGridFlange_dt"
-              ZREF="NADGridFlangeZ" >
+              ZREF="NADGridFlange_dz" >
         <idField name="fLATObjects" valueREF="eLATGrid" />
         <idField name="fGridObjects" value="0" />
       </posXYZ>
