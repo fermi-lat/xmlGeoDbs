@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 19 10:56:07 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALDerived.xml flightCALDimPrim.xml 
+	flightCALOneCalSegVols.xml flightIdDictSegVols.xml 
+Log Message:
+flightCALDerived.xml,flightCALDimPrim.xml:  clean-up
+flightCALOneCalSegVols.xml,flightIdDictSegVols.xml: same changes as
+for unsegmented to support CsI wrap volumes
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 19 10:32:53 PDT 2003
 xmlGeoDbs/doc
 
