@@ -1,7 +1,7 @@
-<!-- $Header$  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
-           topVolume="LAT" >
+           topVolume="LAT"  fineChoice="recon">
     <!-- (will) include the 16 towers, grid, and ACD
          Each "tower" has a tracker, a calorimeter, and a mechanical
          piece inbetween. (what about electronics?)
