@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlUtil/xml/flightIdDict.xml,v 1.15 2002/01/11 17:38:45 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -116,7 +116,8 @@
     </field>
 
     <!-- field for subcomponents of anything which consists of
-         a subset of 4 border pieces and a center.  Used for
+         a subset of 4 border pieces and a center, possibly
+         also extra components to left and right.  Used for
          Core/closeout. Note in case the
          orientation is in the XY plane, "bottom" is to be
          interpreted as negative Y; otherwise "bottom"
@@ -128,6 +129,8 @@
         <vEnumVal  valueREF="eTop"  />
         <vEnumVal  valueREF="eLeft"  />
         <vEnumVal  valueREF="eBottom" />
+        <vEnumVal  valueREF="eFarTop" />
+        <vEnumVal  valueREF="eFarBottom" />
       </vList>
     </field>
 

@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRDimPrim.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRDimPrim.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $ -->
 <primCategory name="TKRDimPrim">
   <overview>Fundamental solid dimensions and offsets within the Tracker.</overview>
 <!-- Fundamental Z dimensions in tracker -->
@@ -53,9 +53,11 @@ area on a wafer</prim>
            and panel edge (each edge)</prim>
         <prim name="ladderGap" value="0.20">gap between ladders</prim>
         <prim name="MCMHeight" value="23.0">Height of tracker MCM boards</prim>
-        <prim name="MCMThickness" value="1.1">Thickness of tracker MCM
+        <prim name="MCMThick" value="1.1">Thickness of tracker MCM
                boards</prim>
-        <prim name="TKRWallThickness" value="1.5">Thickness of tracker 
+        <prim name="MCMGap" value="0.1">Gap between MCM board and closeout
+               </prim>
+        <prim name="TKRWallThick" value="1.5">Thickness of tracker 
             walls</prim>
         <prim name="TKRWallLength" value="372.0">Outer dimension of square
         formed by tracker walls (Z cross-section)</prim>
