@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: borgland  Thu Oct 21 13:49:38 PDT 2004
+xmlGeoDbs/xml/em2
+
+Modified Files:
+	em2SegVols.xml em2SegVolsVDG.xml 
+Added Files:
+	em2ACDAcd.xml em2ACDDimPrim.xml em2OneTower.xml 
+Log Message:
+
+	Added two ACDs to the EM2 geometry.
+
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Sep 29 10:04:21 PDT 2004
 xmlGeoDbs/doc
 
