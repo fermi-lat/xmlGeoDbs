@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Sep 24 17:18:38 PDT 2002
+xmlGeoDbs/xml/Slab
+
+Added Files:
+	Slab.xml 
+Log Message:
+How to make a simple slab of material which can be used as input to
+simulator (almost)
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Sep 24 17:07:36 PDT 2002
 xmlGeoDbs/xml/Slab
 
