@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 20 10:22:36 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightCALDerived.xml flightCALDimPrim.xml 
+	flightCALMatPrim.xml flightCALOneCal.xml flightSegVols.xml 
+Added Files:
+	flightCsISegmented.xml flightCsIUnsegmented.xml 
+Removed Files:
+	flightCALOneCalSegVols.xml 
+Log Message:
+1.  Partial implementation of new CAL model, in particular top frame 
+    and most side wall material (except cylindrical supports)
+2.  Slight reorganization to isolate differences needed for segmented
+    and unsegmented model to new little files.
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 19 14:08:32 PDT 2003
 xmlGeoDbs/src
 
