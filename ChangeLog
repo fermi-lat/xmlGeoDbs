@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Sat May 18 00:00:01 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKRDerived.xml flightTKROneTkr.xml 
+Log Message:
+Need to make envelope for core+closeout+MCM boards a little bigger to
+accommodate MCM boards.
+
+    *
+------------------------------------------------------------
 User: jrb  Mon May 13 13:50:56 PDT 2002
 xmlGeoDbs/doc
 
