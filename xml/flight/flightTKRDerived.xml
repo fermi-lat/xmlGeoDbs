@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRDerived.xml,v 1.4 2002/05/18 07:00:01 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightTKRDerived.xml,v 1.5 2003/06/22 02:47:51 lsrea Exp $ -->
 
          <!-- was definition of TKRTrayWidth 
 	  <minus>
@@ -17,6 +17,14 @@
                  tray, large enough to include all silicon, closeout,
                  etc. but no larger (Revised 3May02) </notes>
           <refer refTo="faceWidth" />
+	</const>
+	
+	<const name="TKRTotalZ" >
+	  <notes> total space occupied by tracker, including foot</notes>
+	  <add>
+	    <refer refTo="TKRTraysTotalZ" />
+	    <refer refTo="TKRFootZ" />
+	  </add>
 	</const>
 
 	<const name="TKRTrayWidth" >
