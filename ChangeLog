@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Mar 15 15:10:00 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightCALResponse.xml 
+Log Message:
+A few small changes to CAL constants at Sasha's request
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar 11 12:29:43 PST 2002
 xmlGeoDbs/xml/flight
 
