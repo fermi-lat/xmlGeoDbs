@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Mar 15 14:31:17 PST 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightSection.xml 
+Log Message:
+Change building of allTowers. Use composition, individually placing each tower,
+rather than stacks
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Mar 11 10:23:29 PST 2004
 xmlGeoDbs/xml/flight
 
