@@ -1,4 +1,4 @@
-<!-- $Header: $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightCALDerSegVols.xml,v 1.1 2002/04/27 00:09:51 jrb Exp $ -->
       <derCategory name="derCAL" save="true">
 <overview>Derived constants specific to CAL.
 </overview>
@@ -138,8 +138,8 @@
 <!-- the following should be the maximum of the length of a single
      CsIElement and the transverse distance across the whole 
      collection of CsIElements in a layer, so
-      max(CsIEnvX, nCsIPerLayer*CsIEnvY), which ends up being
-      CsIEnvX in this case    --> 
+      max(CsIEnvX, nCsIPerLayer*CsIEnvY) 
+ -->
         <const name = "CALLayerTrans" >
           <notes>Transverse dimension of a CAL layer: 
                  max(CsiEnvX, nEltPerlayer*CsIEnvY)</notes>
