@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Jun 18 14:05:57 PDT 2004
+xmlGeoDbs/xml/cu
+
+Modified Files:
+	cuPrimaryConstants.xml cuSegVols.xml 
+Log Message:
+Eliminate or comment out all mentions of TKRResponse parameters
+
+    *
+------------------------------------------------------------
 User: borgland  Thu Jun 17 17:15:37 PDT 2004
 xmlGeoDbs/xml/em2
 
