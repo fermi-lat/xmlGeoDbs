@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.2 2002/04/08 16:56:41 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.3 2002/05/13 17:37:11 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -142,28 +142,28 @@
               YREF="tileXSide_dy"
               ZREF="tileSide_dz" >
         <idField name="fLATObjects" valueREF="eLATACD" />
-        <idField name="fACDFace" valueREF="eACDXPosFace" />
+        <idField name="fACDFace" valueREF="eACDYPosFace" />
       </posXYZ>
       <posXYZ volume="TileXSide" 
               XREF="ACDSideDovetail_dn"
               YREF="tileXSide_dyN"
               ZREF="tileSide_dz" >
         <idField name="fLATObjects" valueREF="eLATACD" />
-        <idField name="fACDFace" valueREF="eACDXNegFace" />
+        <idField name="fACDFace" valueREF="eACDYNegFace" />
       </posXYZ>
       <posXYZ volume="TileYSide" 
               XREF="tileYSide_dx"
               YREF="ACDSideDovetail_dn"
               ZREF="tileSide_dz" >
         <idField name="fLATObjects" valueREF="eLATACD" />
-        <idField name="fACDFace" valueREF="eACDYPosFace" />
+        <idField name="fACDFace" valueREF="eACDXPosFace" />
       </posXYZ>
       <posXYZ volume="TileYSide" 
               XREF="tileYSide_dxN"
               YREF="ACDSideDovetail_d"
               ZREF="tileSide_dz" >
         <idField name="fLATObjects" valueREF="eLATACD" />
-        <idField name="fACDFace" valueREF="eACDYNegFace" />
+        <idField name="fACDFace" valueREF="eACDXNegFace" />
       </posXYZ>
       <posXYZ volume="sideTapeRowX" 
               XREF="ACDSideDovetail_d"
