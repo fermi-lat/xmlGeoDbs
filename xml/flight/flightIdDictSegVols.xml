@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDictSegVols.xml,v 1.1 2002/03/16 01:10:38 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDictSegVols.xml,v 1.2 2002/03/16 01:20:16 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -132,6 +132,8 @@
         <vEnumVal  valueREF="eTop"  />
         <vEnumVal  valueREF="eLeft"  />
         <vEnumVal  valueREF="eBottom" />
+        <vEnumVal  valueREF="eFarTop" />
+        <vEnumVal  valueREF="eFarBottom" />
       </vList>
     </field>
 

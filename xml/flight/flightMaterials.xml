@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightMaterials.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightMaterials.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 
@@ -255,8 +255,6 @@
 </composite>
 
 
-<!-- From Leon, 25 April 2002 -->
-
 <composite name="Tkr_MCM_board" density = "1.8">
 <addmaterial material="Copper">
 <fractionmass fraction="6.2" />
@@ -274,7 +272,6 @@
 <fractionmass fraction="0.43" />
 </addmaterial>
 </composite>
-
 
 <composite name="Tkr_wall" density = "2.54">
 <addmaterial material="Carbon">
