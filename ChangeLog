@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  2 16:51:07 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKRDimPrim.xml 
+Log Message:
+Changed TKRWallLength, TKRTotalZ,trayRegGap,TKRCloseoutWidth
+to be consistent with B.J.'s numbers
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jul 31 11:52:55 PDT 2002
 xmlGeoDbs/doc
 
