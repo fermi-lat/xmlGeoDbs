@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Jan 14 13:54:25 PST 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDDimPrim.xml 
+Log Message:
+Get rid of another stray non-decimal point
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jan 13 16:47:27 PST 2004
 xmlGeoDbs/xml/flight
 
