@@ -1,5 +1,0 @@
-<composite name="VDGShieldMat" density="7.87">
-   <addmaterial material="Iron">
-     <natoms n="1" />
-   </addmaterial>
-</composite>
