@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.6 2003/03/15 05:00:07 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/em/emMaterials.xml,v 1.3 2003/03/18 22:05:48 lsrea Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -330,8 +330,8 @@
      needs to be checked
 -->
 <composite name="Tkr_wall" density = "2.90">
-<addmaterial material="Carbon">
-<fractionmass fraction="Aluminum" />
+<addmaterial material="Aluminum">
+<fractionmass fraction="3.91" />
 </addmaterial>
 <addmaterial material ="Iron">
 <fractionmass fraction="0.16" />
