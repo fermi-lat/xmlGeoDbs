@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.2 2002/04/27 00:09:51 jrb Exp $ -->
     <derived>
       &CALDerived;
 
@@ -8,14 +8,14 @@
         <overview>Stuff that doesn't fit elsewhere</overview>
 
     <!-- a couple convenience numbers -->
-        <const name="xNumM1" uType="count">
+        <const name="xNumM1" uType="count" type="int">
           <notes>Convenience number</notes>
           <minus>
             <refer refTo="xNum" />
             <const value="1" uType="count" />
           </minus>
         </const>
-        <const name="yNumM1" uType="count">
+        <const name="yNumM1" uType="count" type="int">
           <notes>Convenience number</notes>
           <minus>
             <refer refTo="yNum" />
@@ -23,9 +23,7 @@
           </minus>
         </const>
 
-
-
-        <const name="maxLog" uType="count" >
+        <const name="maxLog" uType="count" type="int" >
           <notes>Upper limit on CsI log idField values</notes>
           <minus>
             <refer refTo="nCsIPerLayer" />
