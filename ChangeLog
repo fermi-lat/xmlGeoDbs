@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Oct  7 06:49:58 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Form ids for tiles on bottom of sides correctly
+
+    *
+------------------------------------------------------------
 User: xchen  Tue Sep  9 13:37:38 PDT 2003
 xmlGeoDbs/xml/em
 
