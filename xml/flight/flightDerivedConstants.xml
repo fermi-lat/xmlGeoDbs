@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.6 2003/06/22 02:47:51 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.7 2003/06/24 05:45:48 lsrea Exp $ -->
     <derived>
       &CALDerived;
 
@@ -262,6 +262,24 @@
               <refer refTo = "ACDTotalX" />
             </max>
           </mul>
+        </const>
+        
+        <const name="biggerZDim" >
+          <notes> this is to make room for moving the LAT around in z, to look for 
+            bad hardwired consts. The formula is:
+                    biggerZDim = bigXZDim + 2* abs(globalOffset_dz)</notes>
+          <add>
+            <refer refTo = "bigXZDim" />
+            <mul>
+              <max>
+                <refer refTo = "globalOffset_dz" />
+                <uminus>
+                  <refer refTo = "globalOffset_dz" /> 
+                </uminus>
+              </max>
+              <const value="2" uType="count" />
+            </mul>
+          </add>
         </const>
 
         <const name="NADTotalPanelLen" >

@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.2 2002/05/04 00:21:21 jrb Exp $ -->
 <primCategory name="globalDimPrim">
   <overview>Fundamental dimensions and offsets for objects not
 associated with any single subsystem.</overview>
@@ -9,6 +9,8 @@ support walls and towers</prim>
   <prim name="wallGap" value="1.5">gap between modules</prim>
   <prim name="towerPitch" value="374.5">Distance between centers of 
     towers (X or Y) [from LAT-DS-00123-2]</prim>
+  <prim name="globalOffset_dz" value="0.0"> as a test, 
+to move entire detector in z. Zero means no offset, of course!</prim>
 
  <!-- Most likely obsolete quantities: 
   <prim name="wallThickness"  value="1.5">   Wall thickness</prim>
