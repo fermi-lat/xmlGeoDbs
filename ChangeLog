@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Wed Jan  8 15:35:05 PST 2003
+xmlGeoDbs/xml/flightSlab
+
+Added Files:
+	flightSectionSlab.xml flightSlab.xml 
+	flightSlabDerivedConstants.xml flightSlabPrim.xml 
+	flightSlabPrimaryConstants.xml flightSlabSegVols.xml 
+Log Message:
+Add new directory and files to support putting a slab in front of 
+standard (directory flight) LAT
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jan  8 15:31:51 PST 2003
 xmlGeoDbs/xml/flightSlab
 
