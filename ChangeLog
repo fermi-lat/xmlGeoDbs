@@ -1,4 +1,24 @@
 ------------------------------------------------------------
+User: jrb  Thu Nov  7 13:40:40 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDCountPrim.xml flightACDDerived.xml 
+	flightACDDimPrim.xml flightACDMatPrim.xml 
+	flightDerivedConstants.xml flightGlobalCountPrim.xml 
+	flightIdDict.xml flightIdDictSegVols.xml flightNADGeo.xml 
+	flightSection.xml flightSegVols.xml 
+Removed Files:
+	flightCALDerSegVols.xml 
+Log Message:
+1. Major update of ACD geometry, including structural components (made of
+ vacuum for now), ribbons interior to tiles, extended top edge tiles to
+ substitute for curved pieces.
+2. flightCALDerSegVols.xml no longer necessary because of mods
+   to flightCALDerived.xml (to be separately submitted)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Nov  6 10:07:56 PST 2002
 xmlGeoDbs/doc
 
