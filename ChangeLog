@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon May 13 10:37:12 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightSection.xml 
+Log Message:
+Fix typo (wrong z displacement for one of the LATGridFlangeLong physical
+volumes).
+
+    *
+------------------------------------------------------------
 User: jrb  Wed May  8 16:45:08 PDT 2002
 xmlGeoDbs/doc
 
