@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 25 23:36:54 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTrigger.xml 
+Log Message:
+Trigger thresholds are in units of energy, so use <primEnergy>
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Sep 24 17:31:28 PDT 2002
 xmlGeoDbs/xml/Slab
 
