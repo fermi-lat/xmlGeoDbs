@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Dec  6 15:48:34 PST 2004
+xmlGeoDbs/xml/em2
+
+Added Files:
+	empty.xml 
+Log Message:
+Needed for new xerces, which resolves paths to external entities relative
+to referencing file rather than defining file
+
+    *
+------------------------------------------------------------
 User: xchen  Mon Dec  6 10:57:48 PST 2004
 xmlGeoDbs/xml/latAssembly
 
