@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerSegVols.xml,v 1.1 2002/03/16 01:10:38 jrb Exp $ -->
     <derived>
       <derCategory name="derCAL" save="true">
 <overview>Derived constants specific to CAL.
@@ -10,6 +10,15 @@
             <refer refTo="CsILength" />
             <refer refTo="nCsISeg" />
           </quo>
+        </const>
+
+        <const name="nCsISegM1" uType="count" >
+          <notes>upper limit for id field keeping track of segment number
+          </notes>
+          <minus>
+            <refer refTo="nCsISeg" />
+            <const value="1" uType="count" />
+          </minus>
         </const>
 
         <const name="CALMaxLayer" uType="count" >
