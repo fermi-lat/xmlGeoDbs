@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: borgland  Fri Oct 22 17:03:04 PDT 2004
+xmlGeoDbs/xml/em2
+
+Modified Files:
+	em2ACDDimPrim.xml em2SegVols.xml em2SegVolsVDG.xml 
+	em2TKRDimPrim.xml 
+Added Files:
+	em2Section.xml em2SectionVDG.xml 
+Removed Files:
+	em2OneTower.xml 
+Log Message:
+
+	Fixed(?) EM2 geometry for tracker. Moved EM2 ACDs out of oneTower and 
+        into em2Section.xml. Readjusted z-position of ACD tiles.
+
+
+    *
+------------------------------------------------------------
 User: borgland  Thu Oct 21 13:49:38 PDT 2004
 xmlGeoDbs/xml/em2
 
