@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug  1 13:03:47 PDT 2003
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml 
+	flightDerivedConstants.xml flightSection.xml 
+Log Message:
+Add side ribbons back in.  Still missing Y-measuring top ribbons.
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug  1 11:45:05 PDT 2003
 xmlGeoDbs/xml/flight
 
