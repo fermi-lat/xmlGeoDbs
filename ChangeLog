@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Sep 16 12:06:32 PDT 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKROneTkr.xml 
+Log Message:
+Fix incorrect transverse dimensions for SiLayerBox
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Sep 16 10:21:36 PDT 2002
 xmlGeoDbs/doc
 
