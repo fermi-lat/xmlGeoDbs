@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Mar 15 17:20:16 PST 2002
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerSegVols.xml flightIdDictSegVols.xml 
+Log Message:
+Upper limit on segment number is nCsISegM1
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Mar 15 17:10:38 PST 2002
 xmlGeoDbs/xml/flight
 
