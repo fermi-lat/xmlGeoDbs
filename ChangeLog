@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Mar 11 10:23:29 PST 2004
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml 
+Log Message:
+Add a derived constant for transverse dimensions of envelope containing the 
+four towers.
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Mar  9 17:22:38 PST 2004
 xmlGeoDbs/xml/flight
 
