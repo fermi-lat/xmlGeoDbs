@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: borgland  Thu Jun 17 17:15:37 PDT 2004
+xmlGeoDbs/xml/em2
+
+Added Files:
+	em2SegVols.xml em2SegVolsVDG.xml em2TKRDimPrim.xml 
+	em2TKROneTkr.xml 
+Log Message:
+
+	Added em2 directory for the EM2 geometry. 
+
+
+    *
+------------------------------------------------------------
 User: borgland  Thu Jun 17 17:14:26 PDT 2004
 xmlGeoDbs/xml/em2
 
