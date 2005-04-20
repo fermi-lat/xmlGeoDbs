@@ -1,4 +1,25 @@
 ------------------------------------------------------------
+User: borgland  Tue Apr 19 18:40:41 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	vdgPrim.xml 
+Added Files:
+	lat1TowerSectionVDG.xml lat1TowerSegVolsVDG.xml 
+	lat2TowerSectionVDG.xml lat2TowerSegVolsVDG.xml 
+	singleBay1TowerSectionVDG.xml singleBay1TowerSegVolsVDG.xml 
+Log Message:
+
+	Updated requirements in anticipation of v1r22p3.
+
+
+	Updated requirements in anticipation of v1r22p3.
+
+	More latAssembly files for singleBay and LAT,
+        this time for VDG.
+
+    *
+------------------------------------------------------------
 User: borgland  Tue Apr 19 18:40:30 PDT 2005
 xmlGeoDbs/doc
 
