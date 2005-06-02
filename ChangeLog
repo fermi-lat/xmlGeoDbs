@@ -1,4 +1,23 @@
 ------------------------------------------------------------
+User: borgland  Thu Jun  2 11:38:18 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+	lat4TowerSection.xml lat4TowerSegVols.xml lat6TowerSection.xml 
+	lat6TowerSegVols.xml lat8TowerSection.xml lat8TowerSegVols.xml 
+Log Message:
+
+	Updated requirement to upcoming v1r22p4 tag.
+
+
+	Updated release notes.
+
+
+	Added 4, 6 and 8 tower geoemtry files.
+
+
+    *
+------------------------------------------------------------
 User: borgland  Thu Jun  2 11:38:01 PDT 2005
 xmlGeoDbs/doc
 
