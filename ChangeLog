@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: borgland  Thu Jun 16 09:41:05 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+	lat10TowerSection.xml lat10TowerSegVols.xml 
+	lat12TowerSection.xml lat12TowerSegVols.xml 
+	lat14TowerSection.xml lat14TowerSegVols.xml 
+Log Message:
+
+	Added 10, 12 and 14 tower geometry files. Needed for pipeline operations.
+
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r22p4, operation: add
 Package: xmlGeoDbs
