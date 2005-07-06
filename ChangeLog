@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Jul  6 11:22:12 PDT 2005
+xmlGeoDbs/xml/em
+
+Modified Files:
+	emTKROneTkr.xml 
+Log Message:
+Get rid of unused <seg .. > in TKR files.  Get rid of SiWafer volume and
+ SiWaferNest; just use SiWaferActive
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r22p5, operation: add
 Package: xmlGeoDbs
