@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jrb  Wed Jul  6 12:41:06 PDT 2005
+xmlGeoDbs/xml/miniTower
+
+Modified Files:
+	emTKROneTkr.xml 
+Log Message:
+Don't forget to change dimensions of SiWaferActive to the full wafer size!
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Jul  6 12:41:06 PDT 2005
 xmlGeoDbs/xml/flight
 
 Modified Files:
