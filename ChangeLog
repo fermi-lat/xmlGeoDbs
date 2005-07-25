@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: borgland  Mon Jul 25 16:48:15 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+	lat8TowerACDSection.xml lat8TowerACDSegVols.xml 
+Log Message:
+
+	Added geometry files for 8 tower with ACD for new Integration configuration.
+
+anders
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r22p6, operation: add
 Package: xmlGeoDbs
