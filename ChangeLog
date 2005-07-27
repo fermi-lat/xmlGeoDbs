@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Jul 27 15:07:00 PDT 2005
+xmlGeoDbs/xml
+
+Modified Files:
+	materials.xml 
+Log Message:
+Two ACD enhancements:  shrink tiles for operating temperature and embed
+4 screws per tile (except for 4 large bottom tiles; still need to do those)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r22p7, operation: add
 Package: xmlGeoDbs
