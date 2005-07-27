@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDMatPrim.xml,v 1.2 2002/11/07 21:40:39 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDMatPrim.xml,v 1.3 2002/11/07 23:35:46 jrb Exp $ -->
 <primCategory name="ACDMatPrim" >
   <overview>Materials used in the ACD description</overview>
   <prim name="tileMat" value="Polystyrene" type="string" uType="mat">material used for tiles
@@ -11,4 +11,7 @@ Material used in ACD support.  Still need input from engineers about this.
   </prim>
   <prim name="ribbonMat" value="Polystyrene" type="string" uType="mat">
 Material for scintillating ribbon</prim>
+ <prim name="ACDScrewMat" value="IronScrew" type="string" uType="mat">
+   Material for screws in tiles
+ </prim>
 </primCategory>

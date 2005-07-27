@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightPrimaryConstants.xml,v 1.2 2004/05/12 16:48:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightPrimaryConstants.xml,v 1.3 2004/06/18 00:09:42 jrb Exp $ -->
 
 <!-- Entities for individual primary constants files must be
      defined in the top-level xml file -->
@@ -13,10 +13,9 @@
       &TKRMatPrim;
       &TKRCountPrim;
       &TKRDimPrim;
-<!--      &TKRResponse;   -->
       &ACDMatPrim;
       &ACDCountPrim;
-      &ACDDimPrim;
+      &ACDDimPrim;   
       &ACDResponse;
       &NADDimPrim;
       &Trigger;
