@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Wed Jul 27 15:07:00 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+	flightACDMatPrim.xml flightPrimaryConstants.xml 
+Log Message:
+Two ACD enhancements:  shrink tiles for operating temperature and embed
+4 screws per tile (except for 4 large bottom tiles; still need to do those)
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Jul 27 15:07:00 PDT 2005
 xmlGeoDbs/xml
 
 Modified Files:
