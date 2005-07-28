@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDCountPrim.xml,v 1.2 2002/07/23 00:04:48 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDCountPrim.xml,v 1.3 2002/11/07 21:40:39 jrb Exp $ -->
 <primCategory name="ACDCountPrim" >
   <overview>Counts of objects  and other quantities used to form identifiers
    within the ACD.</overview>
@@ -25,6 +25,9 @@ long row</prim>
   tiles in bottom side</prim>
   <prim name="numPerSideRowLong" value="5" uType="count" type="int">Number of
   tiles in some (currently top 3) side rows</prim>
+  <prim name="ACDNumScrewSq" value="6" uType="count" type="int">
+Number of arrays of 4 screws in a side bottom tile
+</prim>
 
 <!-- assign idfield values for sides and top of ACD -->
   <prim name="eACDTopFace" value="0" uType="count" type="int">Top of ACD</prim>

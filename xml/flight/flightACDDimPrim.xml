@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDimPrim.xml,v 1.8 2004/01/14 21:54:25 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDimPrim.xml,v 1.9 2005/07/27 22:07:00 jrb Exp $ -->
 <primCategory name="ACDDimPrim">
   <overview>Fundamental solid dimensions and offsets within the ACD.</overview>
 
@@ -108,6 +108,12 @@ Added July 2005</prim>
 <prim name="ACDScrewFromEdge" value="50.0">
    Distance of (most) screws from edge of tile
 </prim>
+
+<prim name="ACDScrewCenterDiff" value="50.0">
+Distance between centers of screws in a screw square (in bottom side
+tiles)
+</prim>
+
 <!--  
   <prim name="sideTileTransMid" value="332.0">Transverse 
  dimension of side tiles neither in the middle nor central;
