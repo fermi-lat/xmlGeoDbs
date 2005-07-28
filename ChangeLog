@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Jul 27 20:19:50 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDCountPrim.xml flightACDDerived.xml 
+	flightACDDimPrim.xml 
+Log Message:
+No more screws loose -- added the ones for bottom side tiles
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Jul 27 15:07:00 PDT 2005
 xmlGeoDbs/xml/flight
 
