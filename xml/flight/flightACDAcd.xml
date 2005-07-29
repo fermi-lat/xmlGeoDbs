@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.15 2005/07/27 22:07:00 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.16 2005/07/28 03:19:50 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -1060,6 +1060,8 @@
          YREF="tileThicknessOp"
          ZREF="ACDScrewSqSide"
          materialREF="tileMat"
+         sensitive="posHit" 
+         detectorTypeREF="eDTypeACDTile"
     />
 
     <composition name="ACDScrewSq" envelope="ACDScrewSqEnv" >
