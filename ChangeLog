@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Fri Jul 29 16:02:37 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Make box of acd material for screw square (embedded in bottom side tiles)
+sensitive
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r23, operation: add
 Package: xmlGeoDbs
