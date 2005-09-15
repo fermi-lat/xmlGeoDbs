@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.18 2005/09/15 01:06:08 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.19 2005/09/15 01:15:17 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -19,9 +19,7 @@
      those in 1,2,3.
  -->
 <!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
-<!-- Rename "regular" tile boxes to envelopes, since they will become
-     envelopes for compositions including screws
- -->
+
     <!-- e.g. row 0, col 0 -->
     <box name="topTileRedgeCedge"
          XREF="topTileXEdge_lOp"
@@ -706,9 +704,6 @@
          sensitive="posHit" 
          detectorTypeREF="eDTypeACDTile"/>
 
-
-
-<!-- Single tile in row 3 contains 6 of the screw squares defined above -->
     <box name="sideTileR3" 
          XREF="ACDTotalTransSideOp"
          YREF="tileThicknessOp"
