@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.17 2005/07/29 23:02:37 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.17.2.1 2005/09/15 06:11:44 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -28,6 +28,7 @@
           * part of screw sticking out of thick tile
  -->
      <tubs name="ACDScrewNormal" ROutREF="ACDScrewRad" ZREF="tileThicknessOp"
+         sensitive="posHit" 
            materialREF="ACDScrewMat" />
 
      <tubs name="ACDScrewNormalEnv" ROutREF="ACDHoleRad" ZREF="tileThicknessOp"
@@ -39,6 +40,7 @@
 
      <tubs name="ACDScrewThick" ROutREF="ACDScrewRad" 
            ZREF="tileCenterThicknessOp"
+         sensitive="posHit" 
            materialREF="ACDScrewMat" />
 
      <tubs name="ACDScrewThickEnv" ROutREF="ACDHoleRad" 
@@ -87,20 +89,26 @@
     <composition name="topTileRedgeCedge" envelope="topTileRedgeCedgeEnv">
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dxn"
-              YREF="topScrewYEdge_dyn"
-       />
+              YREF="topScrewYEdge_dyn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dx"
-              YREF="topScrewYEdge_dyn"
-       />
+              YREF="topScrewYEdge_dyn"  >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dxn"
-              YREF="topScrewYEdge_dy"
-       />
+              YREF="topScrewYEdge_dy"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+      
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dx"
-              YREF="topScrewYEdge_dy"
-       />
+              YREF="topScrewYEdge_dy"  >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
     <!-- e.g. row 2, col 0 -->
@@ -117,16 +125,25 @@
                  envelope="topTileRcentCedgeEnv">
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dxn"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn">
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dx"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dxn"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy"   >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXEdge_dx"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
     <!-- e.g. row 0, col 1 -->
@@ -141,16 +158,25 @@
     <composition name="topTileRedgeCmid" envelope="topTileRedgeCmidEnv">
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dxn"
-              YREF="topScrewYEdge_dyn" />
+              YREF="topScrewYEdge_dyn">
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dx"
-              YREF="topScrewYEdge_dyn" />
+              YREF="topScrewYEdge_dyn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dxn"
-              YREF="topScrewYEdge_dy" />
+              YREF="topScrewYEdge_dy"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dx"
-              YREF="topScrewYEdge_dy" />
+              YREF="topScrewYEdge_dy" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
     <!-- e.g. row 2, col 1 -->
@@ -165,16 +191,25 @@
     <composition name="topTileRcentCmid" envelope="topTileRcentCmidEnv">
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dxn"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn">
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dxn"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dx"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn"   >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               XREF="topScrewXMid_dx"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
     <!-- row 0, col 2 -->
@@ -189,16 +224,25 @@
     <composition name="topTileRedgeCcent" envelope="topTileRedgeCcentEnv">
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dxn"
-              YREF="topScrewYEdge_dyn" />
+              YREF="topScrewYEdge_dyn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dx"
-              YREF="topScrewYEdge_dyn" />
+              YREF="topScrewYEdge_dyn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dxn"
-              YREF="topScrewYEdge_dy" />
+              YREF="topScrewYEdge_dy"   >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dx"
-              YREF="topScrewYEdge_dy" />
+              YREF="topScrewYEdge_dy" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
     <!-- row 2, column 2 -->
@@ -213,16 +257,25 @@
     <composition name="topTileRcentCcent" envelope="topTileRcentCcentEnv">
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dxn"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dx"
-              YREF="topScrewYCentral_dyn" />
+              YREF="topScrewYCentral_dyn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dxn"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy"   >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewThick" 
               XREF="topScrewXCentral_dx"
-              YREF="topScrewYCentral_dy" />
+              YREF="topScrewYCentral_dy" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
 
@@ -777,23 +830,29 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+       </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz">
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
     <box name="sideTileR0MidEnv" 
@@ -808,23 +867,30 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
+       
     </composition>
 
 
@@ -841,23 +907,29 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dtn"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+       </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dt"
-              ZREF="side0Screw_dzn"
-       />
+              ZREF="side0Screw_dzn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dtn"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dt"
-              ZREF="side0Screw_dz"
-       />
+              ZREF="side0Screw_dz">
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
 
@@ -875,23 +947,29 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+       </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
 
@@ -907,23 +985,29 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn">
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn"   >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
 
@@ -940,23 +1024,30 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dtn"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn">
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dt"
-              ZREF="side1Screw_dzn"
-       />
+              ZREF="side1Screw_dzn"  >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dtn"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideGreaterScrew_dt"
-              ZREF="side1Screw_dz"
-       />
+              ZREF="side1Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
 <!--       side row 2 -->
@@ -973,23 +1064,30 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
+      
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn"  >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dtn"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideLesserScrew_dt"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
     <box name="sideTileR2MidEnv" 
@@ -1005,23 +1103,30 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
+      
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn"  >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
     <box name="sideTileR2EdgeGreaterEnv" 
@@ -1037,23 +1142,30 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ>
+      
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side2Screw_dzn"
-       />
+              ZREF="side2Screw_dzn"  >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dtn"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz"  >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
+       
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="sideMidScrew_dt"
-              ZREF="side2Screw_dz"
-       />
+              ZREF="side2Screw_dz" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
     </composition>
 
 <!-- Make  a little composition with envelope made of tileMat containing
@@ -1071,19 +1183,27 @@
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="screwInSq_dn"
-              ZREF="screwInSq_dn"  />
+              ZREF="screwInSq_dn" >
+        <idField name="fACDScrewOrInset" value="0" />
+      </posXYZ> 
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="screwInSq_d"
-              ZREF="screwInSq_dn"  />
+              ZREF="screwInSq_dn"    >
+        <idField name="fACDScrewOrInset" value="1" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="screwInSq_dn"
-              ZREF="screwInSq_d"  />
+              ZREF="screwInSq_d"    >
+        <idField name="fACDScrewOrInset" value="2" />
+      </posXYZ>
       <posXYZ volume="ACDScrewNormal" 
               yrot="90"
               XREF="screwInSq_d"
-              ZREF="screwInSq_d"  />
+              ZREF="screwInSq_d" >
+        <idField name="fACDScrewOrInset" value="3" />
+      </posXYZ>
      </composition>
 
 <!-- Single tile in row 3 contains 6 of the screw squares defined above -->
@@ -1098,23 +1218,29 @@
 
     <composition name="sideTileR3" envelope="sideTileR3Env" >
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin5_dn"
-      />
+          XREF="ACDScrewSqMin5_dn" >
+        <idField name="fACDScrewOrInset" value="10" />
+      </posXYZ>
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin3_dn"
-      />
+          XREF="ACDScrewSqMin3_dn" >
+        <idField name="fACDScrewOrInset" value="11" />
+      </posXYZ>
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin_dn"
-      />
+          XREF="ACDScrewSqMin_dn" >
+        <idField name="fACDScrewOrInset" value="12" />
+      </posXYZ>
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin_d"
-      />
+          XREF="ACDScrewSqMin_d" >
+        <idField name="fACDScrewOrInset" value="13" />
+      </posXYZ>
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin3_d"
-      />
+          XREF="ACDScrewSqMin3_d" >
+        <idField name="fACDScrewOrInset" value="14" />
+      </posXYZ>
       <posXYZ volume="ACDScrewSq"
-          XREF="ACDScrewSqMin5_d"
-      />
+          XREF="ACDScrewSqMin5_d" >
+        <idField name="fACDScrewOrInset" value="15" />
+      </posXYZ>
    </composition>
 
    <!-- now rotate them all 90 degrees for X tiles (flip x and y dimensions) 
