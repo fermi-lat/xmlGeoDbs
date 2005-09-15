@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.16 2005/07/28 03:19:50 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.17 2005/07/29 23:02:37 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- In the new (as of Oct, 2002) scheme there are 6 different kinds 
@@ -18,7 +18,60 @@
      Tiles in rows 0 and 4 have a different Y dimension from
      those in 1,2,3.
  -->
-<!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
+
+<!-- screw stuff -->
+<!-- Make 4 little composition volumes: each is a vacuum cylinder with a part
+     of a screw in it.
+          * part of screw embedded in normal-thickness tile
+          * part of screw embedded in thick tile
+          * part of screw sticking out of normal-thickness tile
+          * part of screw sticking out of thick tile
+ -->
+     <tubs name="ACDScrewNormal" ROutREF="ACDScrewRad" ZREF="tileThicknessOp"
+           materialREF="ACDScrewMat" />
+
+     <tubs name="ACDScrewNormalEnv" ROutREF="ACDHoleRad" ZREF="tileThicknessOp"
+           materialREF="vacuumMat" />
+
+     <composition name="ACDScrewNormalVol" envelope="ACDScrewNormalEnv" >
+        <posXYZ volume="ACDScrewNormal" />
+     </composition>
+
+     <tubs name="ACDScrewThick" ROutREF="ACDScrewRad" 
+           ZREF="tileCenterThicknessOp"
+           materialREF="ACDScrewMat" />
+
+     <tubs name="ACDScrewThickEnv" ROutREF="ACDHoleRad" 
+           ZREF="tileCenterThicknessOp"
+           materialREF="vacuumMat" />
+
+     <composition name="ACDScrewThickVol" envelope="ACDScrewThickEnv" >
+        <posXYZ volume="ACDScrewThick" />
+     </composition>
+<!--   extra pieces -->
+     <tubs name="ACDScrewExt" ROutREF="ACDScrewRad" ZREF="screwExtLen"
+           materialREF="ACDScrewMat" />
+
+     <tubs name="ACDScrewExtEnv" ROutREF="ACDHoleRad" ZREF="screwExtLen"
+           materialREF="vacuumMat" />
+
+     <composition name="ACDScrewExtVol" envelope="ACDScrewExtEnv" >
+        <posXYZ volume="ACDScrewExt" />
+     </composition>
+
+     <tubs name="ACDScrewExtThick" ROutREF="ACDScrewRad" 
+           ZREF="screwExtThickLen"
+           materialREF="ACDScrewMat" />
+
+     <tubs name="ACDScrewExtThickEnv" ROutREF="ACDHoleRad" 
+           ZREF="screwExtThickLen"
+           materialREF="vacuumMat" />
+
+     <composition name="ACDScrewExtThickVol" envelope="ACDScrewExtThickEnv" >
+        <posXYZ volume="ACDScrewExtThick" />
+     </composition>
+
+
 <!-- Rename "regular" tile boxes to envelopes, since they will become
      envelopes for compositions including screws
  -->
@@ -172,56 +225,6 @@
               YREF="topScrewYCentral_dy" />
     </composition>
 
-<!-- Make 4 little composition volumes: each is a vacuum cylinder with a part
-     of a screw in it.
-          * part of screw embedded in normal-thickness tile
-          * part of screw embedded in thick tile
-          * part of screw sticking out of normal-thickness tile
-          * part of screw sticking out of thick tile
- -->
-     <tubs name="ACDScrewNormal" ROutREF="ACDScrewRad" ZREF="tileThicknessOp"
-           materialREF="ACDScrewMat" />
-
-     <tubs name="ACDScrewNormalEnv" ROutREF="ACDHoleRad" ZREF="tileThicknessOp"
-           materialREF="vacuumMat" />
-
-     <composition name="ACDScrewNormalVol" envelope="ACDScrewNormalEnv" >
-        <posXYZ volume="ACDScrewNormal" />
-     </composition>
-
-     <tubs name="ACDScrewThick" ROutREF="ACDScrewRad" 
-           ZREF="tileCenterThicknessOp"
-           materialREF="ACDScrewMat" />
-
-     <tubs name="ACDScrewThickEnv" ROutREF="ACDHoleRad" 
-           ZREF="tileCenterThicknessOp"
-           materialREF="vacuumMat" />
-
-     <composition name="ACDScrewThickVol" envelope="ACDScrewThickEnv" >
-        <posXYZ volume="ACDScrewThick" />
-     </composition>
-<!--   extra pieces -->
-     <tubs name="ACDScrewExt" ROutREF="ACDScrewRad" ZREF="screwExtLen"
-           materialREF="ACDScrewMat" />
-
-     <tubs name="ACDScrewExtEnv" ROutREF="ACDHoleRad" ZREF="screwExtLen"
-           materialREF="vacuumMat" />
-
-     <composition name="ACDScrewExtVol" envelope="ACDScrewExtEnv" >
-        <posXYZ volume="ACDScrewExt" />
-     </composition>
-
-     <tubs name="ACDScrewExtThick" ROutREF="ACDScrewRad" 
-           ZREF="screwExtThickLen"
-           materialREF="ACDScrewMat" />
-
-     <tubs name="ACDScrewExtThickEnv" ROutREF="ACDHoleRad" 
-           ZREF="screwExtThickLen"
-           materialREF="vacuumMat" />
-
-     <composition name="ACDScrewExtThickVol" envelope="ACDScrewExtThickEnv" >
-        <posXYZ volume="ACDScrewExtThick" />
-     </composition>
 
      
 <!-- Box definitions for top ribbons.  Ribbons at (more or less)
@@ -772,22 +775,22 @@
     <composition name="sideTileR0EdgeLesser" 
                  envelope="sideTileR0EdgeLesserEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side0Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side0Screw_dz"
        />
@@ -803,22 +806,22 @@
 
     <composition name="sideTileR0Mid" envelope="sideTileR0MidEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side0Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side0Screw_dz"
        />
@@ -836,22 +839,22 @@
     <composition name="sideTileR0EdgeGreater" 
                  envelope="sideTileR0EdgeGreaterEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dtn"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dt"
               ZREF="side0Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dtn"
               ZREF="side0Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dt"
               ZREF="side0Screw_dz"
        />
@@ -870,22 +873,22 @@
     <composition name="sideTileR1EdgeLesser" 
                  envelope="sideTileR1EdgeLesserEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side1Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side1Screw_dz"
        />
@@ -902,22 +905,22 @@
 
     <composition name="sideTileR1Mid" envelope="sideTileR1MidEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side1Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side1Screw_dz"
        />
@@ -935,22 +938,22 @@
     <composition name="sideTileR1EdgeGreater" 
                  envelope="sideTileR1EdgeGreaterEnv">
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dtn"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dt"
               ZREF="side1Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dtn"
               ZREF="side1Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideGreaterScrew_dt"
               ZREF="side1Screw_dz"
        />
@@ -968,22 +971,22 @@
     <composition name="sideTileR2EdgeLesser" 
                  envelope="sideTileR2EdgeLesserEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dtn"
               ZREF="side2Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideLesserScrew_dt"
               ZREF="side2Screw_dz"
        />
@@ -1000,22 +1003,22 @@
     <composition name="sideTileR2Mid" 
                  envelope="sideTileR2MidEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side2Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side2Screw_dz"
        />
@@ -1032,22 +1035,22 @@
     <composition name="sideTileR2EdgeGreater" 
                  envelope="sideTileR2EdgeGreaterEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side2Screw_dzn"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dtn"
               ZREF="side2Screw_dz"
        />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="sideMidScrew_dt"
               ZREF="side2Screw_dz"
        />
@@ -1066,19 +1069,19 @@
 
     <composition name="ACDScrewSq" envelope="ACDScrewSqEnv" >
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="screwInSq_dn"
               ZREF="screwInSq_dn"  />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="screwInSq_d"
               ZREF="screwInSq_dn"  />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="screwInSq_dn"
               ZREF="screwInSq_d"  />
       <posXYZ volume="ACDScrewNormal" 
-              xrot="90"
+              yrot="90"
               XREF="screwInSq_d"
               ZREF="screwInSq_d"  />
      </composition>
