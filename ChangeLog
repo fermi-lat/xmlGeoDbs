@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 14 18:06:08 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Eliminate all side screws and associated complexity; still have top screws
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r23p1, operation: add
 Package: xmlGeoDbs
