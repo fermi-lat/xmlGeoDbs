@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Wed Sep 14 23:11:44 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+      Tag: v1r23p1-gr-branch
+	flightACDAcd.xml 
+Log Message:
+1. Reorder slightly to put screw stuff at the top.
+2. When putting screws in side tiles, change erroneous xrot to yrot
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r23p1-gr-branch, operation: add
 Package: xmlGeoDbs
