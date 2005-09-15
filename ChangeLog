@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 15 16:26:07 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+      Tag: v1r23p1-gr-branch
+	flightACDAcd.xml flightIdDictSegVols.xml 
+Log Message:
+flightACDAcd.xml:  take out screw sensitivity (leave in id's, though)
+flightIdDictSegVols.xml:  needed mods to this similar to those in flightIdDict.xml
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 15 12:32:09 PDT 2005
 xmlGeoDbs/xml/flight
 
