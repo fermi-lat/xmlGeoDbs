@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.3 2002/11/07 21:40:39 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.4 2003/06/19 16:29:05 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -125,6 +125,11 @@
       <vMinMax min="0" maxREF="YTopTileMax" />
     </field>
 
+    <field name="fACDScrewOrInset" >
+      <vMinMax min="0" max="15" />
+    </field>
+
+
     <field name="fTKRTray" >
       <vMinMax min="0" maxREF="maxTray" />
     </field>
@@ -243,6 +248,9 @@
       on row, col values on a per-face basis.
       Just put coarser limits on all faces -->
 
+<!-- May have screw in a tile, or screw in a screw-square and screw-square
+     in a tile -->
+
           <dictNode fieldName="fRow" >
             <pValues>
               <vEnumVal valueREF="eACDTile" />
@@ -250,6 +258,11 @@
             <vMinMax min="0" maxREF="YTopTileMax" />
             <dictNode fieldName="fCol" >
               <vMinMax min="0" maxREF="YTopTileMax" />
+              <dictNode fieldName="fACDScrewOrInset" >
+                <dictNode fieldName="fACDScrewOrInset" >
+                  <vMinMax min="0" max="3" />
+                </dictNode>
+              </dictNode>
             </dictNode>
           </dictNode>
 
