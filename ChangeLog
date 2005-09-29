@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 29 12:37:50 PDT 2005
+xmlGeoDbs/cmt
+
+Modified Files:
+      Tag: v1r23p1-gr-branch
+	requirements 
+Log Message:
+Getting ready to tag
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r25p1, operation: add
 Package: xmlGeoDbs
