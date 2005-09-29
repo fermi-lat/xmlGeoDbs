@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 29 12:21:23 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+      Tag: v1r23p1-gr-branch
+	latACDDimPrimUnshrunk.xml latAssemblySegVols.xml 
+Log Message:
+Add files needed for unshrunk ACD to the screwy branch
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Sep 29 12:14:01 PDT 2005
 xmlGeoDbs/xml/latAssembly
 
