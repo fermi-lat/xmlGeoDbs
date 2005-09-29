@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Sep 29 12:14:01 PDT 2005
+xmlGeoDbs/xml/latAssembly
+
+Added Files:
+	latACDDimPrimUnshrunk.xml latAssemblySegVols.xml 
+Log Message:
+Make alternate geometry for I&T use with unshrunk tiles by changing 
+shrink factor, ACDTileScale, to 1.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r23p1gr1, operation: add
 Package: xmlGeoDbs
