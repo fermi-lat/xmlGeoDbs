@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDimPrim.xml,v 1.10 2005/07/28 03:19:50 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/latAssembly/latACDDimPrimUnshrunk.xml,v 1.1 2005/09/29 19:14:01 jrb Exp $ -->
 <primCategory name="ACDDimPrim">
   <overview>Fundamental solid dimensions and offsets within the ACD.</overview>
 
