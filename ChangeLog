@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 17 07:59:50 PDT 2005
+xmlGeoDbs/xml/em2
+
+Modified Files:
+	em2ACDDimPrim.xml 
+Log Message:
+Add some primary constants for em2, since standard ACDDerived file needs them
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r23p1gr2, operation: add
 Package: xmlGeoDbs
