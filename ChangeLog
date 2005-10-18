@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 17 23:01:28 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Log Message:
+Don't shrink side tiles except for bottom row.  Shingling in real model 
+keeps most of shrinkage from making any difference
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r25p2, operation: add
 Package: xmlGeoDbs
