@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Oct 21 17:21:12 PDT 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+      Tag: xmlGeoDbs-v1r25p3
+	flightACDAcd.xml flightACDMatPrim.xml 
+Log Message:
+remove ribbons for ACD geometry study
+    *
+------------------------------------------------------------
 TAG
 Tag name: xmlGeoDbs-v1r25p3, operation: add
 Package: xmlGeoDbs
