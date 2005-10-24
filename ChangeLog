@@ -1,5 +1,13 @@
 ------------------------------------------------------------
 TAG
+Tag name: xmlGeoDbs-v1r23p3, operation: del
+Package: xmlGeoDbs
+User: glast  Mon Oct 24 08:45:18 2005
+Files:
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v1r25p3gr1, operation: add
 Package: xmlGeoDbs
 User: heather  Fri Oct 21 17:21:33 2005
