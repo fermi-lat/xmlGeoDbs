@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: lsrea  Thu Dec  1 15:46:20 PST 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightOneTower.xml 
+Log Message:
+cu06 is the specification of the 2006 beam test calibration unit
+flightOneTower has an added volume: a cAL-only tower
+
+    *
+------------------------------------------------------------
+User: lsrea  Thu Dec  1 15:46:20 PST 2005
 xmlGeoDbs/xml/cu06
 
 Added Files:
