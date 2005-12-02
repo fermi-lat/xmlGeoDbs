@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.21 2005/10/18 06:01:28 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.22 2005/11/29 22:45:46 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
@@ -721,7 +721,12 @@
      detectorTypeREF="eDTypeACDTile" />
 
 <!-- Side ribbons are all congruent.  Define one with width in x,
-     thickness in y.  Rotate for the opposite. -->
+     thickness in y.  Rotate for the opposite. 
+     Well, actually they're not.  X ribbons are longer than
+     Y ribbons.  And neither goes all the way to the bottom of the
+     side tiles: they're about 30 mm short.  Tiles go down to
+     -45.5 mm; ribbons go down to -15.67.
+-->
 <box name="sideRibbon"
      XREF="ribbonWidth"
      YREF="ribbonThickness"
