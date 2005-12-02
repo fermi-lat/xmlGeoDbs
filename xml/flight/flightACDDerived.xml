@@ -1,4 +1,4 @@
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDerived.xml,v 1.13 2005/07/28 03:19:50 jrb Exp $ -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDerived.xml,v 1.14 2005/11/29 22:45:46 jrb Exp $ -->
 <derCategory name="derACD" save="true" >
   <overview>Derived constants specific to the ACD</overview>
 
@@ -1015,7 +1015,13 @@
          <const name="ribbonsSideZ">
            <notes>Height of envelope volume to contain 4 side
                   ribbons. The envelope extends from bottom of 
-                  ACDTop volume to back edge of side tiles.</notes>
+                  ACDTop volume to back edge of side tiles.
+                  But this isn't quite right!  They only go
+                  down to a Z of -15.67 mm, whereas tiles go
+                  down to -45.5.  Furthermore, the side parts
+                  of X-ribbons should go higher:  nearly up to
+                  underside of the top tiles.
+           </notes>
            <minus>
               <minus>
                 <refer refTo="ACDTop_d" />
