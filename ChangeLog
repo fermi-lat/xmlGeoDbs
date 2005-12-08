@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: jrb  Wed Dec  7 16:50:30 PST 2005
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06DerivedConstants.xml cu06Section.xml cu06SegVols.xml 
+Added Files:
+	cu06ACDAcd.xml cu06Primary.xml 
+Log Message:
+Fix up cu06 geometry so that tiles can be placed above orphan calorimeters.
+Involves some neatening up to minimize duplication or near duplication
+of files in the standard flight directory.  Make use of cu06Primary.xml 
+and cu06DerivedConstants.xml for extra, cu06-specific primary and 
+derived constants, resp.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r27p1, operation: add
 Package: xmlGeoDbs
