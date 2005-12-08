@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 User: jrb  Wed Dec  7 16:50:30 PST 2005
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml flightOneTower.xml 
+Log Message:
+Fix up cu06 geometry so that tiles can be placed above orphan calorimeters.
+Involves some neatening up to minimize duplication or near duplication
+of files in the standard flight directory.  Make use of cu06Primary.xml 
+and cu06DerivedConstants.xml for extra, cu06-specific primary and 
+derived constants, resp.
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Dec  7 16:50:30 PST 2005
 xmlGeoDbs/xml/cu06
 
 Modified Files:
