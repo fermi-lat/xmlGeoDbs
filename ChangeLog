@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Dec 13 16:50:48 PST 2005
+xmlGeoDbs/xml/em2
+
+Modified Files:
+	em2ACDAcd.xml em2ACDDimPrim.xml 
+Log Message:
+Fix up em2 geometry on main branch.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r27p1em1, operation: add
 Package: xmlGeoDbs
