@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Jan  5 17:46:56 PST 2006
+xmlGeoDbs/xml/flight
+
+Added Files:
+	flightACDTop.xml 
+Log Message:
+Old contents of ACDTop composition is kept here, to keep from cluttering
+up flightSection.
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Jan  5 17:46:08 PST 2006
 xmlGeoDbs/xml/latAssembly
 
