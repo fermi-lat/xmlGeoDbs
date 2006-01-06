@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu Jan  5 17:46:07 PST 2006
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightACDAcd.xml flightACDDerived.xml 
+	flightSection.xml flightSegVols.xml 
+Log Message:
+1. get rid of obsolete 8TowerACD files
+2. make some internal changes (get rid of ACDTop composition volume) in
+   preparation for adding vertical pieces to some top tiles 
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r28p3, operation: add
 Package: xmlGeoDbs
