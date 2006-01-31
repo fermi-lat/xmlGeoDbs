@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Jan 30 23:34:28 PST 2006
+xmlGeoDbs/cmt
+
+Modified Files:
+      Tag: xmlGeoDbs-v1r29
+	requirements 
+Log Message:
+Get ready for tag v1r29em1
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r29em0, operation: add
 Package: xmlGeoDbs
