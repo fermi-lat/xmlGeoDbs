@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Mon Jan 30 23:21:59 PST 2006
+xmlGeoDbs/xml/flight
+
+Modified Files:
+      Tag: xmlGeoDbs-v1r29
+	flightACDTop.xml 
+Log Message:
+flightACDTop.xml:  fix thickness of top tile row=3, column=4
+latACDDimPrimUnshrunk.xml: add defn. of topTileBentZ
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r29, operation: add
 Package: xmlGeoDbs
