@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Jan 30 17:37:02 PST 2006
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDTop.xml 
+Log Message:
+Fix incorrect thickness for top tile with row=3, col=4
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r30p1, operation: add
 Package: xmlGeoDbs
