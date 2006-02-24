@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Fri Feb 24 13:20:13 PST 2006
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+xml/gdd.dtd   Add <sphere> element
+xml/examples/  Convenient place for toy examples. Copy Slab here; add spheres 
+doc/.cvsignore  ignore .gz, .jpg which may end up here
+
+    *
+------------------------------------------------------------
+User: jrb  Fri Feb 24 13:20:13 PST 2006
 xmlGeoDbs/doc
 
 Added Files:
