@@ -555,9 +555,9 @@
 <!-- Pre-processing programs should add a <source> element to the output. 
      Normally, inputId should be the value of the  CVSid attribute of
      the <gdd> element of the input file (which, in turn, should be
-     the evaluation of the CVS macro $Id: gdd.dtd,v 1.5 2002/09/19 17:26:33 jrb Exp $ for that file) but without
+     the evaluation of the CVS macro $Id: gdd.dtd,v 1.6 2003/06/19 00:16:00 jrb Exp $ for that file) but without
      the surrounding "$" and creatorId should be the translation of the 
-     CVS macro $Id: gdd.dtd,v 1.5 2002/09/19 17:26:33 jrb Exp $ for the
+     CVS macro $Id: gdd.dtd,v 1.6 2003/06/19 00:16:00 jrb Exp $ for the
      pre-processing program, also without the
      "$", but other information could be used instead for less formal 
      circumstances. (Note surrounding "$" should be omitted so that further
@@ -612,7 +612,7 @@
 
 
 
-<!ELEMENT  section  ( box | tubs | cons |
+<!ELEMENT  section  ( box | tubs | sphere | cons |
                       composition | choice |
                       stackX | stackY | stackZ |
                       parameters )+>
@@ -679,6 +679,7 @@
            %solidProperties;
            %units;>
 
+<!-- Cone segment -->
 <!ELEMENT  cons   EMPTY >
 <!ATTLIST  cons
            RIn1      NMTOKEN  "0"
@@ -697,6 +698,24 @@
            PhiEndREF IDREF  #IMPLIED
            %solidProperties;
            %units;>
+
+<!-- spherical shell -->
+<!ELEMENT sphere EMPTY>
+<!ATTLIST sphere
+          RIn         NMTOKEN "0"
+          ROut        NMTOKEN "0"
+          PhiMin      NMTOKEN "0"
+          PhiMax      NMTOKEN "0"
+          ThetaMin    NMTOKEN "0"
+          ThetaMax    NMTOKEN "0"
+          RInREF      IDREF   #IMPLIED
+          ROutREF     IDREF   #IMPLIED
+          PhiMinREF   IDREF   #IMPLIED
+          PhiMaxREF   IDREF   #IMPLIED
+          ThetaMinREF IDREF   #IMPLIED
+          ThetaMaxREF IDREF   #IMPLIED
+          %solidProperties;
+          %units;>
 
 <!ELEMENT  seg EMPTY >
 <!ATTLIST  seg  axis (X|Y|Z) #REQUIRED 
