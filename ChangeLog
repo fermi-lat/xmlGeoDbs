@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Mar  3 08:34:56 PST 2006
+xmlGeoDbs/xml/examples
+
+Modified Files:
+	sphereACDDimPrim.xml 
+Log Message:
+Correct theta values for spherical tile
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Mar  1 17:25:37 PST 2006
 xmlGeoDbs/xml/examples
 
