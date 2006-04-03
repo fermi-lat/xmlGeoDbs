@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/latAssembly/lat1TowerSectionVDG.xml,v 1.1 2004/12/06 18:57:48 xchen Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/latAssembly/lat1TowerSectionVDG.xml,v 1.1 2005/04/20 01:40:41 borgland Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -140,9 +140,13 @@
 
     </composition>
 
-<!-- iron plate in front of VDG -->
+<!-- iron and lead plate in front of VDG -->
     <tubs name="Shield"
-      ROutREF="rShield" ZREF="thickShield" material="ShieldMat" />
+      ROutREF="rShield" ZREF="thickShield" material="VDGShieldMat" />
+
+    <tubs name="ShieldLead"
+      ROutREF="rShield" ZREF="thickShieldLead" material="VDGShieldMatLead" />
+
 
 <!-- Make a LATInner. This is just the usual LAT
      Missing id fields for various non-sensitive components.  
@@ -156,10 +160,16 @@
         <idField name="fLATObjects" valueREF="eLATTowers" />
       </posXYZ>
 
-     <posXYZ volume="Shield" 
+      <posXYZ volume="Shield" 
               XREF="xShieldLat"
               YREF="yShieldLat"
               ZREF="zShield" >
+      </posXYZ>
+
+      <posXYZ volume="ShieldLead"
+              XREF="xShieldLat"
+              YREF="yShieldLat"
+              ZREF="zShieldLead" >
       </posXYZ>
 
 <!-- Add in the rest of the grid web and flange (outside the towers) -->
