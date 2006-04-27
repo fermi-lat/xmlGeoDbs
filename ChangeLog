@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Thu Apr 27 12:04:50 PDT 2006
+xmlGeoDbs/cmt
+
+Modified Files:
+      Tag: xmlGeoDbs-v1r29
+	requirements 
+Log Message:
+merge VDG updates into branch
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r32p1, operation: add
 Package: xmlGeoDbs
