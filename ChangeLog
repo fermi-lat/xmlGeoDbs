@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Thu Apr 27 12:04:51 PDT 2006
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+      Tag: xmlGeoDbs-v1r29
+	lat1TowerSectionVDG.xml vdgMaterial.xml vdgPrim.xml 
+Log Message:
+merge VDG updates into branch
+    *
+------------------------------------------------------------
+User: heather  Thu Apr 27 12:04:51 PDT 2006
 xmlGeoDbs/doc
 
 Modified Files:
