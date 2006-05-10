@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed May 10 12:34:51 PDT 2006
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDTop.xml 
+Log Message:
+Add fTileSeg id field to all tiles not already having it (sides, non-bent top)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r33, operation: add
 Package: xmlGeoDbs
