@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Jun  5 23:28:30 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06NADGeo.xml 
+Log Message:
+Get rid of definitions of volumes that aren't actually used (blanket,
+solar panels, spacecraft).  All they can do is cause trouble.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r34, operation: add
 Package: xmlGeoDbs
