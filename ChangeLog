@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 25 16:30:07 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06ACDAcd.xml cu06DerivedConstants.xml cu06Primary.xml 
+	cu06Section.xml 
+Log Message:
+Guess at tile positions
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Jul 24 13:14:20 PDT 2006
 xmlGeoDbs/xml/cu06
 
