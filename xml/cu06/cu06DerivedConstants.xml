@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06DerivedConstants.xml,v 1.5 2006/07/25 23:30:07 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06DerivedConstants.xml,v 1.6 2006/07/27 02:49:03 jrb Exp $ -->
 
       <derCategory name="cu06">
         <overview>specific to cu06 model</overview>
@@ -348,11 +348,14 @@
         <const name="ACDTile_100_dz" >
            <notes> z-displacement of tile 100 (on -X face).
                   Computed from location of  ISCTkrZFace.
-                  Appears to stick up by about 1/2 tile thickness </notes>
+                  Appears to stick up by about 1/2 tile thickness 
+                  (but call it full thickness to avoid overlap)
+                  + standoff </notes>
            <minus>
              <add>
                <refer refTo="ISCTkrZp_dz" />
-               <refer refTo="tileHalfThickness" />
+               <refer refTo="tileThickness" />
+               <refer refTo="ACDTopTileStandoff" />
              </add>
              <half>
                <add>
@@ -371,7 +374,12 @@
                <refer refTo="ACDTile_100_dz" />
                <refer refTo="ACDOverlapRow0_1" />
              </add>
-             <refer refTo="ACDTileMHeight" />
+             <half>
+               <add>     
+                 <refer refTo="ACDTileMHeight" />
+                 <refer refTo="ACDTileM2Height" />
+               </add>
+             </half>
            </minus>
         </const>
 
@@ -383,7 +391,7 @@
              <refer refTo="ACDTile_110_dz" />
              <half>
                <add>
-                 <refer refTo="ACDTileMHeight" />
+                 <refer refTo="ACDTileM2Height" />
                  <refer refTo="ACDTileSHeight" />
                </add>
              </half>
