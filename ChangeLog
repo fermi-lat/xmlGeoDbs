@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Jul 27 08:29:17 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06Section.xml 
+Log Message:
+Typo in tile identifier
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r35, operation: add
 Package: xmlGeoDbs
