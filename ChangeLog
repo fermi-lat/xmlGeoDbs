@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Wed Jul 26 19:49:03 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06ACDAcd.xml cu06DerivedConstants.xml cu06Primary.xml 
+	cu06Section.xml 
+Log Message:
+Better guesses on container and ACD tile positions, based on labeled
+Inner Shipping Container photo and some tile position numbers from
+ACD_tiles_final_position.pdf
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Jul 25 16:30:07 PDT 2006
 xmlGeoDbs/xml/cu06
 
