@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug  2 14:04:42 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06DerivedConstants.xml cu06Primary.xml 
+Log Message:
+Use Z dimension of tracker container from photos.  Tile 100 sticks out 
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r35p2, operation: add
 Package: xmlGeoDbs
