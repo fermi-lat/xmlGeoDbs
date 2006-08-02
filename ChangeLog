@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug  2 15:59:25 PDT 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06DerivedConstants.xml cu06Primary.xml 
+Log Message:
+Put in 2mm gap between tiles 120 and 130
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Aug  2 14:04:42 PDT 2006
 xmlGeoDbs/xml/cu06
 
