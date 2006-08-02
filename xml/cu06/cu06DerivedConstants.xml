@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06DerivedConstants.xml,v 1.6 2006/07/27 02:49:03 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06DerivedConstants.xml,v 1.7 2006/07/27 20:44:22 jrb Exp $ -->
 
       <derCategory name="cu06">
         <overview>specific to cu06 model</overview>
@@ -48,7 +48,7 @@
             </uminus>
           </half>
         </const>
-
+<!--
         <const name="ISCCalZpFace_x" >
           <notes>X-dimension of Z+ face of cu06 container in front of 
            calorimeters only.  
@@ -59,6 +59,18 @@
             <refer refTo="ISCCalYFace_x" />
             <refer refTo="ISCTkrYFace_x" />
           </minus>
+        </const>
+-->
+        <const name="ISCCalYFace_x" >
+          <notes>X-dimension of Y-face and back Z-face 
+           of cu06 container about the grid.
+           &lt;font color="orange"&gt;This is obtained by summing
+            primary constants from the annotated photos.&lt;/font&gt;
+          </notes>
+          <add>
+            <refer refTo="ISCCalZpFace_x" />
+            <refer refTo="ISCTkrYFace_x" />
+          </add>
         </const>
 
         <!-- for convenience.  Often need half of thicknesses -->
@@ -354,8 +366,11 @@
            <minus>
              <add>
                <refer refTo="ISCTkrZp_dz" />
+               <refer refTo="ACDTile_100_beyond" />
+<!--
                <refer refTo="tileThickness" />
                <refer refTo="ACDTopTileStandoff" />
+ -->
              </add>
              <half>
                <add>
