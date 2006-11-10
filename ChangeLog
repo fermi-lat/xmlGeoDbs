@@ -8,7 +8,9 @@ Modified Files:
 Added Files:
 	cu06Materials.xml 
 Log Message:
-Definitions for plexiglass and for "cu06blanket"
+1. Definitions for plexiglass and for "cu06blanket"; 
+2. Fix tile positions fo cu06
+3. Make "tile packages" consisting of plexiglass, plastic, tile, plastic
 
     *
 ------------------------------------------------------------
