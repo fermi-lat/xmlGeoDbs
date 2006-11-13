@@ -54,11 +54,11 @@
     <!ENTITY idDict         SYSTEM "../flight/flightIdDictSegVols.xml">
 
     <!ENTITY Materials      SYSTEM "../materials.xml">
-    <!ENTITY extraMaterials SYSTEM "../empty.xml">
+    <!ENTITY extraMaterials SYSTEM "cu06Materials.xml">
 
   ]
 >
-<gdd CVSid="$Id: cu06SegVols.xml,v 1.1 2005/12/01 23:46:20 lsrea Exp $" 
+<gdd CVSid="$Id: cu06SegVols.xml,v 1.2 2005/12/08 00:50:30 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
