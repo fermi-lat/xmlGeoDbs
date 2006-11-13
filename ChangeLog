@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Nov 13 11:26:23 PST 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06SegVols.xml 
+Log Message:
+Need extraMaterials entity reference to refer to cu06Materials.xml 
+to pick up plexiglass definition
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r36, operation: add
 Package: xmlGeoDbs
