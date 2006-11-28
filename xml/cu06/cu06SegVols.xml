@@ -26,7 +26,7 @@
 
     <!ENTITY TKRMatPrim     SYSTEM "../flight/flightTKRMatPrim.xml">
     <!ENTITY TKRCountPrim   SYSTEM "../flight/flightTKRCountPrim.xml">
-    <!ENTITY TKRDimPrim     SYSTEM "../flight/flightTKRDimPrim.xml">
+    <!ENTITY TKRDimPrim     SYSTEM "../cu06/cu06TKRDimPrim.xml">
     <!ENTITY TKROneTkr      SYSTEM "../flight/flightTKROneTkr.xml">
 
     <!ENTITY ACDMatPrim     SYSTEM "../flight/flightACDMatPrim.xml">
@@ -58,7 +58,7 @@
 
   ]
 >
-<gdd CVSid="$Id: cu06SegVols.xml,v 1.2 2005/12/08 00:50:30 jrb Exp $" 
+<gdd CVSid="$Id: cu06SegVols.xml,v 1.3 2006/11/13 19:26:23 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
