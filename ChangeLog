@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: jrb  Wed Nov 29 15:44:03 PST 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06DerivedConstants.xml cu06NADGeo.xml cu06Primary.xml 
+	cu06Section.xml cu06SegVols.xml 
+Added Files:
+	cu06Targets.xml cu06mmsPositronSegVols.xml 
+	cu06mmsPositronTarget.xml cu06mmsProtonSegVols.xml 
+	cu06mmsProtonTarget.xml 
+Log Message:
+Add and modify files to support cu06 + target geometries for mms target,
+proton runs and positron runs
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r36p2, operation: add
 Package: xmlGeoDbs
