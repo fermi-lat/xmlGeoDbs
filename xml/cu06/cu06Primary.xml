@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06Primary.xml,v 1.11 2006/11/10 23:56:56 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06Primary.xml,v 1.12 2006/11/29 23:44:03 jrb Exp $ -->
 <primCategory name="cu06ACDDimPrim">
   <overview>Extra primary constants needed for cu06 ACD description</overview>
 
@@ -136,6 +136,9 @@ Definition of plexiglass used for MMS runs</prim>
 
 <prim name="cu06blanketMat" value="cu06blanket" type="string" uType="mat">
 Definition of cu06 blanket used for MMS runs</prim>
+
+<prim name="cu06airMat" value="cu06air" type="string" uType="mat">
+For cu06 runs embed instrument in 'air' </prim>
 
 </primCategory>
 
