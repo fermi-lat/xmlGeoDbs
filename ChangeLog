@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Dec  6 10:41:34 PST 2006
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+gdd.dtd:  update comment on <composite>
+cu06 files:  add 'cu06air' material and use it for LATinner envelope
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r37, operation: add
 Package: xmlGeoDbs
