@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Tue Dec 26 16:00:41 PST 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06DerivedConstants.xml cu06Materials.xml cu06Primary.xml 
+	cu06Targets.xml cu06mmsPositronTarget.xml 
+Added Files:
+	cu06plexiPositronSegVols.xml cu06plexiPositronTarget.xml 
+Log Message:
+1. Add configuration for plexiglass target positron runs
+2. cu06mmsPositronTarget.xml : fix comments
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r37p1, operation: add
 Package: xmlGeoDbs
