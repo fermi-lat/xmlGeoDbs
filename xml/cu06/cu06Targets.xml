@@ -1,4 +1,4 @@
-<!-- $Header: $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06Targets.xml,v 1.1 2006/11/29 23:44:03 jrb Exp $ -->
 <!-- volume definitions for mms and plexiglass target -->
 
 
@@ -13,3 +13,11 @@
      YREF="plexiTarget_y"
      ZREF="plexiTarget_z"
      materialREF="plexiglassMat" />
+<!--
+    Leave out for now
+<box name="fingerCounters"
+     XREF="finger_x"     
+     YREF="finger_y"     
+     ZREF="finger_z"
+     materialREF="cu06fingerMat" />
+-->

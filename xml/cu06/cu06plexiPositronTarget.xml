@@ -1,11 +1,11 @@
 <!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06mmsPositronTarget.xml,v 1.1 2006/11/29 23:44:03 jrb Exp $ -->
 <!-- This file gets included in the section file.  It positions
-     the target (in this case, the mms target for positron runs)
+     the target (in this case, the plexi target for positron runs)
      within LATInner 
 -->
 
-    <posXYZ volume="mmsTarget" 
-       XREF="positronMms_dx"
-       YREF="positronMms_dy"
-       ZREF="positronMms_dz"
-       yrot="45" />
+    <posXYZ volume="plexiTarget" 
+       XREF="positronPlexi_dx"
+       YREF="positronPlexi_dy"
+       ZREF="positronPlexi_dz"
+       yrot="35" />
