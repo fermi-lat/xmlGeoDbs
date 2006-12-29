@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06mmsPositronTarget.xml,v 1.1 2006/11/29 23:44:03 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06plexiPositronTarget.xml,v 1.1 2006/12/27 00:00:40 jrb Exp $ -->
 <!-- This file gets included in the section file.  It positions
      the target (in this case, the plexi target for positron runs)
      within LATInner 
@@ -8,4 +8,4 @@
        XREF="positronPlexi_dx"
        YREF="positronPlexi_dy"
        ZREF="positronPlexi_dz"
-       yrot="35" />
+       yrot="-35" />
