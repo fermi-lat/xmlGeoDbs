@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Dec 29 13:20:34 PST 2006
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06Primary.xml cu06plexiPositronTarget.xml 
+Log Message:
+Rotation angle is -35 degrees (not +35)
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Dec 26 16:00:41 PST 2006
 xmlGeoDbs/xml/cu06
 
