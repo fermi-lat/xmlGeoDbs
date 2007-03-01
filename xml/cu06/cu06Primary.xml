@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06Primary.xml,v 1.14 2006/12/27 00:00:40 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/cu06/cu06Primary.xml,v 1.15 2006/12/29 21:20:34 jrb Exp $ -->
 <primCategory name="cu06ACDDimPrim">
   <overview>Extra primary constants needed for cu06 ACD description</overview>
 
@@ -160,8 +160,6 @@ in beamtests is oblong.  x-dimension = y-dimension &gt; z-dimension</prim>
  rests for proton runs</prim>
 <prim name="woodBlock_y" value="160">Height of wooden block on which mms
  target rests for positron runs</prim>
-<prim name="sqrt2" value="1.41421356" uType="count" >Useful for calculating
-  displacement of mms cube which has been rotated 45 degrees</prim>
 <prim name="cos35" value="0.819152044">cos(35 deg) 
  used to calculate z-coordinate
 of plexi. target in positron runs (angle is actually 125) </prim>
