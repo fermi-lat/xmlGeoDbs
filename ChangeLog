@@ -1,5 +1,22 @@
 ------------------------------------------------------------
 User: jrb  Thu Mar  1 11:39:02 PST 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightDerivedConstants.xml flightGlobalDimPrim.xml 
+	flightGlobalMatPrim.xml flightNADDimPrim.xml flightNADGeo.xml 
+	flightSection.xml flightSegVols.xml 
+Added Files:
+	flightSCDerived.xml 
+Log Message:
+gdd.dtd:   Add <sqrt> tag, used in modeling octagonal spacecraft
+Files from xml/flight subdirectory: Add definitions of LAT electronics
+and incorporate into model.  Also make some definitions for new
+spacecraft description, but do not incorporate yet. 
+
+    *
+------------------------------------------------------------
+User: jrb  Thu Mar  1 11:39:02 PST 2007
 xmlGeoDbs/xml/cu06
 
 Modified Files:
