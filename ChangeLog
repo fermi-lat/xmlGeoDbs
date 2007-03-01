@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Thu Mar  1 11:39:01 PST 2007
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd materials.xml 
+Log Message:
+gdd.dtd:   Add <sqrt> tag, used in modeling octagonal spacecraft
+Files from xml/flight subdirectory: Add definitions of LAT electronics
+and incorporate into model.  Also make some definitions for new
+spacecraft description, but do not incorporate yet. 
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r37p2, operation: add
 Package: xmlGeoDbs
