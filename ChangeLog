@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Mon Mar  5 10:29:59 PST 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDMatPrim.xml flightCALMatPrim.xml 
+	flightGlobalMatPrim.xml flightTKRMatPrim.xml 
+Log Message:
+Add new materials which are identical to some of the old ones, but have
+names chosen to make it easier to track total mass by subsystem.
+
+    *
+------------------------------------------------------------
+User: jrb  Mon Mar  5 10:29:59 PST 2007
 xmlGeoDbs/xml
 
 Modified Files:
