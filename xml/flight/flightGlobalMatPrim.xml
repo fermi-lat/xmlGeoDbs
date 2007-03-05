@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalMatPrim.xml,v 1.1.1.1 2002/03/04 22:09:35 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalMatPrim.xml,v 1.2 2007/03/01 19:39:02 jrb Exp $ -->
 <primCategory name="globalMatPrim">
   <overview>Materials not specific to a single subsystem.</overview>
   <prim name="wallMaterial"   value="C" type="string" uType="mat"> Wall material</prim>
@@ -28,11 +28,11 @@ Material for thermal blanket</prim>
 
   <prim name="spacecraftMat" value="Alsc" type="string" uType="mat">
 Material for spacecraft</prim>
-  <prim name="solarPanelMat" value="Si" type="string" uType="mat">
+  <prim name="solarPanelMat" value="Solar_Si" type="string" uType="mat">
 Material for solar panels</prim>
-  <prim name="solarCoreMat" value="Al" type="string" uType="mat">
+  <prim name="solarCoreMat" value="Solar_Al" type="string" uType="mat">
 Material for solar panel core</prim>
-  <prim name="solarRodMat" value="Al" type="string" uType="mat">
+  <prim name="solarRodMat" value="Solar_Al" type="string" uType="mat">
 Material for solar panel connecting rods</prim>
 
   <prim name="propellantMat" value="Hydrazine" type="string" uType="mat">
