@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: jrb  Mon Mar  5 23:59:02 PST 2007
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd materials.xml 
+Log Message:
+gdd.dtd: add densityREF attribute to <composite> so that density may
+         be computed. Change density attribute from #REQUIRED to defaulted
+         to -1 so failure to set will be detected.
+materials: make use of densityREF for made-up materials used in interior
+           of TEM, GASU, etc.
+flightNADDimPrim.xml: add electronics box masses as primary constants;
+         also density of Al, standard Al thickness and maybe more
+Others: build each electronics box as aluminum envelope containing
+        made-up Si/Cu material of density needed to make up total mass
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar  5 10:29:59 PST 2007
 xmlGeoDbs/xml/flight
 
