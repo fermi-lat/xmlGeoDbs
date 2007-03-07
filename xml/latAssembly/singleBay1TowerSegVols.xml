@@ -37,7 +37,7 @@
     <!ENTITY ACDAcd         SYSTEM "../flight/flightACDAcd.xml">
 
     <!ENTITY NADDimPrim     SYSTEM "../flight/flightNADDimPrim.xml">
-    <!ENTITY NADGeo         SYSTEM "../flight/flightNADGeo.xml">
+    <!ENTITY NADGeo         SYSTEM "altNADGeo.xml">
 
     <!ENTITY oneTower         SYSTEM "../flight/flightOneTower.xml">
     <!ENTITY section         SYSTEM "singleBay1TowerSection.xml">
@@ -59,7 +59,7 @@
 
   ]
 >
-<gdd CVSid="$Id: 1TowerSegVols.xml,v 1.2 2004/06/18 21:07:16 jrb Exp $" 
+<gdd CVSid="$Id: singleBay1TowerSegVols.xml,v 1.1 2005/03/15 00:48:26 borgland Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
