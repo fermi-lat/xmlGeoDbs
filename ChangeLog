@@ -1,4 +1,28 @@
 ------------------------------------------------------------
+User: jrb  Wed Mar  7 12:55:37 PST 2007
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	1TkrSegVols.xml 1TowerSegVols.xml 1TowerSegVolsVDG.xml 
+	2TowerSegVols.xml 2TowerSegVolsVDG.xml lat10TowerSegVols.xml 
+	lat12TowerSegVols.xml lat14TowerSegVols.xml 
+	lat1TowerSegVols.xml lat1TowerSegVolsVDG.xml 
+	lat2TowerSegVols.xml lat2TowerSegVolsVDG.xml 
+	lat4TowerSegVols.xml lat6TowerSegVols.xml lat8TowerSegVols.xml 
+	latAssemblySegVols.xml singleBay1TowerSegVols.xml 
+	singleBay1TowerSegVolsVDG.xml 
+Added Files:
+	altNADGeo.xml 
+Log Message:
+altNADGeo.xml is old version of NADGeo, pre-inclusion of electronics
+and spacecraft stuff
+Modify all *SegVols* files except latAssemblySegVols.xml to use
+this alternate file.  
+Make latAssemblySegVols.xml look like flightSegVols.xml (i.e.,
+include all spacecraft definitions)
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Mar  5 23:59:02 PST 2007
 xmlGeoDbs/xml/flight
 
