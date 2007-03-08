@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.3 2003/07/26 00:25:58 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.4 2007/03/01 19:39:02 jrb Exp $ -->
 <primCategory name="globalDimPrim">
   <overview>Fundamental dimensions and offsets for objects not
 associated with any single subsystem.</overview>
@@ -16,8 +16,8 @@ support walls and towers</prim>
 to move entire detector in z. Zero means no offset, of course!</prim>
 
   <prim name="Obs_dz" value="1828">To convert 
-    &gt;b&lt;from&gt;/b&lt; LAT coordinate system 
-    &gt;b&lt;to&gt;/b&lt; Observatory coordinates, add this quantity</prim>
+    &lt;b&gt;from&lt;/b&gt; LAT coordinate system 
+    &lt;b&gt;to&lt;/b&gt; Observatory coordinates, add this quantity</prim>
         
  <!-- Most likely obsolete quantities: 
   <prim name="wallThickness"  value="1.5">   Wall thickness</prim>
