@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.12 2007/03/05 18:29:59 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.13 2007/03/06 07:59:01 jrb Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -529,7 +529,20 @@
   </addmaterial>
 </composite>
 
+<!-- Material used for Cu cabling in periphery of LAT elect. envelope -->
+<composite name="LATelectOuterCu" densityREF="LATelectOuterCuDensity" >
+  <addmaterial material="Copper" >
+    <natoms n="1" />  
+  </addmaterial>
+</composite>
 
+<!-- Material used for Cu cabling in center of LAT elect. envelope -->
+<composite name="LATelectInnerCu" densityREF="LATelectInnerCuDensity" >
+  <addmaterial material="Copper" >
+    <natoms n="1" />  
+  </addmaterial>
+</composite>
+  
 
 
 
