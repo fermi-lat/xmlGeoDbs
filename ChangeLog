@@ -1,5 +1,21 @@
 ------------------------------------------------------------
 User: jrb  Wed Mar  7 17:27:28 PST 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightDerivedConstants.xml flightGlobalDimPrim.xml 
+	flightGlobalMatPrim.xml flightNADDimPrim.xml flightNADGeo.xml 
+	flightSection.xml 
+Added Files:
+	flightNADDerived.xml 
+Log Message:
+Add 30 kg copper cabling around LAT electronics.
+Put NAD derived constants in their own file rather than cluttering
+up flightDerivedConstants.xml; other minor reorganization
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Mar  7 17:27:28 PST 2007
 xmlGeoDbs/xml
 
 Modified Files:
