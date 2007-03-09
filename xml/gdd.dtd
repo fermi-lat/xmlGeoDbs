@@ -556,9 +556,9 @@
 <!-- Pre-processing programs should add a <source> element to the output. 
      Normally, inputId should be the value of the  CVSid attribute of
      the <gdd> element of the input file (which, in turn, should be
-     the evaluation of the CVS macro $Id: gdd.dtd,v 1.9 2007/03/01 19:39:01 jrb Exp $ for that file) but without
+     the evaluation of the CVS macro $Id: gdd.dtd,v 1.10 2007/03/06 07:59:01 jrb Exp $ for that file) but without
      the surrounding "$" and creatorId should be the translation of the 
-     CVS macro $Id: gdd.dtd,v 1.9 2007/03/01 19:39:01 jrb Exp $ for the
+     CVS macro $Id: gdd.dtd,v 1.10 2007/03/06 07:59:01 jrb Exp $ for the
      pre-processing program, also without the
      "$", but other information could be used instead for less formal 
      circumstances. (Note surrounding "$" should be omitted so that further
@@ -715,9 +715,9 @@
           RIn         NMTOKEN "0"
           ROut        NMTOKEN "0"
           PhiMin      NMTOKEN "0"
-          PhiMax      NMTOKEN "0"
+          PhiMax      NMTOKEN "360"
           ThetaMin    NMTOKEN "0"
-          ThetaMax    NMTOKEN "0"
+          ThetaMax    NMTOKEN "180"
           RInREF      IDREF   #IMPLIED
           ROutREF     IDREF   #IMPLIED
           PhiMinREF   IDREF   #IMPLIED
