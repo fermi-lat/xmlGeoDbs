@@ -1,5 +1,24 @@
 ------------------------------------------------------------
 User: jrb  Fri Mar  9 16:47:54 PST 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightDerivedConstants.xml flightGlobalDimPrim.xml 
+	flightGlobalMatPrim.xml flightNADDerived.xml 
+	flightNADDimPrim.xml flightNADGeo.xml flightSection.xml 
+	flightSegVols.xml 
+Removed Files:
+	flightSCDerived.xml 
+Log Message:
+Add new LAT  (X-LAT, radiators) and spacecraft (propellant and tank,
+optical bench) volumes.  
+Take even more stuff out of latAssembly/altNADGeo.xml
+flightSCDerived.xml is obsolete; its <derCategory > was added to
+flightNADDerived.xml.
+
+    *
+------------------------------------------------------------
+User: jrb  Fri Mar  9 16:47:54 PST 2007
 xmlGeoDbs/xml/examples
 
 Modified Files:
