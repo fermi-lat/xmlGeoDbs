@@ -1,10 +1,11 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.4 2007/03/01 19:39:02 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightGlobalDimPrim.xml,v 1.5 2007/03/08 01:27:28 jrb Exp $ -->
 <primCategory name="globalDimPrim">
   <overview>Fundamental dimensions and offsets for objects not
 associated with any single subsystem.</overview>
   <prim name="sqrt2" value="1.41421356" uType="count" >Useful for calculating
   spacecraft dimensions, displacement of cu06 mms cube which has been 
   rotated 45 degrees and maybe other things</prim>
+  <prim name="Pi" value="3.1415926536">Needed to calculate some volumes</prim>
   <prim name="calTrackerGap" value="26.9">Spacing between tracker 
            and calorimeter stay-clear envelopes</prim>
   <prim name="ACDTKRStayClear" value="25.8">Space between ACD side
