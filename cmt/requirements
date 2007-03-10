@@ -1,7 +1,7 @@
-# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.88 2007/01/18 19:12:59 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/cmt/requirements,v 1.89 2007/03/08 18:12:49 jrb Exp $
 
 package xmlGeoDbs
-version v1r38
+version v1r39
 
 author Joanne Bogart <jrb@slac.stanford.edu>
 
