@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sat Mar 17 00:03:52 PDT 2007
+xmlGeoDbs/xml
+
+Modified Files:
+	materials.xml 
+Log Message:
+Put in some definitions for spacecraft skirt (not done yet)
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r39, operation: add
 Package: xmlGeoDbs
