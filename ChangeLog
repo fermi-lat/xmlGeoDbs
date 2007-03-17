@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Sat Mar 17 00:03:53 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightGlobalMatPrim.xml flightNADDerived.xml 
+	flightNADDimPrim.xml 
+Log Message:
+Put in some definitions for spacecraft skirt (not done yet)
+
+    *
+------------------------------------------------------------
 User: jrb  Sat Mar 17 00:03:52 PDT 2007
 xmlGeoDbs/xml
 
