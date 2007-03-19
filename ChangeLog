@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sun Mar 18 17:33:22 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightNADDerived.xml flightNADGeo.xml flightSection.xml 
+Log Message:
+Add spacecraft skirt
+
+    *
+------------------------------------------------------------
 User: jrb  Sat Mar 17 00:03:53 PDT 2007
 xmlGeoDbs/xml/flight
 
