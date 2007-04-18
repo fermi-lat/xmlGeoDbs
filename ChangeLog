@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: jrb  Tue Apr 17 17:38:25 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightGlobalMatPrim.xml flightNADDerived.xml 
+	flightNADDimPrim.xml flightNADGeo.xml flightSection.xml 
+Log Message:
+Add stuff for batteries
+
+    *
+------------------------------------------------------------
+User: jrb  Tue Apr 17 17:38:25 PDT 2007
 xmlGeoDbs/xml
 
 Modified Files:
