@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.15 2007/03/10 00:47:54 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.16 2007/03/17 07:03:52 jrb Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -572,6 +572,16 @@
   </addmaterial>
   <addmaterial material="Aluminum">
     <fractionmass fraction="1"/>
+  </addmaterial>
+</composite>
+
+<!-- made-up material for batteries -->
+<composite name="SC_batteries" densityREF="batteryBoxDensity" >
+  <addmaterial material="Nickel" >
+    <fractionmass fraction="1" />
+  </addmaterial>
+  <addmaterial material="Copper" >
+    <fractionmass fraction="1" />
   </addmaterial>
 </composite>
 

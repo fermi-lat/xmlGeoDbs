@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightNADGeo.xml,v 1.7 2007/03/10 00:47:54 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightNADGeo.xml,v 1.8 2007/03/19 00:33:22 jrb Exp $ -->
 <!-- Define boxes, etc. not belonging to any detector -->
 
 <!-- Define boxes for blanket:  top, X-side and Y-side 
@@ -510,3 +510,10 @@
        YREF="opticalBench_y"
        ZREF="opticalBench_z"
        materialREF="AlMat" />
+
+<!-- Battery box -->
+    <box name="SCbatteryBox"
+       XREF="batteryBox_x"
+       YREF="batteryBox_y"
+       ZREF="batteryBox_z"
+       materialREF="SCbatMat" />

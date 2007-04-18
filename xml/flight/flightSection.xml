@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.14 2007/03/10 00:47:54 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.15 2007/03/19 00:33:22 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -580,6 +580,16 @@
         <idField name="fLATObjects" valueREF="eLATPanelYNeg" />
       </posXYZ> 
 
+      <!-- Spacecraft batteries -->
+
+      <posXYZ volume="SCbatteryBox" 
+              YREF="batteryBox_dy" 
+              ZREF="batteryBox_dz"
+       />
+      <posXYZ volume="SCbatteryBox" 
+              YREF="batteryBox_dyn" 
+              ZREF="batteryBox_dz"
+       />
 
     </composition>
     
