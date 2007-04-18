@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Apr 17 22:37:49 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightNADDerived.xml 
+Log Message:
+Move propellant and tank up a bit to avoid batteries
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r39p2, operation: add
 Package: xmlGeoDbs
