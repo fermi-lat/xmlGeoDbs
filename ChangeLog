@@ -1,4 +1,22 @@
 ------------------------------------------------------------
+User: jrb  Fri May 18 12:53:45 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+	flightDerivedConstants.xml flightSection.xml 
+Log Message:
+Changes for fake-shingled tiles:
+ make tile heights = size of projection onto vertical plane
+ increase distance from center for side rows 1 and 3
+ increase widths of rows 1 and 3 to avoid unrealistic corner gap
+ enable side tile height shrinking for operating temperature
+
+Side ribbons still need work; must be broken into segments to follow
+contour of sides
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r39p3, operation: add
 Package: xmlGeoDbs
