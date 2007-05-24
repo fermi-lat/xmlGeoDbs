@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDimPrim.xml,v 1.12 2006/01/08 22:10:55 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDDimPrim.xml,v 1.13 2007/05/18 19:53:45 jrb Exp $ -->
 <primCategory name="ACDDimPrim">
   <overview>Fundamental solid dimensions and offsets within the ACD.</overview>
 
@@ -227,6 +227,10 @@ appears to be about 1.5 or 2 mm</prim>
   <prim name="ribbonOverlap" value="15.0">Amount X ribbon segment overshoots
      tile edge of tile it's under. (This is a figment of the simulated
 model.  Real ribbons don't come in disconnected segments.)</prim>
+
+  <prim name="ribbonExtend" value="50.0">Where tiles overlap, distance 
+    over which a ribbon has displacement appropriate to near tile even 
+    though it is behind outer of the two overlapping tiles.</prim>
 
   <prim name="xRibbonOuter_dx" value="501.8">X displacement of outer
    X-ribbon (contained in YZ plane): ribbon #3 (Nov 05)</prim>

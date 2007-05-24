@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDictSegVols.xml,v 1.5 2003/06/19 17:56:07 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDictSegVols.xml,v 1.6 2006/01/08 22:10:55 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -114,7 +114,7 @@
     </field>
 
     <field name="fRibbonSegment" >
-      <vMinMax min="0" max="6" />
+      <vMinMax min="0" max="12" />
     </field>
 
     <field name="fRow" >
