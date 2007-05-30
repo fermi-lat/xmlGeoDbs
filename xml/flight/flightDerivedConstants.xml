@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.22 2007/03/10 00:47:54 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.23 2007/05/18 19:53:45 jrb Exp $ -->
     <derived>
       &CALDerived;
 
@@ -350,11 +350,8 @@
           </notes>
           <minus>
             <add>
-              <refer refTo="ACDTop_d" />
+              <refer refTo="ACDTileMaxZ" />
               <refer refTo="sideOverlap"/>
-              <half>
-                <refer refTo="ACDTop_z"/>
-              </half>
             </add>               
             <half>
                <refer refTo="sideTileHeight0" />
