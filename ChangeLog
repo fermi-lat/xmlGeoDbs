@@ -1,4 +1,20 @@
 ------------------------------------------------------------
+User: jrb  Thu May 31 11:14:23 PDT 2007
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	latACDDimPrimUnshrunk.xml latAssemblySegVols.xml 
+Log Message:
+flightACD*.xml:      Lay groundwork for more realistic model of side ribbons
+flightACDSides.xml:  Add this file so mess of locating all side tile rows
+                     and ribbon pieces doesn't clutter up flightSection
+flightSection.xml:   remove ACD sides stuff, now in flightACDSides.xml; 
+                     refer to new file instead
+latACDDimPrimUnshrunk.xml:  re-sync
+flight.xml, *SegVols.xml:  Define entity ACDSides
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May 31 11:14:22 PDT 2007
 xmlGeoDbs/xml/flight
 
