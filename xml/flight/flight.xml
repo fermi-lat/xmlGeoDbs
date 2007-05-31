@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flight.xml,v 1.7 2007/03/01 19:39:02 jrb Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flight.xml,v 1.8 2007/03/10 00:47:54 jrb Exp $        -->
 <!-- 1 Feb 2001   Default length unit is now mm.  Change constants
                    accordingly.                             (jrb) 
     22 Feb 2001   Add CVS macros, CVSid attribute for gdd     
@@ -35,6 +35,7 @@
     <!ENTITY ACDResponse    SYSTEM "flightACDResponse.xml">
     <!ENTITY ACDAcd         SYSTEM "flightACDAcd.xml">
     <!ENTITY ACDTop         SYSTEM "flightACDTop.xml">
+    <!ENTITY ACDSides       SYSTEM "flightACDSides.xml">
 
     <!ENTITY NADDimPrim     SYSTEM "flightNADDimPrim.xml">
     <!ENTITY NADGeo         SYSTEM "flightNADGeo.xml">
@@ -59,7 +60,7 @@
     <!ENTITY extraMaterials SYSTEM "../empty.xml" >
   ]
 >
-<gdd CVSid="$Id: flight.xml,v 1.7 2007/03/01 19:39:02 jrb Exp $" 
+<gdd CVSid="$Id: flight.xml,v 1.8 2007/03/10 00:47:54 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
