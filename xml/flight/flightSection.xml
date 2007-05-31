@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.18 2007/05/30 20:48:38 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSection.xml,v 1.19 2007/05/31 18:14:22 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -272,13 +272,6 @@
 &ACDSides;
 
       <!-- Finally position blanket pieces -->
-<!--
-      <posXYZ volume="blanketTop"
-              ZREF="NADBlanketTop_dz" >
-        <idField name="fLATObjects" valueREF="eLATBlanket" />
-        <idField name="fBorderCmp" valueREF="eCenter" />
-      </posXYZ>
--->
       <posXYZ volume="NADBlanketTopTop"
               ZREF="NADBlanketTopTop_dz" >
         <idField name="fLATObjects" valueREF="eLATBlanket" />
@@ -473,13 +466,6 @@
       <posXYZ volume="propellant"
                ZREF="tank_dz" />
 
-<!-- old spacecraft
-      <posXYZ volume="spacecraft"
-              ZREF="spacecraft_dz">
-        <idField name="fLATObjects" valueREF="eLATSpacecraft" />
-      </posXYZ>
--->
-
 <!-- Optical bench -->
       <posXYZ volume="opticalBench"
               XREF="opticalBench_dx"
@@ -521,6 +507,4 @@
               ZREF="globalOffset_dz" >
       </posXYZ>
     </composition>
-
-   
   </section>
