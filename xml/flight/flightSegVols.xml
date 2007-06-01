@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSegVols.xml,v 1.9 2007/03/10 00:47:54 jrb Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSegVols.xml,v 1.10 2007/05/31 18:14:22 jrb Exp $        -->
 <!-- 1 Feb 2001   Default length unit is now mm.  Change constants
                    accordingly.                             (jrb) 
     22 Feb 2001   Add CVS macros, CVSid attribute for gdd     
@@ -57,9 +57,33 @@
 
     <!ENTITY Materials      SYSTEM "../materials.xml">
     <!ENTITY extraMaterials SYSTEM "../empty.xml" >
+    <!ENTITY YPosFaceRibbon 
+         '<idField name="fLATObjects" valueREF="eLATACD" />
+         <idField name="fACDFace" valueREF="eACDYPosFace" />
+         <idField name="fACDCmp" valueREF="eACDRibbon" />
+         <idField name="fMeasure" valueREF="eMeasureX" />' >
+
+    <!ENTITY YNegFaceRibbon 
+         '<idField name="fLATObjects" valueREF="eLATACD" />
+         <idField name="fACDFace" valueREF="eACDYNegFace" />
+         <idField name="fACDCmp" valueREF="eACDRibbon" />
+         <idField name="fMeasure" valueREF="eMeasureX" />' >
+
+    <!ENTITY XPosFaceRibbon 
+         '<idField name="fLATObjects" valueREF="eLATACD" />
+         <idField name="fACDFace" valueREF="eACDXPosFace" />
+         <idField name="fACDCmp" valueREF="eACDRibbon" />
+         <idField name="fMeasure" valueREF="eMeasureY" />' >
+
+    <!ENTITY XNegFaceRibbon 
+         '<idField name="fLATObjects" valueREF="eLATACD" />
+         <idField name="fACDFace" valueREF="eACDXNegFace" />
+         <idField name="fACDCmp" valueREF="eACDRibbon" />
+         <idField name="fMeasure" valueREF="eMeasureY" />' >
+
   ]
 >
-<gdd CVSid="$Id: flightSegVols.xml,v 1.9 2007/03/10 00:47:54 jrb Exp $" 
+<gdd CVSid="$Id: flightSegVols.xml,v 1.10 2007/05/31 18:14:22 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />
