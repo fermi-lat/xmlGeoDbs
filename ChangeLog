@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: jrb  Thu May 31 17:29:06 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flight.xml flightACDSides.xml flightSegVols.xml 
+Log Message:
+flight.xml,flightSegVols.xml,latAssemblySegVols.xml: Add some general
+   entity definitions so that it isn't quite so laborious to create
+   volume identifiers for the multitudes of ribbon pieces
+flightACDSides.xml:  Define new-style X-measuring side ribbons (run along
+   +Y and -Y face).  Y-measuring side ribbons still to go
+
+    *
+------------------------------------------------------------
 User: jrb  Thu May 31 14:35:06 PDT 2007
 xmlGeoDbs/xml/flight
 
