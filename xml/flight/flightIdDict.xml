@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.6 2006/05/08 22:32:19 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightIdDict.xml,v 1.7 2007/05/24 22:05:03 jrb Exp $ -->
   <idDict major="1" minor="0" patch="0" name="GDD_IDENTIFIER_DICTIONARY">
 
     <field name="fLATObjects" >
@@ -129,6 +129,10 @@
       <vMinMax min="0" max="1" />
     </field>
 
+    <field name="fACDScrewOrInset" >
+      <vMinMax min="0" max="15" />
+    </field>
+
     <field name="fTKRTray" >
       <vMinMax min="0" maxREF="maxTray" />
     </field>
@@ -255,7 +259,9 @@
             <vMinMax min="0" maxREF="YTopTileMax" />
             <dictNode fieldName="fCol" >
               <vMinMax min="0" maxREF="YTopTileMax" />
-              <dictNode fieldName="fTileSeg" />
+              <dictNode fieldName="fTileSeg">
+                <dictNode fieldName="fACDScrewOrInset" />
+              </dictNode>
             </dictNode>
           </dictNode>
 
