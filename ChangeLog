@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Jun 25 11:08:15 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDimPrim.xml flightACDTop.xml 
+	flightIdDict.xml flightIdDictSegVols.xml 
+Log Message:
+Add screws for top tiles
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r42p1, operation: add
 Package: xmlGeoDbs
