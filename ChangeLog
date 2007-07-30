@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Jul 30 12:09:50 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDimPrim.xml 
+Log Message:
+Fix typos in top screw locations
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r43, operation: add
 Package: xmlGeoDbs
