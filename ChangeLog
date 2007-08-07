@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Aug  7 16:43:20 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDDimPrim.xml 
+Log Message:
+Adjust top screw offsets.  Use Robert Johnson's numbers, extracted from 
+drawings
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r43p1, operation: add
 Package: xmlGeoDbs
