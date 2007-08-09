@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  9 08:47:11 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightTKRDimPrim.xml 
+Log Message:
+Decrease TKR conversion layer thicknesses; increase nearby gaps to compensate
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r43p2, operation: add
 Package: xmlGeoDbs
