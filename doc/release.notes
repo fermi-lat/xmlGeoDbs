@@ -4,6 +4,8 @@
  *
  *                    **EOH**
 
+   v1r39p3gr1 9-Aug-2007 jrb Decrease conversion layer thicknesses; increase
+                            gaps to compensate
    v1r39p3 17-Apr-2007 jrb  Move propellant and tank up somewhat to avoid
                             colliding with batteries
    v1r39p2 17-Apr-2007 jrb  add batteries
