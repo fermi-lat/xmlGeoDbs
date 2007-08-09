@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  9 09:18:21 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+      Tag: GlastReleasev11r17
+	flightTKRDimPrim.xml 
+Log Message:
+Change conversion thicknesses along GlastReleasev11r17 branch
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r43p3, operation: add
 Package: xmlGeoDbs
