@@ -1,5 +1,19 @@
 ------------------------------------------------------------
 User: jrb  Wed Aug 15 15:50:16 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml 
+Added Files:
+	flightSectionShell.xml flightShell.xml shellDerived.xml 
+Log Message:
+gdd.dtd:  Add trig functions, ability to specify rotation by indirection 
+*shell* files:  Make it easier to test things by omitting towers
+flightACDAcd.xml:  Clean up comments
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Aug 15 15:50:16 PDT 2007
 xmlGeoDbs/xml
 
 Modified Files:
