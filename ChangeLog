@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 15 16:53:47 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDSides.xml 
+Log Message:
+Build ACD faces with no rotations about Z.  Each side tile type has two
+logical volume incarnations: one with thickness in X, the other with
+thickness in Y
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r44, operation: add
 Package: xmlGeoDbs
