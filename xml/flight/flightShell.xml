@@ -1,6 +1,6 @@
 <?xml version="1.0"  ?>
 
-<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flight.xml,v 1.10 2007/06/01 00:29:06 jrb Exp $        -->
+<!--  $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightShell.xml,v 1.1 2007/08/15 22:50:16 jrb Exp $        -->
 <!-- Simplify the detector:  take out the towers!
 -->
 
@@ -26,7 +26,7 @@
 
     <!ENTITY ACDMatPrim     SYSTEM "flightACDMatPrim.xml">
     <!ENTITY ACDCountPrim   SYSTEM "flightACDCountPrim.xml">
-    <!ENTITY ACDDimPrim     SYSTEM "flightACDDimPrim.xml">
+    <!ENTITY ACDDimPrim     SYSTEM "flightACDDimPrimUnshrunk.xml">
     <!ENTITY ACDResponse    SYSTEM "flightACDResponse.xml">
     <!ENTITY ACDAcd         SYSTEM "flightACDAcd.xml">
     <!ENTITY ACDTop         SYSTEM "flightACDTop.xml">
@@ -47,8 +47,8 @@
     <!ENTITY ACDDerived     SYSTEM "flightACDDerived.xml">
     <!ENTITY NADDerived     SYSTEM "flightNADDerived.xml">
 <!--   extraDerived used to refer to flightSCDerived.xml. -->
-<!--    <!ENTITY extraDerived   SYSTEM "empty.xml">  -->
-    <!ENTITY extraDerived   SYSTEM "shellDerived.xml">
+    <!ENTITY extraDerived   SYSTEM "empty.xml"> 
+    <!--   !ENTITY extraDerived   SYSTEM "shellDerived.xml">  -->
     <!ENTITY Primary        SYSTEM "flightPrimaryConstants.xml">
 
     <!ENTITY idDict         SYSTEM "flightIdDict.xml">
@@ -82,7 +82,7 @@
 
   ]
 >
-<gdd CVSid="$Id: flight.xml,v 1.10 2007/06/01 00:29:06 jrb Exp $" 
+<gdd CVSid="$Id: flightShell.xml,v 1.1 2007/08/15 22:50:16 jrb Exp $" 
      DTDversion="2.0" >
   <constants>
     <version major="0" minor="0" />

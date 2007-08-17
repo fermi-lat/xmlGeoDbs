@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.23 2007/05/18 19:53:45 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightDerivedConstants.xml,v 1.24 2007/05/30 20:48:38 jrb Exp $ -->
     <derived>
       &CALDerived;
 
@@ -405,50 +405,6 @@
               <refer refTo="sideVerticalGap" />
             </add>
           </minus>
-        </const>
-
-
-
-
-
-        <const name="ribbonsSide_dz">
-          <notes>displacement in z of side ribbons rel. to Ritz origin.
-           Ribbons go down as far as tile sides but don't go up quite as
-           high.</notes>
-          <minus>
-            <refer refTo="tileSide_dz" />
-            <half>
-              <minus>
-                <refer refTo="ACDSide_z" />
-                <refer refTo="ribbonsSideZ" />
-              </minus>
-            </half>
-          </minus>
-        </const>
-
-        <const name="ribbonsSide_dt">
-          <notes>Transverse displacement from origin of a side's worth
-               of ribbons.  Place them in an idealized position right
-               next to side tiles.  Use variable 'tileSideThickness'
-               to compute.  Thickness of side is not necessarily
-               equal to thickness of a single tile </notes>
-          <minus>
-            <refer refTo="tileSide_dt" />
-            <half>
-              <add>
-                <refer refTo="tileSideThickness" />
-                <refer refTo="ribbonThickness" />
-              </add>
-            </half>
-          </minus>
-        </const>
-
-        <const name="ribbonsSide_dtn">
-          <notes>Transverse displacement from origin of a side's worth
-              of ribbons on a negative side </notes>
-          <uminus>
-            <refer refTo="ribbonsSide_dt" />
-          </uminus>
         </const>
 
         <!-- define a bunch of displacements for elements inside oneNoTKR
