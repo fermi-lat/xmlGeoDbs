@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: jrb  Fri Aug 17 12:56:16 PDT 2007
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	latACDDimPrimUnshrunk.xml 
+Log Message:
+Slanted side tiles!  But (temporarily) no side ribbons
+
+    *
+------------------------------------------------------------
+User: jrb  Fri Aug 17 12:56:16 PDT 2007
 xmlGeoDbs/xml/flight
 
 Modified Files:
