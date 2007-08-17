@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug 17 12:56:16 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+	flightACDSides.xml flightDerivedConstants.xml 
+	flightNADDerived.xml flightSectionShell.xml flightShell.xml 
+Log Message:
+Slanted side tiles!  But (temporarily) no side ribbons
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r44p1, operation: add
 Package: xmlGeoDbs
