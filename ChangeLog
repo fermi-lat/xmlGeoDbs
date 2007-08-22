@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Tue Aug 21 19:33:10 PDT 2007
+xmlGeoDbs/xml/latAssembly
+
+Modified Files:
+	latACDDimPrimUnshrunk.xml 
+Log Message:
+1. Move test stuff (which "shell" in the name) to its own directory
+2. Add side ribbons on Y-sides  going partway down, maybe enough for
+   some testing.  All X-side ribbons are still absent
+
+    *
+------------------------------------------------------------
+User: jrb  Tue Aug 21 19:33:10 PDT 2007
 xmlGeoDbs/xml/flight
 
 Modified Files:
