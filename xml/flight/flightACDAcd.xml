@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.35 2007/08/15 23:53:47 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.36 2007/08/17 19:56:16 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
@@ -1090,6 +1090,39 @@ components directly in LATInner.  See guts of this in flightACDTop.xml
      XREF="ribbonWidth"
      YREF="ribbonThickness"
      ZREF="ribbonBentZ"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<box name="ribSideToR0"
+     XREF="ribbonWidth"
+     YREF="ribbonThickness"
+     ZREF="ribSideToR0_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<box name="ribYSideR0"
+     XREF="ribbonWidth"
+     YREF="ribbonThickness"
+     ZREF="ribYSideR0_z"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<box name="ribYSideToR1"
+     XREF="ribbonWidth"
+     YREF="ribbonThickness"
+     ZREF="ribYSideToR1_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+
+<box name="ribYSideR1"
+     XREF="ribbonWidth"
+     YREF="ribbonThickness"
+     ZREF="ribYSideR1_len"
      materialREF="ribbonMat"
      sensitive="posHit"
      detectorTypeREF="eDTypeACDRibbon" />
