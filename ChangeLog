@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 22 13:24:08 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDSides.xml 
+Log Message:
+1. Fix rotation angles for +X and -X sides, rows 1 and 2 (sign was wrong)
+2. Add some ribbons running along X-sides
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Aug 22 11:24:24 PDT 2007
 xmlGeoDbs/xml/flight
 
