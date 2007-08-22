@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 22 10:38:27 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDSides.xml 
+Log Message:
+More name changes (starting part-way down, constants needed for X-side ribbons
+are the same as those needed for Y)
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Aug 22 10:23:09 PDT 2007
 xmlGeoDbs/xml/flight
 
