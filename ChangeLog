@@ -1,4 +1,19 @@
 ------------------------------------------------------------
+User: jrb  Tue Aug 21 19:33:10 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+	flightACDSides.xml 
+Removed Files:
+	flightSectionShell.xml flightShell.xml shellDerived.xml 
+Log Message:
+1. Move test stuff (which "shell" in the name) to its own directory
+2. Add side ribbons on Y-sides  going partway down, maybe enough for
+   some testing.  All X-side ribbons are still absent
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Aug 20 11:45:51 PDT 2007
 xmlGeoDbs/xml/shell
 
