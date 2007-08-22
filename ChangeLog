@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 22 11:24:24 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDSides.xml 
+Log Message:
+Should do for Y-side ribbons for now
+
+    *
+------------------------------------------------------------
 User: jrb  Wed Aug 22 10:38:27 PDT 2007
 xmlGeoDbs/xml/flight
 
