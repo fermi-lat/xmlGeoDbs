@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.39 2007/08/22 17:38:27 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.40 2007/08/22 18:24:24 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
@@ -1142,6 +1142,52 @@ components directly in LATInner.  See guts of this in flightACDTop.xml
      materialREF="ribbonMat"
      sensitive="posHit"
      detectorTypeREF="eDTypeACDRibbon" />
+
+
+<!-- X-side ribbons -->
+<box name="ribXSideR0"
+     XREF="ribbonThickness"
+     YREF="ribbonWidth"
+     ZREF="ribXSideR0_z"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<!-- Remaining XSide volumes are congruent to Y, just rotated 90 degrees -->
+<box name="ribXSideToR1"
+     XREF="ribbonThickness"
+     YREF="ribbonWidth"
+     ZREF="ribToR1_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+
+<box name="ribXSideR1"
+     XREF="ribbonThickness"
+     YREF="ribbonWidth"
+     ZREF="ribR1_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<box name="ribXSideToR2"
+     XREF="ribbonThickness"
+     YREF="ribbonWidth"
+     ZREF="ribToR2_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+<box name="ribXSideR2"
+     XREF="ribbonThickness"
+     YREF="ribbonWidth"
+     ZREF="ribR2_len"
+     materialREF="ribbonMat"
+     sensitive="posHit"
+     detectorTypeREF="eDTypeACDRibbon" />
+
+
 
 <!-- May '07 Define all the new pieces of vertical ribbons with dimensions
      such that they do not require any 90-degree rotations to be
