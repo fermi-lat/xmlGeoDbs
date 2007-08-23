@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: jrb  Wed Aug 22 17:02:30 PDT 2007
+xmlGeoDbs/xml/shell
+
+Modified Files:
+	shellSection.xml 
+Log Message:
+flightACDDerived.xml - shrink slanted ribbon lengths by sin(thickness) to
+avoid overlaps
+shellSection.xml - inconsequential.  This file is just for private testing
+
+    *
+------------------------------------------------------------
+User: jrb  Wed Aug 22 17:02:30 PDT 2007
 xmlGeoDbs/xml/flight
 
 Modified Files:
