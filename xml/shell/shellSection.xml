@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightSectionShell.xml,v 1.2 2007/08/17 19:56:16 jrb Exp $  -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/shell/shellSection.xml,v 1.1 2007/08/22 02:33:10 jrb Exp $  -->
   <section name="LATsection"
            version="1.0" date="2001/3/9" author="J.Bogart"
            topVolume="LAT"  fineChoice="recon">
@@ -44,12 +44,14 @@
     <box name="LATShiftedEnv"
          XREF="bigXZDim" YREF="bigYDim" ZREF="biggerZDim" />
 
-
+<!--
 &CALOneCal;
 &TKROneTkr;
+-->
 &NADGeo;
+<!--
 &oneTower;
-
+-->
     <box name="allTowersEnv"
          XREF="towersTrans" YREF="towersTrans" ZREF="towersTotalZ" />
 <!--
