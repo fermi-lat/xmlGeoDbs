@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Sat Oct 20 16:37:35 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDSides.xml 
+Log Message:
+Cleanup (shorten some names; eliminate commented-out stuff)
+
+    *
+------------------------------------------------------------
 User: jrb  Thu Oct 18 17:54:38 PDT 2007
 xmlGeoDbs/xml/flight
 
