@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 22 17:13:41 PDT 2007
+xmlGeoDbs/xml
+
+Modified Files:
+	gdd.dtd 
+Log Message:
+gdd.dtd:    Add <trap> element
+trap.xml:   Test file including trapezoid volumes
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r46, operation: add
 Package: xmlGeoDbs
