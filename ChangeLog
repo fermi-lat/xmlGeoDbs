@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Mon Oct 22 17:13:42 PDT 2007
+xmlGeoDbs/xml/examples
+
+Added Files:
+	trap.xml 
+Log Message:
+gdd.dtd:    Add <trap> element
+trap.xml:   Test file including trapezoid volumes
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Oct 22 17:13:41 PDT 2007
 xmlGeoDbs/xml
 
