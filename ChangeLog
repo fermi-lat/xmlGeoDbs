@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Oct 23 17:18:39 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDSides.xml 
+Log Message:
+Fix a couple typos affecting volume identifiers
+
+    *
+------------------------------------------------------------
 User: jrb  Mon Oct 22 17:13:42 PDT 2007
 xmlGeoDbs/xml/examples
 
