@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.41 2007/08/22 20:24:08 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight/flightACDAcd.xml,v 1.43 2007/10/20 23:37:35 jrb Exp $ -->
 <!--  ACD geometry for flight instrument -->
 
 <!-- Scale tile dimensions for operating temperature. July 20, 2005 -->
@@ -1203,7 +1203,7 @@ components directly in LATInner.  See guts of this in flightACDTop.xml
     <idField name="fTileSeg" value="0" />
   </axisPos>
   <axisPos volume="sideTileR0Mid" gapREF="sideHorizontalGap" >
-    <idField name="fCol" value="31" />
+    <idField name="fCol" value="1" />
     <idField name="fTileSeg" value="0" />
   </axisPos>
   <axisPos volume="sideTileR0EdgeLesser" gapREF="sideHorizontalGap" >
