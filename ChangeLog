@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Fri Oct 26 10:54:26 PDT 2007
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+Log Message:
+Properly model some side tiles as trapezoidal prisms
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r46p2, operation: add
 Package: xmlGeoDbs
