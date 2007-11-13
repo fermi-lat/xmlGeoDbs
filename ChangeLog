@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Nov 13 15:27:15 PST 2007
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06NADGeo.xml cu06Section.xml 
+Log Message:
+Replace the calorimeter at tower 0 position with air
+
+    *
+------------------------------------------------------------
 User: jrb  Tue Nov 13 13:57:00 PST 2007
 xmlGeoDbs/xml/cu06
 
