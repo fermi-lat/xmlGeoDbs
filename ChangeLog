@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Tue Mar 11 14:35:02 PDT 2008
+xmlGeoDbs/xml/cu06
+
+Modified Files:
+	cu06ACDAcd.xml cu06Section.xml 
+Log Message:
+Redo cu06 side tiles so they're rotated into correct orientation like LAT
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v1r47p1, operation: add
 Package: xmlGeoDbs
