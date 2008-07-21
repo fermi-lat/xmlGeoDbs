@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: glastrm  Mon Jul 21 08:17:40 PDT 2008
+GlastRelease-scons/xmlGeoDbs/xml/cu
+
+Modified Files:
+	README 
+Log Message:
+Removed dependency on CMT env variables
+    *
+------------------------------------------------------------
 TAG
 Tag name: xmlGeoDbs-01-47-03, operation: add
 Package: xmlGeoDbs
