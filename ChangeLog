@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r47p5, operation: mov
+Package: xmlGeoDbs
+User: glastrm  Wed Aug 20 16:30:23 2008
+Files:
+  xmlGeoDbs/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: glastrm  Wed Aug 20 16:30:17 PDT 2008
 xmlGeoDbs
 
