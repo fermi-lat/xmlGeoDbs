@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug 20 16:09:23 PDT 2008
+xmlGeoDbs/xml/flight
+
+Modified Files:
+	flightACDAcd.xml flightACDDerived.xml flightACDDimPrim.xml 
+	flightGlobalDimPrim.xml 
+Log Message:
+1. Use compositions rather than stacks to a) position trapezoids correctly
+   b) keep tile centers constant during temperature shrink
+2. Assume temperature difference of 8 deg. C (was 40)
+
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:42:40 PDT 2008
 GlastRelease-scons/xmlGeoDbs
 
