@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:48 PST 2008
+GlastRelease-scons/xmlGeoDbs
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for xmlGeoDbs v1r47p5 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 TAG
 Tag name: xmlGeoDbs-01-47-05, operation: add
 Package: xmlGeoDbs
