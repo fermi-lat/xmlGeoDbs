@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/SConscript,v 1.1 2008/08/15 21:22:49 ecephas Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/xmlGeoDbs/SConscript,v 1.2 2008/08/20 23:30:17 glastrm Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
 # Version: xmlGeoDbs-01-47-05
 import os
@@ -11,3 +11,6 @@ libEnv = baseEnv.Clone()
 
 
 progEnv.Tool('registerObjects', package = 'xmlGeoDbs')
+
+
+
