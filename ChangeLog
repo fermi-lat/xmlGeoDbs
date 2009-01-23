@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+TAG
+Tag name: xmlGeoDbs-01-47-05, operation: mov
+Package: xmlGeoDbs
+User: glastrm  Thu Jan 22 16:32:00 2009
+Files:
+  xmlGeoDbs/SConscript  1.4
+  xmlGeoDbs/SConscript  1.4
+  xmlGeoDbs/SConscript  1.4
+
+    *
+------------------------------------------------------------
 User: ecephas  Thu Jan 22 16:07:54 PST 2009
 GlastRelease-scons/xmlGeoDbs
 
