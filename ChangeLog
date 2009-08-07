@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  6 18:11:09 PDT 2009
+GlastRelease-scons/xmlGeoDbs
+
+Modified Files:
+	.cvsignore SConscript xmlGeoDbsLib.py 
+Log Message:
+SConscript:  use registerTargets; install xml files
+xmlGeoDbsLib.py:  turn into no-op (there is no library)
+.cvsignore:    add SCons derived products
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: xmlGeoDbs-01-47-05, operation: mov
 Package: xmlGeoDbs
