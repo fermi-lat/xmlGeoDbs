@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/xmlGeoDbs/SConscript,v 1.4 2009/01/23 00:07:54 ecephas Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/xmlGeoDbs/SConscript,v 1.5 2009/08/07 01:11:09 jrb Exp $ 
 # Authors: Joanne Bogart <jrb@slac.stanford.edu>
-# Version: xmlGeoDbs-01-47-05
+# Version: xmlGeoDbs-01-47-06
 import os
 Import('baseEnv')
 Import('listFiles')
