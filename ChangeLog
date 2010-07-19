@@ -1,4 +1,27 @@
 ------------------------------------------------------------
+User: lsrea  Mon Jul 19 13:45:27 PDT 2010
+xmlGeoDbs/xml/flight01
+
+Added Files:
+	empty.xml flight.xml flightACDAcd.xml flightACDCountPrim.xml 
+	flightACDDerived.xml flightACDDimPrim.xml flightACDMatPrim.xml 
+	flightACDResponse.xml flightACDSides.xml flightACDTop.xml 
+	flightCALCountPrim.xml flightCALDerived.xml 
+	flightCALDimPrim.xml flightCALMatPrim.xml flightCALOneCal.xml 
+	flightCALResponse.xml flightCsISegmented.xml 
+	flightCsIUnsegmented.xml flightDerivedConstants.xml 
+	flightGlobalCountPrim.xml flightGlobalDimPrim.xml 
+	flightGlobalMatPrim.xml flightIdDict.xml 
+	flightIdDictSegVols.xml flightNADDerived.xml 
+	flightNADDimPrim.xml flightNADGeo.xml flightOneTower.xml 
+	flightPrimaryConstants.xml flightSection.xml flightSegVols.xml 
+	flightTKRCountPrim.xml flightTKRDerived.xml 
+	flightTKRDimPrim.xml flightTKRMatPrim.xml flightTKROneTkr.xml 
+	flightTrigger.xml materials.xml 
+Log Message:
+
+    *
+------------------------------------------------------------
 User: lsrea  Mon Jul 19 13:45:24 PDT 2010
 xmlGeoDbs/xml
 
