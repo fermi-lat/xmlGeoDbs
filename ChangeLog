@@ -4,6 +4,27 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: xmlGeoDbs
 User: heather  Tue Apr 17 10:32:58 2012
 Files:
+  xmlGeoDbs/xml/em/emSectionVDG.xml  1.1
+  xmlGeoDbs/xml/em/emTKRMatPrim.xml  1.4
+  xmlGeoDbs/xml/em/emSegVols.xml  1.12
+  xmlGeoDbs/xml/em/emTKRDerived.xml  1.4
+  xmlGeoDbs/xml/em/emCALDimPrim.xml  1.4
+  xmlGeoDbs/xml/em/emTKROneTkr.xml  1.12
+  xmlGeoDbs/xml/em/emTKRCountPrim.xml  1.7
+  xmlGeoDbs/xml/em/emSection.xml  1.8
+  xmlGeoDbs/xml/em/emSegVolsVDG.xml  1.2
+  xmlGeoDbs/xml/em/emMaterials.xml  1.6
+  xmlGeoDbs/xml/em/emGlobalCountPrim.xml  1.8
+  xmlGeoDbs/xml/em/emTKRDimPrim.xml  1.9
+  xmlGeoDbs/xml/em/emOneTower.xml  1.4
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: xmlGeoDbs
+User: heather  Tue Apr 17 10:32:58 2012
+Files:
   xmlGeoDbs/xml/cu/CarbonStd.mat  1.1
   xmlGeoDbs/xml/cu/CarbonStd.inp  1.1
   xmlGeoDbs/xml/cu/cuDumpDerived.xml  1.1
