@@ -4,6 +4,25 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: xmlGeoDbs
 User: heather  Tue Apr 17 10:32:57 2012
 Files:
+  xmlGeoDbs/xml/simpleComposition.xml  1.1.1.1
+  xmlGeoDbs/xml/empty.xml  1.1
+  xmlGeoDbs/xml/gdd.dtd  1.14
+  xmlGeoDbs/xml/simpleStack.xml  1.1.1.1
+  xmlGeoDbs/xml/constsDoc.xsl  1.1.1.1
+  xmlGeoDbs/xml/.cvsignore  1.1.1.1
+  xmlGeoDbs/xml/test-dict.xml  1.1.1.1
+  xmlGeoDbs/xml/testIdDict.xml  1.1.1.1
+  xmlGeoDbs/xml/test-arith.xml  1.1.1.1
+  xmlGeoDbs/xml/testIdConv.xml  1.1.1.1
+  xmlGeoDbs/xml/materials.xml  1.17
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: xmlGeoDbs
+User: heather  Tue Apr 17 10:32:57 2012
+Files:
   xmlGeoDbs/doc/.cvsignore  1.1
   xmlGeoDbs/doc/release.notes  1.134
 
