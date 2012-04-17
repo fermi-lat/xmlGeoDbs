@@ -4,6 +4,52 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: xmlGeoDbs
 User: heather  Tue Apr 17 10:32:59 2012
 Files:
+  xmlGeoDbs/xml/flight01/flightOneTower.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALOneCal.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDMatPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightNADDerived.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCsISegmented.xml  1.1
+  xmlGeoDbs/xml/flight01/flightPrimaryConstants.xml  1.1
+  xmlGeoDbs/xml/flight01/flightGlobalCountPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightIdDict.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALDimPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDDerived.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDDimPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTrigger.xml  1.1
+  xmlGeoDbs/xml/flight01/empty.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTKRDimPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTKROneTkr.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTKRMatPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALMatPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/materials.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALCountPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightDerivedConstants.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALResponse.xml  1.1
+  xmlGeoDbs/xml/flight01/flightNADGeo.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTKRDerived.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDSides.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDCountPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDAcd.xml  1.1
+  xmlGeoDbs/xml/flight01/flight.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCsIUnsegmented.xml  1.1
+  xmlGeoDbs/xml/flight01/flightGlobalMatPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightIdDictSegVols.xml  1.1
+  xmlGeoDbs/xml/flight01/flightSegVols.xml  1.1
+  xmlGeoDbs/xml/flight01/flightSection.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDResponse.xml  1.1
+  xmlGeoDbs/xml/flight01/flightGlobalDimPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightNADDimPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightTKRCountPrim.xml  1.1
+  xmlGeoDbs/xml/flight01/flightCALDerived.xml  1.1
+  xmlGeoDbs/xml/flight01/flightACDTop.xml  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: xmlGeoDbs
+User: heather  Tue Apr 17 10:32:59 2012
+Files:
   xmlGeoDbs/xml/flight/flightOneTower.xml  1.4
   xmlGeoDbs/xml/flight/flightCALOneCal.xml  1.10
   xmlGeoDbs/xml/flight/flightACDMatPrim.xml  1.5
