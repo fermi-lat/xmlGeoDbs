@@ -2,6 +2,23 @@
 TAG
 Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: xmlGeoDbs
+User: heather  Tue Apr 17 10:32:59 2012
+Files:
+  xmlGeoDbs/xml/examples/sphereACDTop.xml  1.1
+  xmlGeoDbs/xml/examples/empty.xml  1.1
+  xmlGeoDbs/xml/examples/sphereACDDimPrim.xml  1.2
+  xmlGeoDbs/xml/examples/trap.xml  1.1
+  xmlGeoDbs/xml/examples/sphereACDDerived.xml  1.1
+  xmlGeoDbs/xml/examples/Slab.xml  1.1
+  xmlGeoDbs/xml/examples/sphereACDAcd.xml  1.1
+  xmlGeoDbs/xml/examples/sphereFlight.xml  1.1
+  xmlGeoDbs/xml/examples/spheres.xml  1.2
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: xmlGeoDbs
 User: heather  Tue Apr 17 10:32:58 2012
 Files:
   xmlGeoDbs/xml/em/emSectionVDG.xml  1.1
