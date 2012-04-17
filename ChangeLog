@@ -2,6 +2,57 @@
 TAG
 Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: xmlGeoDbs
+User: heather  Tue Apr 17 10:33:00 2012
+Files:
+  xmlGeoDbs/xml/latAssembly/latAssemblySegVols.xml  1.6
+  xmlGeoDbs/xml/latAssembly/lat10TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat1TowerSectionVDG.xml  1.2
+  xmlGeoDbs/xml/latAssembly/2TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat6TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat2TowerSegVolsVDG.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat14TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/singleBay1TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat2TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/2TowerSegVolsVDG.xml  1.4
+  xmlGeoDbs/xml/latAssembly/lat6TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/1TowerSegVols.xml  1.3
+  xmlGeoDbs/xml/latAssembly/empty.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat8TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/vdgMaterial.xml  1.2
+  xmlGeoDbs/xml/latAssembly/2TowerSegVols.xml  1.4
+  xmlGeoDbs/xml/latAssembly/lat1TowerSegVolsVDG.xml  1.2
+  xmlGeoDbs/xml/latAssembly/1TowerSegVolsVDG.xml  1.3
+  xmlGeoDbs/xml/latAssembly/lat4TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/1TkrSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/1TkrGlobalCountPrim.xml  1.1
+  xmlGeoDbs/xml/latAssembly/1TkrOneTower.xml  1.1
+  xmlGeoDbs/xml/latAssembly/vdgPrim.xml  1.3
+  xmlGeoDbs/xml/latAssembly/singleBay1TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/1TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/1TowerSectionVDG.xml  1.1
+  xmlGeoDbs/xml/latAssembly/singleBay1TowerSegVolsVDG.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat14TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat4TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat12TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat2TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat2TowerSectionVDG.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat12TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/singleBay1TowerSectionVDG.xml  1.1
+  xmlGeoDbs/xml/latAssembly/1TkrSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/latACDDimPrimUnshrunk.xml  1.6
+  xmlGeoDbs/xml/latAssembly/lat8TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat1TowerSection.xml  1.1
+  xmlGeoDbs/xml/latAssembly/lat10TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/2TowerSectionVDG.xml  1.1
+  xmlGeoDbs/xml/latAssembly/altNADGeo.xml  1.2
+  xmlGeoDbs/xml/latAssembly/lat1TowerSegVols.xml  1.2
+  xmlGeoDbs/xml/latAssembly/README  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: xmlGeoDbs
 User: heather  Tue Apr 17 10:32:59 2012
 Files:
   xmlGeoDbs/xml/flight01/flightOneTower.xml  1.1
