@@ -2,6 +2,32 @@
 TAG
 Tag name: GlastRelease-20-08-00, operation: add
 Package: xmlGeoDbs
+User: heather  Fri Dec 14 12:32:18 2012
+Files:
+  xmlGeoDbs/xml/cu06/cu06plexiPositronTarget.xml  1.2
+  xmlGeoDbs/xml/cu06/cu06mmsPositronSegVols.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06SegVols.xml  1.7
+  xmlGeoDbs/xml/cu06/cu06CALMatPrim.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06mmsPositronTarget.xml  1.2
+  xmlGeoDbs/xml/cu06/cu06Primary.xml  1.16
+  xmlGeoDbs/xml/cu06/cu06ACDAcd.xml  1.8
+  xmlGeoDbs/xml/cu06/cu06Targets.xml  1.2
+  xmlGeoDbs/xml/cu06/cu06mmsProtonSegVols.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06Section.xml  1.17
+  xmlGeoDbs/xml/cu06/cu06TKRDimPrim.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06plexiPositronSegVols.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06DerivedConstants.xml  1.12
+  xmlGeoDbs/xml/cu06/cu06CALDimPrim.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06NADGeo.xml  1.5
+  xmlGeoDbs/xml/cu06/cu06GlobalCountPrim.xml  1.1
+  xmlGeoDbs/xml/cu06/cu06Materials.xml  1.5
+  xmlGeoDbs/xml/cu06/cu06mmsProtonTarget.xml  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-20-08-00, operation: add
+Package: xmlGeoDbs
 User: heather  Fri Dec 14 12:32:04 2012
 Files:
   xmlGeoDbs/.cvsignore  1.3
