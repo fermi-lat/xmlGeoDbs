@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sat Sep 14 17:08:44 PDT 2013
+xmlGeoDbs/xml/flight01
+
+Modified Files:
+	flightACDMatPrim.xml 
+Log Message:
+Use correct materials for ACD support: Al_3lb and CarbonFiber
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp53, operation: add
 Package: xmlGeoDbs
