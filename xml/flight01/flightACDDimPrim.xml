@@ -1,10 +1,12 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight01/flightACDDimPrim.xml,v 1.1 2010/07/19 20:45:25 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight01/flightACDDimPrim.xml,v 1.2 2013/09/18 19:25:46 lsrea Exp $ -->
 <primCategory name="ACDDimPrim">
   <overview>Fundamental solid dimensions and offsets within the ACD.</overview>
 
-<!-- test for adding material to ACD -->
-    <prim name="Al_9lbDensity" value="0.1443" > density of core for ACD test </prim>
+  <!-- for the ACD materials test -->
   
+  <prim name="Al_9lbDensity" value="0.1443" > acd test core density</prim>
+
+
   
 <!-- Stay-clear stuff from LAT-DS-00038 -->
   <prim name="ACDTransOuterSC" value="1796">Maximum transverse outer extent 
