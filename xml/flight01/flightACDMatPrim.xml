@@ -1,22 +1,21 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight01/flightACDMatPrim.xml,v 1.2 2013/09/15 00:08:43 lsrea Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight01/flightACDMatPrim.xml,v 1.3 2013/09/18 19:25:46 lsrea Exp $ -->
 <primCategory name="ACDMatPrim" >
   <overview>Materials used in the ACD description</overview>
   <prim name="tileMat" value="ACD_Polystyrene" type="string" uType="mat">material used for tiles
 </prim>
-<<<<<<< flightACDMatPrim.xml
 <!-- Try with the test material: Al_9lb -->
   <prim name="ACDSupportCoreMat" value="ACD_Al_9lb" type="string" uType="mat">
 Material used in support 
   </prim>
   <prim name="ACDSupportFaceMat" value="CarbonFiber" type="string" uType="mat">
 Material used in ACD support
-=======
-<!-- Set ACD core to FOAM05, face to Be pending updated information -->
-  <prim name="ACDSupportCoreMat" value="Al_3lb" type="string" uType="mat">
-Material used in support.  Still need input from engineers about this.</prim>
+  </prim>
+
+  <prim name="ACDSupportCoreMat" value="ADC_Al_9lb" type="string" uType="mat">
+Material used in support
+  </prim>
   <prim name="ACDSupportFaceMat" value="CarbonFiber" type="string" uType="mat">
-Material used in ACD support.  Still need input from engineers about this.
->>>>>>> 1.2
+Material used in support
   </prim>
   <prim name="ribbonMat" value="ACD_Polystyrene" type="string" uType="mat">
 Material for scintillating ribbon</prim>
