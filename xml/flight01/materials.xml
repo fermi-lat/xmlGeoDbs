@@ -1,4 +1,4 @@
-<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/materials.xml,v 1.17 2007/04/18 00:38:25 jrb Exp $ -->
+<!-- $Header: /nfs/slac/g/glast/ground/cvs/xmlGeoDbs/xml/flight01/materials.xml,v 1.1 2010/07/19 20:45:27 lsrea Exp $ -->
 <!-- Definition of the materials used by GLAST -->
 <!-- All the density att. are specified in g/cm3 and all aweight in g/mole -->
 <!-- Except for the special case of Vacuum, all materials, whether or not 
@@ -120,6 +120,11 @@
 <composite name="Al_3lb" densityREF="Al_3lbDensity">
   <addmaterial material="Aluminum"> <natoms n="1" /> </addmaterial>
 </composite>
+
+<composite name="ACD_Al_9lb" densityREF="Al_9lbDensity">
+  <addmaterial material="Aluminum"> <natoms n="1" /> </addmaterial>
+</composite>
+
 
 <composite name="Algrid" density="2.702">
   <addmaterial material="Aluminum"> <natoms n="1" /> </addmaterial>
