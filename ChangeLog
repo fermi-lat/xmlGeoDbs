@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: lsrea  Mon Oct  7 12:19:52 PDT 2013
+xmlGeoDbs/xml/flight01
+
+Modified Files:
+	flightACDDimPrim.xml flightACDMatPrim.xml materials.xml 
+Log Message:
+Mods to increase density of ACD hexcell core from 0.04801 to 0.11 g/cm3, 
+   to account for extra material between ACD tiles and tracker
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp60, operation: add
 Package: xmlGeoDbs
